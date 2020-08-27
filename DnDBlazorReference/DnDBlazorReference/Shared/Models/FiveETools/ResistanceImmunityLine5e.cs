@@ -7,7 +7,7 @@ using System.Text.Json.Serialization;
 
 namespace DnDBlazorReference.Shared.Models.FiveETools
 {
-    public class ResistanceImmunityLine5eConverted : JsonConverter<ResistanceImmunityLine5e>
+    public class ResistanceImmunityLine5eConverter : JsonConverter<ResistanceImmunityLine5e>
     {
         public override ResistanceImmunityLine5e Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
         {
@@ -19,6 +19,34 @@ namespace DnDBlazorReference.Shared.Models.FiveETools
             do
             {
                 outputBuilder += reader.TokenType + ", ";
+
+                switch (reader.TokenType)
+                {
+                    case JsonTokenType.None:
+                        break;
+                    case JsonTokenType.StartObject:
+                        break;
+                    case JsonTokenType.EndObject:
+                        break;
+                    case JsonTokenType.StartArray:
+                        break;
+                    case JsonTokenType.EndArray:
+                        break;
+                    case JsonTokenType.Comment:
+                        break;
+                    case JsonTokenType.PropertyName:
+                    case JsonTokenType.String:
+                        outputBuilder += "{" +reader.GetString() + "}";
+                        break;
+                    case JsonTokenType.Number:
+                        break;
+                    case JsonTokenType.True:
+                        break;
+                    case JsonTokenType.False:
+                        break;
+                    case JsonTokenType.Null:
+                        break;
+                }
             } while (reader.Read());
 
             throw new Exception(outputBuilder);
@@ -63,6 +91,7 @@ namespace DnDBlazorReference.Shared.Models.FiveETools
         }
     }
 
+    [JsonConverter(typeof(ResistanceImmunityLine5eConverter))]
     public class ResistanceImmunityLine5e
     {
         public List<string> DamageTypes { get; set; }
