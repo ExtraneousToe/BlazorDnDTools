@@ -10,4 +10,7 @@
     <PackageReference Include="Tewr.Blazor.FileReader.Wasm" Version="0.11.19128" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\FiveETools\" />
+  </ItemGroup>
 </Project>
