@@ -1,0 +1,41 @@
+﻿@namespace DnDBlazorReference.Client.Shared.Monsters
+
+@using DnDBlazorReference.Client.Data
+@using DnDBlazorReference.Shared.Models.BinaricPox
+
+@inject DataStorage DataStore
+@inject HttpClient Http
+
+@if (DataStore.State != null)
+{
+    <!--
+    <div class="w-100 flex-row">
+        <span class="col-list-name">Name</span>
+        <span class="col-list-type">Type</span>
+        <span class="col-list-cr">Challenge Rating</span>
+        <span class="col-list-refSize">Reference Size</span>
+    </div>
+    -->
+    <span>DataStore.State.Monsters: @DataStore.State.Monsters.Count</span>
+    <ul class="list w-100">
+        @foreach (var monsterItem in DataStore.State.Monsters)
+        {
+            var monster = monsterItem;
+            <MonsterListItem Monster="monster" OnSelectedItem="OnItemSelected" />
+        }
+    </ul>
+}
+else
+{
+    <span>Loading...</span>
+}
+
+@code {
+    [Parameter]
+    public EventCallback<Monster> OnItemSelected { get; set; }
+
+    protected async override Task OnInitializedAsync()
+    {
+        await DataStore.LoadState(Http);
+    }
+}

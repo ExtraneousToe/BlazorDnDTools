@@ -1,0 +1,98 @@
+﻿@page "/dataprocessing"
+@using System.Text.Json
+@using System.Text.Json.Serialization
+@using DnDBlazorReference.Client.Data
+@inject HttpClient Http
+@inject Tewr.Blazor.FileReader.IFileReaderService FileReaderService
+@inject DataStorage DataStore
+@inject IJSRuntime JSRuntime
+
+<h3>DataProcessing</h3>
+
+<div>
+    <b>State:</b> <span>@_processingState</span>
+</div>
+
+<div>
+    <div>
+        Monster 5e Files:
+        <input type="file" @ref="_monster5eFiles" accept=".json" />
+    </div>
+    <button @onclick="ProcessFilesIntoMonsters">Process Files</button>
+</div>
+
+<button @onclick="SaveState">Save State</button>
+
+@code {
+    private DataStorage.Monster5eJson monster5eJson;
+
+    private ElementReference _monster5eFiles;
+
+    private string _processingState;
+
+    protected async override Task OnInitializedAsync()
+    {
+        await DataStore.LoadState(Http);
+    }
+
+    public async void SaveState()
+    {
+        var options = new JsonSerializerOptions
+        {
+            WriteIndented = true
+        };
+
+        string jsonString = JsonSerializer.Serialize<DataStorage.DnDToolsState>(DataStore.State, options);
+
+        await JSRuntime.InvokeAsync<object>(
+            "FileSaveAs",
+            "system-state.json",
+            jsonString
+        );
+    }
+
+    public async void ProcessFilesIntoMonsters()
+    {
+        var options = new JsonSerializerOptions
+        {
+            ReadCommentHandling = JsonCommentHandling.Skip,
+            AllowTrailingCommas = true
+        };
+
+        _processingState = "Starting ...";
+
+        foreach (var file in await FileReaderService.CreateReference(_monster5eFiles).EnumerateFilesAsync())
+        {
+            if (file == null)
+            {
+                continue;
+            }
+
+            var fileInfo = await file.ReadFileInfoAsync();
+
+            _processingState = $"Reading {fileInfo.Name} ...";
+
+            StateHasChanged();
+
+            const int byteBufferSize = 1024;
+            byte[] buffer = new byte[byteBufferSize];
+            using (var reader = await file.OpenReadAsync())
+            {
+                try
+                {
+                    monster5eJson = await JsonSerializer.DeserializeAsync<DataStorage.Monster5eJson>(reader, options);
+                    _processingState = $"Storing {fileInfo.Name} ...";
+                    DataStore.StoreMonsters(monster5eJson.monsters);
+                    StateHasChanged();
+                }
+                catch (Exception e)
+                {
+                }
+            }
+        }
+
+        _processingState = "Done";
+
+        StateHasChanged();
+    }
+}

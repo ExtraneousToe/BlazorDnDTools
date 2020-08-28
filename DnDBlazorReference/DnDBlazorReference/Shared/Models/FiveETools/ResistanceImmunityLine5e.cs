@@ -11,45 +11,18 @@ namespace DnDBlazorReference.Shared.Models.FiveETools
     {
         public override ResistanceImmunityLine5e Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
         {
-            ResistanceImmunityLine5e resistanceImmunityLine = new ResistanceImmunityLine5e();
-            resistanceImmunityLine.DamageTypes = new List<string>();
-            resistanceImmunityLine.Note = string.Empty;
-
-            string outputBuilder = string.Empty;
-            do
+            ResistanceImmunityLine5e resistanceImmunityLine = new ResistanceImmunityLine5e
             {
-                outputBuilder += reader.TokenType + ", ";
+                DamageTypes = new List<string>(),
+                Note = string.Empty
+            };
 
-                switch (reader.TokenType)
-                {
-                    case JsonTokenType.None:
-                        break;
-                    case JsonTokenType.StartObject:
-                        break;
-                    case JsonTokenType.EndObject:
-                        break;
-                    case JsonTokenType.StartArray:
-                        break;
-                    case JsonTokenType.EndArray:
-                        break;
-                    case JsonTokenType.Comment:
-                        break;
-                    case JsonTokenType.PropertyName:
-                    case JsonTokenType.String:
-                        outputBuilder += "{" +reader.GetString() + "}";
-                        break;
-                    case JsonTokenType.Number:
-                        break;
-                    case JsonTokenType.True:
-                        break;
-                    case JsonTokenType.False:
-                        break;
-                    case JsonTokenType.Null:
-                        break;
-                }
-            } while (reader.Read());
+            if (reader.TokenType == JsonTokenType.String)
+            {
+                resistanceImmunityLine.DamageTypes.Add(reader.GetString());
 
-            throw new Exception(outputBuilder);
+                return resistanceImmunityLine;
+            }
 
             if (reader.TokenType != JsonTokenType.StartObject)
             {
@@ -69,16 +42,26 @@ namespace DnDBlazorReference.Shared.Models.FiveETools
                     throw new JsonException("Not a property name. " + reader.TokenType);
                 }
 
-                string propertyName = reader.GetString();
+                string propName = reader.GetString();
                 reader.Read();
 
-                switch (propertyName)
+                switch (propName)
                 {
+                    case "resist":
+                    case "immune":
+                        resistanceImmunityLine.DamageTypes = JsonSerializer.Deserialize<List<string>>(ref reader);
+                        break;
+                    case "preNote":
+                        resistanceImmunityLine.PreNote = reader.GetString();
+                        break;
                     case "note":
                         resistanceImmunityLine.Note = reader.GetString();
                         break;
+                    case "special":
+                        resistanceImmunityLine.Special = reader.GetString();
+                        break;
                     default:
-                        throw new JsonException("PropertyName: " + propertyName);
+                        throw new JsonException("PropertyName: " + propName);
                 }
             }
 
@@ -96,7 +79,13 @@ namespace DnDBlazorReference.Shared.Models.FiveETools
     {
         public List<string> DamageTypes { get; set; }
 
+        [JsonPropertyName("preNote")]
+        public string PreNote { get; set; }
+
         [JsonPropertyName("note")]
         public string Note { get; set; }
+
+        [JsonPropertyName("special")]
+        public string Special { get; set; }
     }
 }

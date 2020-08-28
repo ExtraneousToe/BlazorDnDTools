@@ -1,0 +1,7526 @@
+{
+  "Monsters": [
+    {
+      "Name": "Aarakocra",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (aarakocra)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 14,
+        "Constitution": 10,
+        "Intelligence": 11,
+        "Wisdom": 12,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Aboleth",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "aberration",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 21,
+        "Dexterity": 9,
+        "Constitution": 15,
+        "Intelligence": 18,
+        "Wisdom": 15,
+        "Charisma": 18
+      }
+    },
+    {
+      "Name": "Abominable Yeti",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 24,
+        "Dexterity": 10,
+        "Constitution": 22,
+        "Intelligence": 9,
+        "Wisdom": 13,
+        "Charisma": 9
+      }
+    },
+    {
+      "Name": "Acolyte",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (any race)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 10,
+        "Constitution": 10,
+        "Intelligence": 10,
+        "Wisdom": 14,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Adult Black Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 23,
+        "Dexterity": 14,
+        "Constitution": 21,
+        "Intelligence": 14,
+        "Wisdom": 13,
+        "Charisma": 17
+      }
+    },
+    {
+      "Name": "Adult Blue Dracolich",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 25,
+        "Dexterity": 10,
+        "Constitution": 23,
+        "Intelligence": 16,
+        "Wisdom": 15,
+        "Charisma": 19
+      }
+    },
+    {
+      "Name": "Adult Blue Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 25,
+        "Dexterity": 10,
+        "Constitution": 23,
+        "Intelligence": 16,
+        "Wisdom": 15,
+        "Charisma": 19
+      }
+    },
+    {
+      "Name": "Adult Brass Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 23,
+        "Dexterity": 10,
+        "Constitution": 21,
+        "Intelligence": 14,
+        "Wisdom": 13,
+        "Charisma": 17
+      }
+    },
+    {
+      "Name": "Adult Bronze Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 25,
+        "Dexterity": 10,
+        "Constitution": 23,
+        "Intelligence": 16,
+        "Wisdom": 15,
+        "Charisma": 19
+      }
+    },
+    {
+      "Name": "Adult Copper Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 23,
+        "Dexterity": 12,
+        "Constitution": 21,
+        "Intelligence": 18,
+        "Wisdom": 15,
+        "Charisma": 17
+      }
+    },
+    {
+      "Name": "Adult Gold Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 27,
+        "Dexterity": 14,
+        "Constitution": 25,
+        "Intelligence": 16,
+        "Wisdom": 15,
+        "Charisma": 24
+      }
+    },
+    {
+      "Name": "Adult Green Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 23,
+        "Dexterity": 12,
+        "Constitution": 21,
+        "Intelligence": 18,
+        "Wisdom": 15,
+        "Charisma": 17
+      }
+    },
+    {
+      "Name": "Adult Red Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 27,
+        "Dexterity": 10,
+        "Constitution": 25,
+        "Intelligence": 16,
+        "Wisdom": 13,
+        "Charisma": 21
+      }
+    },
+    {
+      "Name": "Adult Silver Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 27,
+        "Dexterity": 10,
+        "Constitution": 25,
+        "Intelligence": 16,
+        "Wisdom": 13,
+        "Charisma": 21
+      }
+    },
+    {
+      "Name": "Adult White Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 22,
+        "Dexterity": 10,
+        "Constitution": 22,
+        "Intelligence": 8,
+        "Wisdom": 12,
+        "Charisma": 12
+      }
+    },
+    {
+      "Name": "Air Elemental",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "elemental",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 14,
+        "Dexterity": 20,
+        "Constitution": 14,
+        "Intelligence": 6,
+        "Wisdom": 10,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Allosaurus",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 19,
+        "Dexterity": 13,
+        "Constitution": 17,
+        "Intelligence": 2,
+        "Wisdom": 12,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Ancient Black Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 27,
+        "Dexterity": 14,
+        "Constitution": 25,
+        "Intelligence": 16,
+        "Wisdom": 15,
+        "Charisma": 19
+      }
+    },
+    {
+      "Name": "Ancient Blue Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 29,
+        "Dexterity": 10,
+        "Constitution": 27,
+        "Intelligence": 18,
+        "Wisdom": 17,
+        "Charisma": 21
+      }
+    },
+    {
+      "Name": "Ancient Brass Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 27,
+        "Dexterity": 10,
+        "Constitution": 25,
+        "Intelligence": 16,
+        "Wisdom": 15,
+        "Charisma": 19
+      }
+    },
+    {
+      "Name": "Ancient Bronze Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 29,
+        "Dexterity": 10,
+        "Constitution": 27,
+        "Intelligence": 18,
+        "Wisdom": 17,
+        "Charisma": 21
+      }
+    },
+    {
+      "Name": "Ancient Copper Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 27,
+        "Dexterity": 12,
+        "Constitution": 25,
+        "Intelligence": 20,
+        "Wisdom": 17,
+        "Charisma": 19
+      }
+    },
+    {
+      "Name": "Ancient Gold Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 30,
+        "Dexterity": 14,
+        "Constitution": 29,
+        "Intelligence": 18,
+        "Wisdom": 17,
+        "Charisma": 28
+      }
+    },
+    {
+      "Name": "Ancient Green Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 27,
+        "Dexterity": 12,
+        "Constitution": 25,
+        "Intelligence": 20,
+        "Wisdom": 17,
+        "Charisma": 19
+      }
+    },
+    {
+      "Name": "Ancient Red Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 30,
+        "Dexterity": 10,
+        "Constitution": 29,
+        "Intelligence": 18,
+        "Wisdom": 15,
+        "Charisma": 23
+      }
+    },
+    {
+      "Name": "Ancient Silver Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 30,
+        "Dexterity": 10,
+        "Constitution": 29,
+        "Intelligence": 18,
+        "Wisdom": 15,
+        "Charisma": 23
+      }
+    },
+    {
+      "Name": "Ancient White Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 26,
+        "Dexterity": 10,
+        "Constitution": 26,
+        "Intelligence": 10,
+        "Wisdom": 13,
+        "Charisma": 14
+      }
+    },
+    {
+      "Name": "Androsphinx",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 22,
+        "Dexterity": 10,
+        "Constitution": 20,
+        "Intelligence": 16,
+        "Wisdom": 18,
+        "Charisma": 23
+      }
+    },
+    {
+      "Name": "Animated Armor",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "construct",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 14,
+        "Dexterity": 11,
+        "Constitution": 13,
+        "Intelligence": 1,
+        "Wisdom": 3,
+        "Charisma": 1
+      }
+    },
+    {
+      "Name": "Ankheg",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 11,
+        "Constitution": 13,
+        "Intelligence": 1,
+        "Wisdom": 13,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Ankylosaurus",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 19,
+        "Dexterity": 11,
+        "Constitution": 15,
+        "Intelligence": 2,
+        "Wisdom": 12,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Ape",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 14,
+        "Constitution": 14,
+        "Intelligence": 6,
+        "Wisdom": 12,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Arcanaloth",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (yugoloth)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 12,
+        "Constitution": 14,
+        "Intelligence": 20,
+        "Wisdom": 16,
+        "Charisma": 17
+      }
+    },
+    {
+      "Name": "Archmage",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (any race)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 14,
+        "Constitution": 12,
+        "Intelligence": 20,
+        "Wisdom": 15,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Assassin",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (any race)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 11,
+        "Dexterity": 16,
+        "Constitution": 14,
+        "Intelligence": 13,
+        "Wisdom": 11,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Awakened Shrub",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "plant",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 3,
+        "Dexterity": 8,
+        "Constitution": 11,
+        "Intelligence": 10,
+        "Wisdom": 10,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Awakened Tree",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "plant",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 19,
+        "Dexterity": 6,
+        "Constitution": 15,
+        "Intelligence": 10,
+        "Wisdom": 10,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Axe Beak",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 14,
+        "Dexterity": 12,
+        "Constitution": 12,
+        "Intelligence": 2,
+        "Wisdom": 10,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Azer",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "elemental",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 12,
+        "Constitution": 15,
+        "Intelligence": 12,
+        "Wisdom": 13,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Baboon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 8,
+        "Dexterity": 14,
+        "Constitution": 11,
+        "Intelligence": 4,
+        "Wisdom": 12,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Badger",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 4,
+        "Dexterity": 11,
+        "Constitution": 12,
+        "Intelligence": 2,
+        "Wisdom": 12,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Balor",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (demon)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 26,
+        "Dexterity": 15,
+        "Constitution": 22,
+        "Intelligence": 20,
+        "Wisdom": 16,
+        "Charisma": 22
+      }
+    },
+    {
+      "Name": "Bandit",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (any race)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 11,
+        "Dexterity": 12,
+        "Constitution": 12,
+        "Intelligence": 10,
+        "Wisdom": 10,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Bandit Captain",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (any race)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 16,
+        "Constitution": 14,
+        "Intelligence": 14,
+        "Wisdom": 11,
+        "Charisma": 14
+      }
+    },
+    {
+      "Name": "Banshee",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 1,
+        "Dexterity": 14,
+        "Constitution": 10,
+        "Intelligence": 12,
+        "Wisdom": 11,
+        "Charisma": 17
+      }
+    },
+    {
+      "Name": "Barbed Devil",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (devil)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 17,
+        "Constitution": 18,
+        "Intelligence": 12,
+        "Wisdom": 14,
+        "Charisma": 14
+      }
+    },
+    {
+      "Name": "Barlgura",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (demon)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 15,
+        "Constitution": 16,
+        "Intelligence": 7,
+        "Wisdom": 14,
+        "Charisma": 9
+      }
+    },
+    {
+      "Name": "Basilisk",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 8,
+        "Constitution": 15,
+        "Intelligence": 2,
+        "Wisdom": 8,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Bat",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 2,
+        "Dexterity": 15,
+        "Constitution": 8,
+        "Intelligence": 2,
+        "Wisdom": 12,
+        "Charisma": 4
+      }
+    },
+    {
+      "Name": "Bearded Devil",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (devil)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 15,
+        "Constitution": 15,
+        "Intelligence": 9,
+        "Wisdom": 11,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Behir",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 23,
+        "Dexterity": 16,
+        "Constitution": 18,
+        "Intelligence": 7,
+        "Wisdom": 14,
+        "Charisma": 12
+      }
+    },
+    {
+      "Name": "Beholder",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "aberration",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 14,
+        "Constitution": 18,
+        "Intelligence": 17,
+        "Wisdom": 15,
+        "Charisma": 17
+      }
+    },
+    {
+      "Name": "Beholder Zombie",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 8,
+        "Constitution": 16,
+        "Intelligence": 3,
+        "Wisdom": 8,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Berserker",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (any race)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 12,
+        "Constitution": 17,
+        "Intelligence": 9,
+        "Wisdom": 11,
+        "Charisma": 9
+      }
+    },
+    {
+      "Name": "Black Bear",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 10,
+        "Constitution": 14,
+        "Intelligence": 2,
+        "Wisdom": 12,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Black Dragon Wyrmling",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 14,
+        "Constitution": 13,
+        "Intelligence": 10,
+        "Wisdom": 11,
+        "Charisma": 13
+      }
+    },
+    {
+      "Name": "Black Pudding",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "ooze",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 5,
+        "Constitution": 16,
+        "Intelligence": 1,
+        "Wisdom": 6,
+        "Charisma": 1
+      }
+    },
+    {
+      "Name": "Blink Dog",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fey",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 12,
+        "Dexterity": 17,
+        "Constitution": 12,
+        "Intelligence": 10,
+        "Wisdom": 13,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Blood Hawk",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 6,
+        "Dexterity": 14,
+        "Constitution": 10,
+        "Intelligence": 3,
+        "Wisdom": 14,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Blue Dragon Wyrmling",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 10,
+        "Constitution": 15,
+        "Intelligence": 12,
+        "Wisdom": 11,
+        "Charisma": 15
+      }
+    },
+    {
+      "Name": "Blue Slaad",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "aberration",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 20,
+        "Dexterity": 15,
+        "Constitution": 18,
+        "Intelligence": 7,
+        "Wisdom": 7,
+        "Charisma": 9
+      }
+    },
+    {
+      "Name": "Boar",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 13,
+        "Dexterity": 11,
+        "Constitution": 12,
+        "Intelligence": 2,
+        "Wisdom": 9,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Bone Devil",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (devil)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 16,
+        "Constitution": 18,
+        "Intelligence": 13,
+        "Wisdom": 14,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Bone Naga (Guardian)",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 16,
+        "Constitution": 12,
+        "Intelligence": 15,
+        "Wisdom": 15,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Bone Naga (Spirit)",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 16,
+        "Constitution": 12,
+        "Intelligence": 15,
+        "Wisdom": 15,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Brass Dragon Wyrmling",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 10,
+        "Constitution": 13,
+        "Intelligence": 10,
+        "Wisdom": 11,
+        "Charisma": 13
+      }
+    },
+    {
+      "Name": "Bronze Dragon Wyrmling",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 10,
+        "Constitution": 15,
+        "Intelligence": 12,
+        "Wisdom": 11,
+        "Charisma": 15
+      }
+    },
+    {
+      "Name": "Brown Bear",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 19,
+        "Dexterity": 10,
+        "Constitution": 16,
+        "Intelligence": 2,
+        "Wisdom": 13,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Bugbear",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (goblinoid)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 14,
+        "Constitution": 13,
+        "Intelligence": 8,
+        "Wisdom": 11,
+        "Charisma": 9
+      }
+    },
+    {
+      "Name": "Bugbear Chief",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (goblinoid)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 14,
+        "Constitution": 14,
+        "Intelligence": 11,
+        "Wisdom": 12,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Bulette",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 19,
+        "Dexterity": 11,
+        "Constitution": 21,
+        "Intelligence": 2,
+        "Wisdom": 10,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Bullywug",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (bullywug)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 12,
+        "Dexterity": 12,
+        "Constitution": 13,
+        "Intelligence": 7,
+        "Wisdom": 10,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Cambion",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 18,
+        "Constitution": 16,
+        "Intelligence": 14,
+        "Wisdom": 12,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Camel",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 8,
+        "Constitution": 14,
+        "Intelligence": 2,
+        "Wisdom": 8,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Carrion Crawler",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 14,
+        "Dexterity": 13,
+        "Constitution": 16,
+        "Intelligence": 1,
+        "Wisdom": 12,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Cat",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 3,
+        "Dexterity": 15,
+        "Constitution": 10,
+        "Intelligence": 3,
+        "Wisdom": 12,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Cave Bear",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 20,
+        "Dexterity": 10,
+        "Constitution": 16,
+        "Intelligence": 2,
+        "Wisdom": 13,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Centaur",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 14,
+        "Constitution": 14,
+        "Intelligence": 9,
+        "Wisdom": 13,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Chain Devil",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (devil)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 15,
+        "Constitution": 18,
+        "Intelligence": 11,
+        "Wisdom": 12,
+        "Charisma": 14
+      }
+    },
+    {
+      "Name": "Chasme",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (demon)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 15,
+        "Constitution": 12,
+        "Intelligence": 11,
+        "Wisdom": 14,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Chimera",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 19,
+        "Dexterity": 11,
+        "Constitution": 19,
+        "Intelligence": 3,
+        "Wisdom": 14,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Chuul",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "aberration",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 19,
+        "Dexterity": 10,
+        "Constitution": 16,
+        "Intelligence": 5,
+        "Wisdom": 11,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Clay Golem",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "construct",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 20,
+        "Dexterity": 9,
+        "Constitution": 18,
+        "Intelligence": 3,
+        "Wisdom": 8,
+        "Charisma": 1
+      }
+    },
+    {
+      "Name": "Cloaker",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "aberration",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 15,
+        "Constitution": 12,
+        "Intelligence": 13,
+        "Wisdom": 12,
+        "Charisma": 14
+      }
+    },
+    {
+      "Name": "Cloud Giant",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "giant",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 27,
+        "Dexterity": 10,
+        "Constitution": 22,
+        "Intelligence": 12,
+        "Wisdom": 16,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Cockatrice",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 6,
+        "Dexterity": 12,
+        "Constitution": 12,
+        "Intelligence": 2,
+        "Wisdom": 13,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Commoner",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (any race)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 10,
+        "Constitution": 10,
+        "Intelligence": 10,
+        "Wisdom": 10,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Constrictor Snake",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 14,
+        "Constitution": 12,
+        "Intelligence": 1,
+        "Wisdom": 10,
+        "Charisma": 3
+      }
+    },
+    {
+      "Name": "Copper Dragon Wyrmling",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 12,
+        "Constitution": 13,
+        "Intelligence": 14,
+        "Wisdom": 11,
+        "Charisma": 13
+      }
+    },
+    {
+      "Name": "Couatl",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "celestial",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 20,
+        "Constitution": 17,
+        "Intelligence": 18,
+        "Wisdom": 20,
+        "Charisma": 18
+      }
+    },
+    {
+      "Name": "Crab",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 2,
+        "Dexterity": 11,
+        "Constitution": 10,
+        "Intelligence": 1,
+        "Wisdom": 8,
+        "Charisma": 2
+      }
+    },
+    {
+      "Name": "Crawling Claw",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 13,
+        "Dexterity": 14,
+        "Constitution": 11,
+        "Intelligence": 5,
+        "Wisdom": 10,
+        "Charisma": 4
+      }
+    },
+    {
+      "Name": "Crocodile",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 10,
+        "Constitution": 13,
+        "Intelligence": 2,
+        "Wisdom": 10,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Cult Fanatic",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (any race)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 11,
+        "Dexterity": 14,
+        "Constitution": 12,
+        "Intelligence": 10,
+        "Wisdom": 13,
+        "Charisma": 14
+      }
+    },
+    {
+      "Name": "Cultist",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (any race)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 11,
+        "Dexterity": 12,
+        "Constitution": 10,
+        "Intelligence": 10,
+        "Wisdom": 11,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Cyclops",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "giant",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 22,
+        "Dexterity": 11,
+        "Constitution": 20,
+        "Intelligence": 8,
+        "Wisdom": 6,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Dao",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "elemental",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 23,
+        "Dexterity": 12,
+        "Constitution": 24,
+        "Intelligence": 12,
+        "Wisdom": 13,
+        "Charisma": 14
+      }
+    },
+    {
+      "Name": "Darkmantle",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 12,
+        "Constitution": 13,
+        "Intelligence": 2,
+        "Wisdom": 10,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Death Dog",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 14,
+        "Constitution": 14,
+        "Intelligence": 3,
+        "Wisdom": 13,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Death Knight",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 20,
+        "Dexterity": 11,
+        "Constitution": 20,
+        "Intelligence": 12,
+        "Wisdom": 16,
+        "Charisma": 18
+      }
+    },
+    {
+      "Name": "Death Slaad",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "aberration (shapechanger)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 20,
+        "Dexterity": 15,
+        "Constitution": 19,
+        "Intelligence": 15,
+        "Wisdom": 10,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Death Tyrant",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 14,
+        "Constitution": 14,
+        "Intelligence": 19,
+        "Wisdom": 15,
+        "Charisma": 19
+      }
+    },
+    {
+      "Name": "Deep Gnome (Svirfneblin)",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (gnome)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 14,
+        "Constitution": 14,
+        "Intelligence": 12,
+        "Wisdom": 10,
+        "Charisma": 9
+      }
+    },
+    {
+      "Name": "Deer",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 11,
+        "Dexterity": 16,
+        "Constitution": 11,
+        "Intelligence": 2,
+        "Wisdom": 14,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Demilich",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 1,
+        "Dexterity": 20,
+        "Constitution": 10,
+        "Intelligence": 20,
+        "Wisdom": 17,
+        "Charisma": 20
+      }
+    },
+    {
+      "Name": "Deva",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "celestial",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 18,
+        "Constitution": 18,
+        "Intelligence": 17,
+        "Wisdom": 20,
+        "Charisma": 20
+      }
+    },
+    {
+      "Name": "Dire Wolf",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 15,
+        "Constitution": 15,
+        "Intelligence": 3,
+        "Wisdom": 12,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Displacer Beast",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 15,
+        "Constitution": 16,
+        "Intelligence": 6,
+        "Wisdom": 12,
+        "Charisma": 8
+      }
+    },
+    {
+      "Name": "Djinni",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "elemental",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 21,
+        "Dexterity": 15,
+        "Constitution": 22,
+        "Intelligence": 15,
+        "Wisdom": 16,
+        "Charisma": 20
+      }
+    },
+    {
+      "Name": "Doppelganger",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity (shapechanger)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 11,
+        "Dexterity": 18,
+        "Constitution": 14,
+        "Intelligence": 11,
+        "Wisdom": 12,
+        "Charisma": 14
+      }
+    },
+    {
+      "Name": "Draft Horse",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 10,
+        "Constitution": 12,
+        "Intelligence": 2,
+        "Wisdom": 11,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Dragon Turtle",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 25,
+        "Dexterity": 10,
+        "Constitution": 20,
+        "Intelligence": 10,
+        "Wisdom": 12,
+        "Charisma": 12
+      }
+    },
+    {
+      "Name": "Dretch",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (demon)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 11,
+        "Dexterity": 11,
+        "Constitution": 12,
+        "Intelligence": 5,
+        "Wisdom": 8,
+        "Charisma": 3
+      }
+    },
+    {
+      "Name": "Drider",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 16,
+        "Constitution": 18,
+        "Intelligence": 13,
+        "Wisdom": 14,
+        "Charisma": 12
+      }
+    },
+    {
+      "Name": "Drow",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (elf)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 14,
+        "Constitution": 10,
+        "Intelligence": 11,
+        "Wisdom": 11,
+        "Charisma": 12
+      }
+    },
+    {
+      "Name": "Drow Elite Warrior",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (elf)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 13,
+        "Dexterity": 18,
+        "Constitution": 14,
+        "Intelligence": 11,
+        "Wisdom": 13,
+        "Charisma": 12
+      }
+    },
+    {
+      "Name": "Drow Mage",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (elf)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 9,
+        "Dexterity": 14,
+        "Constitution": 10,
+        "Intelligence": 17,
+        "Wisdom": 13,
+        "Charisma": 12
+      }
+    },
+    {
+      "Name": "Drow Priestess of Lolth",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (elf)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 14,
+        "Constitution": 12,
+        "Intelligence": 13,
+        "Wisdom": 17,
+        "Charisma": 18
+      }
+    },
+    {
+      "Name": "Druid",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (any race)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 12,
+        "Constitution": 13,
+        "Intelligence": 12,
+        "Wisdom": 15,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Dryad",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fey",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 12,
+        "Constitution": 11,
+        "Intelligence": 14,
+        "Wisdom": 15,
+        "Charisma": 18
+      }
+    },
+    {
+      "Name": "Duergar",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (dwarf)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 14,
+        "Dexterity": 11,
+        "Constitution": 14,
+        "Intelligence": 11,
+        "Wisdom": 10,
+        "Charisma": 9
+      }
+    },
+    {
+      "Name": "Duodrone",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "construct",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 11,
+        "Dexterity": 13,
+        "Constitution": 12,
+        "Intelligence": 6,
+        "Wisdom": 10,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Dust Mephit",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "elemental",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 5,
+        "Dexterity": 14,
+        "Constitution": 10,
+        "Intelligence": 9,
+        "Wisdom": 11,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Eagle",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 6,
+        "Dexterity": 15,
+        "Constitution": 10,
+        "Intelligence": 2,
+        "Wisdom": 14,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Earth Elemental",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "elemental",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 20,
+        "Dexterity": 8,
+        "Constitution": 20,
+        "Intelligence": 5,
+        "Wisdom": 10,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Efreeti",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "elemental",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 22,
+        "Dexterity": 12,
+        "Constitution": 24,
+        "Intelligence": 16,
+        "Wisdom": 15,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Elephant",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 22,
+        "Dexterity": 9,
+        "Constitution": 17,
+        "Intelligence": 3,
+        "Wisdom": 11,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Elk",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 10,
+        "Constitution": 12,
+        "Intelligence": 2,
+        "Wisdom": 10,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Empyrean",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "celestial (titan)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 30,
+        "Dexterity": 21,
+        "Constitution": 30,
+        "Intelligence": 21,
+        "Wisdom": 22,
+        "Charisma": 27
+      }
+    },
+    {
+      "Name": "Erinyes",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (devil)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 16,
+        "Constitution": 18,
+        "Intelligence": 14,
+        "Wisdom": 14,
+        "Charisma": 18
+      }
+    },
+    {
+      "Name": "Ettercap",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 14,
+        "Dexterity": 15,
+        "Constitution": 13,
+        "Intelligence": 7,
+        "Wisdom": 12,
+        "Charisma": 8
+      }
+    },
+    {
+      "Name": "Ettin",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "giant",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 21,
+        "Dexterity": 8,
+        "Constitution": 17,
+        "Intelligence": 6,
+        "Wisdom": 10,
+        "Charisma": 8
+      }
+    },
+    {
+      "Name": "Faerie Dragon (Blue)",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 3,
+        "Dexterity": 20,
+        "Constitution": 13,
+        "Intelligence": 14,
+        "Wisdom": 12,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Faerie Dragon (Green)",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 3,
+        "Dexterity": 20,
+        "Constitution": 13,
+        "Intelligence": 14,
+        "Wisdom": 12,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Faerie Dragon (Indigo)",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 3,
+        "Dexterity": 20,
+        "Constitution": 13,
+        "Intelligence": 14,
+        "Wisdom": 12,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Faerie Dragon (Orange)",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 3,
+        "Dexterity": 20,
+        "Constitution": 13,
+        "Intelligence": 14,
+        "Wisdom": 12,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Faerie Dragon (Red)",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 3,
+        "Dexterity": 20,
+        "Constitution": 13,
+        "Intelligence": 14,
+        "Wisdom": 12,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Faerie Dragon (Violet)",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 3,
+        "Dexterity": 20,
+        "Constitution": 13,
+        "Intelligence": 14,
+        "Wisdom": 12,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Faerie Dragon (Yellow)",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 3,
+        "Dexterity": 20,
+        "Constitution": 13,
+        "Intelligence": 14,
+        "Wisdom": 12,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Fire Elemental",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "elemental",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 17,
+        "Constitution": 16,
+        "Intelligence": 6,
+        "Wisdom": 10,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Fire Giant",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "giant",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 25,
+        "Dexterity": 9,
+        "Constitution": 23,
+        "Intelligence": 10,
+        "Wisdom": 14,
+        "Charisma": 13
+      }
+    },
+    {
+      "Name": "Fire Snake",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "elemental",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 12,
+        "Dexterity": 14,
+        "Constitution": 11,
+        "Intelligence": 7,
+        "Wisdom": 10,
+        "Charisma": 8
+      }
+    },
+    {
+      "Name": "Flameskull",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 1,
+        "Dexterity": 17,
+        "Constitution": 14,
+        "Intelligence": 16,
+        "Wisdom": 10,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Flesh Golem",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "construct",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 19,
+        "Dexterity": 9,
+        "Constitution": 18,
+        "Intelligence": 6,
+        "Wisdom": 10,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Flumph",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "aberration",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 6,
+        "Dexterity": 15,
+        "Constitution": 10,
+        "Intelligence": 14,
+        "Wisdom": 14,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Flying Snake",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 4,
+        "Dexterity": 18,
+        "Constitution": 11,
+        "Intelligence": 2,
+        "Wisdom": 12,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Flying Sword",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "construct",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 12,
+        "Dexterity": 15,
+        "Constitution": 11,
+        "Intelligence": 1,
+        "Wisdom": 5,
+        "Charisma": 1
+      }
+    },
+    {
+      "Name": "Fomorian",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "giant",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 23,
+        "Dexterity": 10,
+        "Constitution": 20,
+        "Intelligence": 9,
+        "Wisdom": 14,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Frog",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 1,
+        "Dexterity": 13,
+        "Constitution": 8,
+        "Intelligence": 1,
+        "Wisdom": 8,
+        "Charisma": 3
+      }
+    },
+    {
+      "Name": "Frost Giant",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "giant",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 23,
+        "Dexterity": 9,
+        "Constitution": 21,
+        "Intelligence": 9,
+        "Wisdom": 10,
+        "Charisma": 12
+      }
+    },
+    {
+      "Name": "Galeb Duhr",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "elemental",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 20,
+        "Dexterity": 14,
+        "Constitution": 20,
+        "Intelligence": 11,
+        "Wisdom": 12,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Gargoyle",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "elemental",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 11,
+        "Constitution": 16,
+        "Intelligence": 6,
+        "Wisdom": 11,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Gas Spore",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "plant",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 5,
+        "Dexterity": 1,
+        "Constitution": 3,
+        "Intelligence": 1,
+        "Wisdom": 1,
+        "Charisma": 1
+      }
+    },
+    {
+      "Name": "Gelatinous Cube",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "ooze",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 14,
+        "Dexterity": 3,
+        "Constitution": 20,
+        "Intelligence": 1,
+        "Wisdom": 6,
+        "Charisma": 1
+      }
+    },
+    {
+      "Name": "Ghast",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 17,
+        "Constitution": 10,
+        "Intelligence": 11,
+        "Wisdom": 10,
+        "Charisma": 8
+      }
+    },
+    {
+      "Name": "Ghost",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 7,
+        "Dexterity": 13,
+        "Constitution": 10,
+        "Intelligence": 10,
+        "Wisdom": 12,
+        "Charisma": 17
+      }
+    },
+    {
+      "Name": "Ghoul",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 13,
+        "Dexterity": 15,
+        "Constitution": 10,
+        "Intelligence": 7,
+        "Wisdom": 10,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Giant Ape",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 23,
+        "Dexterity": 14,
+        "Constitution": 18,
+        "Intelligence": 7,
+        "Wisdom": 12,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Giant Badger",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 13,
+        "Dexterity": 10,
+        "Constitution": 15,
+        "Intelligence": 2,
+        "Wisdom": 12,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Giant Bat",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 16,
+        "Constitution": 11,
+        "Intelligence": 2,
+        "Wisdom": 12,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Giant Boar",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 10,
+        "Constitution": 16,
+        "Intelligence": 2,
+        "Wisdom": 7,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Giant Centipede",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 5,
+        "Dexterity": 14,
+        "Constitution": 12,
+        "Intelligence": 1,
+        "Wisdom": 7,
+        "Charisma": 3
+      }
+    },
+    {
+      "Name": "Giant Constrictor Snake",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 19,
+        "Dexterity": 14,
+        "Constitution": 12,
+        "Intelligence": 1,
+        "Wisdom": 10,
+        "Charisma": 3
+      }
+    },
+    {
+      "Name": "Giant Crab",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 13,
+        "Dexterity": 15,
+        "Constitution": 11,
+        "Intelligence": 1,
+        "Wisdom": 9,
+        "Charisma": 3
+      }
+    },
+    {
+      "Name": "Giant Crocodile",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 21,
+        "Dexterity": 9,
+        "Constitution": 17,
+        "Intelligence": 2,
+        "Wisdom": 10,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Giant Eagle",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 17,
+        "Constitution": 13,
+        "Intelligence": 8,
+        "Wisdom": 14,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Giant Elk",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 19,
+        "Dexterity": 16,
+        "Constitution": 14,
+        "Intelligence": 7,
+        "Wisdom": 14,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Giant Fire Beetle",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 8,
+        "Dexterity": 10,
+        "Constitution": 12,
+        "Intelligence": 1,
+        "Wisdom": 7,
+        "Charisma": 3
+      }
+    },
+    {
+      "Name": "Giant Frog",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 12,
+        "Dexterity": 13,
+        "Constitution": 11,
+        "Intelligence": 2,
+        "Wisdom": 10,
+        "Charisma": 3
+      }
+    },
+    {
+      "Name": "Giant Goat",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 11,
+        "Constitution": 12,
+        "Intelligence": 3,
+        "Wisdom": 12,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Giant Hyena",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 14,
+        "Constitution": 14,
+        "Intelligence": 2,
+        "Wisdom": 12,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Giant Lizard",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 12,
+        "Constitution": 13,
+        "Intelligence": 2,
+        "Wisdom": 10,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Giant Octopus",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 13,
+        "Constitution": 13,
+        "Intelligence": 4,
+        "Wisdom": 10,
+        "Charisma": 4
+      }
+    },
+    {
+      "Name": "Giant Owl",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 13,
+        "Dexterity": 15,
+        "Constitution": 12,
+        "Intelligence": 8,
+        "Wisdom": 13,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Giant Poisonous Snake",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 18,
+        "Constitution": 13,
+        "Intelligence": 2,
+        "Wisdom": 10,
+        "Charisma": 3
+      }
+    },
+    {
+      "Name": "Giant Rat",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 7,
+        "Dexterity": 15,
+        "Constitution": 11,
+        "Intelligence": 2,
+        "Wisdom": 10,
+        "Charisma": 4
+      }
+    },
+    {
+      "Name": "Giant Scorpion",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 13,
+        "Constitution": 15,
+        "Intelligence": 1,
+        "Wisdom": 9,
+        "Charisma": 3
+      }
+    },
+    {
+      "Name": "Giant Sea Horse",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 12,
+        "Dexterity": 15,
+        "Constitution": 11,
+        "Intelligence": 2,
+        "Wisdom": 12,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Giant Shark",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 23,
+        "Dexterity": 11,
+        "Constitution": 21,
+        "Intelligence": 1,
+        "Wisdom": 10,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Giant Spider",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 14,
+        "Dexterity": 16,
+        "Constitution": 12,
+        "Intelligence": 2,
+        "Wisdom": 11,
+        "Charisma": 4
+      }
+    },
+    {
+      "Name": "Giant Toad",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 13,
+        "Constitution": 13,
+        "Intelligence": 2,
+        "Wisdom": 10,
+        "Charisma": 3
+      }
+    },
+    {
+      "Name": "Giant Vulture",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 10,
+        "Constitution": 15,
+        "Intelligence": 6,
+        "Wisdom": 12,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Giant Wasp",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 14,
+        "Constitution": 10,
+        "Intelligence": 1,
+        "Wisdom": 10,
+        "Charisma": 3
+      }
+    },
+    {
+      "Name": "Giant Weasel",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 11,
+        "Dexterity": 16,
+        "Constitution": 10,
+        "Intelligence": 4,
+        "Wisdom": 12,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Giant Wolf Spider",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 12,
+        "Dexterity": 16,
+        "Constitution": 13,
+        "Intelligence": 3,
+        "Wisdom": 12,
+        "Charisma": 4
+      }
+    },
+    {
+      "Name": "Gibbering Mouther",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "aberration",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 8,
+        "Constitution": 16,
+        "Intelligence": 3,
+        "Wisdom": 10,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Githyanki Knight",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (gith)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 14,
+        "Constitution": 15,
+        "Intelligence": 14,
+        "Wisdom": 14,
+        "Charisma": 15
+      }
+    },
+    {
+      "Name": "Githyanki Warrior",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (gith)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 14,
+        "Constitution": 12,
+        "Intelligence": 13,
+        "Wisdom": 13,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Githzerai Monk",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (gith)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 12,
+        "Dexterity": 15,
+        "Constitution": 12,
+        "Intelligence": 13,
+        "Wisdom": 14,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Githzerai Zerth",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (gith)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 13,
+        "Dexterity": 18,
+        "Constitution": 15,
+        "Intelligence": 16,
+        "Wisdom": 17,
+        "Charisma": 12
+      }
+    },
+    {
+      "Name": "Glabrezu",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (demon)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 20,
+        "Dexterity": 15,
+        "Constitution": 21,
+        "Intelligence": 19,
+        "Wisdom": 17,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Gladiator",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (any race)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 15,
+        "Constitution": 16,
+        "Intelligence": 10,
+        "Wisdom": 12,
+        "Charisma": 15
+      }
+    },
+    {
+      "Name": "Gnoll",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (gnoll)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 14,
+        "Dexterity": 12,
+        "Constitution": 11,
+        "Intelligence": 6,
+        "Wisdom": 10,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Gnoll Fang of Yeenoghu",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (gnoll)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 15,
+        "Constitution": 15,
+        "Intelligence": 10,
+        "Wisdom": 11,
+        "Charisma": 13
+      }
+    },
+    {
+      "Name": "Gnoll Pack Lord",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (gnoll)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 14,
+        "Constitution": 13,
+        "Intelligence": 8,
+        "Wisdom": 11,
+        "Charisma": 9
+      }
+    },
+    {
+      "Name": "Goat",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 12,
+        "Dexterity": 10,
+        "Constitution": 11,
+        "Intelligence": 2,
+        "Wisdom": 10,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Goblin",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (goblinoid)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 8,
+        "Dexterity": 14,
+        "Constitution": 10,
+        "Intelligence": 10,
+        "Wisdom": 8,
+        "Charisma": 8
+      }
+    },
+    {
+      "Name": "Goblin Boss",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (goblinoid)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 14,
+        "Constitution": 10,
+        "Intelligence": 10,
+        "Wisdom": 8,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Gold Dragon Wyrmling",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 19,
+        "Dexterity": 14,
+        "Constitution": 17,
+        "Intelligence": 14,
+        "Wisdom": 11,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Gorgon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 20,
+        "Dexterity": 11,
+        "Constitution": 18,
+        "Intelligence": 2,
+        "Wisdom": 12,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Goristro",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (demon)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 25,
+        "Dexterity": 11,
+        "Constitution": 25,
+        "Intelligence": 6,
+        "Wisdom": 13,
+        "Charisma": 14
+      }
+    },
+    {
+      "Name": "Gray Ooze",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "ooze",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 12,
+        "Dexterity": 6,
+        "Constitution": 16,
+        "Intelligence": 1,
+        "Wisdom": 6,
+        "Charisma": 2
+      }
+    },
+    {
+      "Name": "Gray Slaad",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "aberration (shapechanger)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 17,
+        "Constitution": 16,
+        "Intelligence": 13,
+        "Wisdom": 8,
+        "Charisma": 14
+      }
+    },
+    {
+      "Name": "Green Dragon Wyrmling",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 12,
+        "Constitution": 13,
+        "Intelligence": 14,
+        "Wisdom": 11,
+        "Charisma": 13
+      }
+    },
+    {
+      "Name": "Green Hag",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fey",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 12,
+        "Constitution": 16,
+        "Intelligence": 13,
+        "Wisdom": 14,
+        "Charisma": 14
+      }
+    },
+    {
+      "Name": "Green Slaad",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "aberration (shapechanger)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 15,
+        "Constitution": 16,
+        "Intelligence": 11,
+        "Wisdom": 8,
+        "Charisma": 12
+      }
+    },
+    {
+      "Name": "Grell",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "aberration",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 14,
+        "Constitution": 13,
+        "Intelligence": 12,
+        "Wisdom": 11,
+        "Charisma": 9
+      }
+    },
+    {
+      "Name": "Grick",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 14,
+        "Dexterity": 14,
+        "Constitution": 11,
+        "Intelligence": 3,
+        "Wisdom": 14,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Grick Alpha",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 16,
+        "Constitution": 15,
+        "Intelligence": 4,
+        "Wisdom": 14,
+        "Charisma": 9
+      }
+    },
+    {
+      "Name": "Griffon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 15,
+        "Constitution": 16,
+        "Intelligence": 2,
+        "Wisdom": 13,
+        "Charisma": 8
+      }
+    },
+    {
+      "Name": "Grimlock",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (grimlock)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 12,
+        "Constitution": 12,
+        "Intelligence": 9,
+        "Wisdom": 8,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Guard",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (any race)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 13,
+        "Dexterity": 12,
+        "Constitution": 12,
+        "Intelligence": 10,
+        "Wisdom": 11,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Guardian Naga",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 19,
+        "Dexterity": 18,
+        "Constitution": 16,
+        "Intelligence": 16,
+        "Wisdom": 19,
+        "Charisma": 18
+      }
+    },
+    {
+      "Name": "Gynosphinx",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 15,
+        "Constitution": 16,
+        "Intelligence": 18,
+        "Wisdom": 18,
+        "Charisma": 18
+      }
+    },
+    {
+      "Name": "Half-Ogre (Ogrillon)",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "giant",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 10,
+        "Constitution": 14,
+        "Intelligence": 7,
+        "Wisdom": 9,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Half-Red Dragon Veteran",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (human)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 13,
+        "Constitution": 14,
+        "Intelligence": 10,
+        "Wisdom": 11,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Harpy",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 12,
+        "Dexterity": 13,
+        "Constitution": 12,
+        "Intelligence": 7,
+        "Wisdom": 10,
+        "Charisma": 13
+      }
+    },
+    {
+      "Name": "Hawk",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 5,
+        "Dexterity": 16,
+        "Constitution": 8,
+        "Intelligence": 2,
+        "Wisdom": 14,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Hell Hound",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 12,
+        "Constitution": 14,
+        "Intelligence": 6,
+        "Wisdom": 13,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Helmed Horror",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "construct",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 13,
+        "Constitution": 16,
+        "Intelligence": 10,
+        "Wisdom": 10,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Hezrou",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (demon)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 19,
+        "Dexterity": 17,
+        "Constitution": 20,
+        "Intelligence": 5,
+        "Wisdom": 12,
+        "Charisma": 13
+      }
+    },
+    {
+      "Name": "Hill Giant",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "giant",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 21,
+        "Dexterity": 8,
+        "Constitution": 19,
+        "Intelligence": 5,
+        "Wisdom": 9,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Hippogriff",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 13,
+        "Constitution": 13,
+        "Intelligence": 2,
+        "Wisdom": 12,
+        "Charisma": 8
+      }
+    },
+    {
+      "Name": "Hobgoblin",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (goblinoid)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 13,
+        "Dexterity": 12,
+        "Constitution": 12,
+        "Intelligence": 10,
+        "Wisdom": 10,
+        "Charisma": 9
+      }
+    },
+    {
+      "Name": "Hobgoblin Captain",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (goblinoid)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 14,
+        "Constitution": 14,
+        "Intelligence": 12,
+        "Wisdom": 10,
+        "Charisma": 13
+      }
+    },
+    {
+      "Name": "Hobgoblin Warlord",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (goblinoid)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 14,
+        "Constitution": 16,
+        "Intelligence": 14,
+        "Wisdom": 11,
+        "Charisma": 15
+      }
+    },
+    {
+      "Name": "Homunculus",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "construct",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 4,
+        "Dexterity": 15,
+        "Constitution": 11,
+        "Intelligence": 10,
+        "Wisdom": 10,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Hook Horror",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 10,
+        "Constitution": 15,
+        "Intelligence": 6,
+        "Wisdom": 12,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Horned Devil",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (devil)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 22,
+        "Dexterity": 17,
+        "Constitution": 21,
+        "Intelligence": 12,
+        "Wisdom": 16,
+        "Charisma": 17
+      }
+    },
+    {
+      "Name": "Hunter Shark",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 13,
+        "Constitution": 15,
+        "Intelligence": 1,
+        "Wisdom": 10,
+        "Charisma": 4
+      }
+    },
+    {
+      "Name": "Hydra",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 20,
+        "Dexterity": 12,
+        "Constitution": 20,
+        "Intelligence": 2,
+        "Wisdom": 10,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Hyena",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 11,
+        "Dexterity": 13,
+        "Constitution": 12,
+        "Intelligence": 2,
+        "Wisdom": 12,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Ice Devil",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (devil)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 21,
+        "Dexterity": 14,
+        "Constitution": 18,
+        "Intelligence": 18,
+        "Wisdom": 15,
+        "Charisma": 18
+      }
+    },
+    {
+      "Name": "Ice Mephit",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "elemental",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 7,
+        "Dexterity": 13,
+        "Constitution": 10,
+        "Intelligence": 9,
+        "Wisdom": 11,
+        "Charisma": 12
+      }
+    },
+    {
+      "Name": "Imp",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (devil)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 6,
+        "Dexterity": 17,
+        "Constitution": 13,
+        "Intelligence": 11,
+        "Wisdom": 12,
+        "Charisma": 14
+      }
+    },
+    {
+      "Name": "Incubus",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (shapechanger)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 8,
+        "Dexterity": 17,
+        "Constitution": 13,
+        "Intelligence": 15,
+        "Wisdom": 12,
+        "Charisma": 20
+      }
+    },
+    {
+      "Name": "Intellect Devourer",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "aberration",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 6,
+        "Dexterity": 14,
+        "Constitution": 13,
+        "Intelligence": 12,
+        "Wisdom": 11,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Invisible Stalker",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "elemental",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 19,
+        "Constitution": 14,
+        "Intelligence": 10,
+        "Wisdom": 15,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Iron Golem",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "construct",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 24,
+        "Dexterity": 9,
+        "Constitution": 20,
+        "Intelligence": 3,
+        "Wisdom": 11,
+        "Charisma": 1
+      }
+    },
+    {
+      "Name": "Jackal",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 8,
+        "Dexterity": 15,
+        "Constitution": 11,
+        "Intelligence": 3,
+        "Wisdom": 12,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Jackalwere",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (shapechanger)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 11,
+        "Dexterity": 15,
+        "Constitution": 11,
+        "Intelligence": 13,
+        "Wisdom": 11,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Kenku",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (kenku)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 16,
+        "Constitution": 10,
+        "Intelligence": 11,
+        "Wisdom": 10,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Killer Whale",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 19,
+        "Dexterity": 10,
+        "Constitution": 13,
+        "Intelligence": 3,
+        "Wisdom": 12,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Knight",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (any race)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 11,
+        "Constitution": 14,
+        "Intelligence": 11,
+        "Wisdom": 11,
+        "Charisma": 15
+      }
+    },
+    {
+      "Name": "Kobold",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (kobold)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 7,
+        "Dexterity": 15,
+        "Constitution": 9,
+        "Intelligence": 8,
+        "Wisdom": 7,
+        "Charisma": 8
+      }
+    },
+    {
+      "Name": "Kraken",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity (titan)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 30,
+        "Dexterity": 11,
+        "Constitution": 25,
+        "Intelligence": 22,
+        "Wisdom": 18,
+        "Charisma": 20
+      }
+    },
+    {
+      "Name": "Kuo-toa",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (kuo-toa)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 13,
+        "Dexterity": 10,
+        "Constitution": 11,
+        "Intelligence": 11,
+        "Wisdom": 10,
+        "Charisma": 8
+      }
+    },
+    {
+      "Name": "Kuo-toa Archpriest",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (kuo-toa)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 14,
+        "Constitution": 16,
+        "Intelligence": 13,
+        "Wisdom": 16,
+        "Charisma": 14
+      }
+    },
+    {
+      "Name": "Kuo-toa Monitor",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (kuo-toa)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 14,
+        "Dexterity": 10,
+        "Constitution": 14,
+        "Intelligence": 12,
+        "Wisdom": 14,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Kuo-toa Whip",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (kuo-toa)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 14,
+        "Dexterity": 10,
+        "Constitution": 14,
+        "Intelligence": 12,
+        "Wisdom": 14,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Lamia",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 13,
+        "Constitution": 15,
+        "Intelligence": 14,
+        "Wisdom": 15,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Lemure",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (devil)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 5,
+        "Constitution": 11,
+        "Intelligence": 1,
+        "Wisdom": 11,
+        "Charisma": 3
+      }
+    },
+    {
+      "Name": "Lich",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 11,
+        "Dexterity": 16,
+        "Constitution": 16,
+        "Intelligence": 20,
+        "Wisdom": 14,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Lion",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 15,
+        "Constitution": 13,
+        "Intelligence": 3,
+        "Wisdom": 12,
+        "Charisma": 8
+      }
+    },
+    {
+      "Name": "Lizard",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 2,
+        "Dexterity": 11,
+        "Constitution": 10,
+        "Intelligence": 1,
+        "Wisdom": 8,
+        "Charisma": 3
+      }
+    },
+    {
+      "Name": "Lizard King",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (lizardfolk)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 12,
+        "Constitution": 15,
+        "Intelligence": 11,
+        "Wisdom": 11,
+        "Charisma": 15
+      }
+    },
+    {
+      "Name": "Lizard Queen",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (lizardfolk)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 12,
+        "Constitution": 15,
+        "Intelligence": 11,
+        "Wisdom": 11,
+        "Charisma": 15
+      }
+    },
+    {
+      "Name": "Lizardfolk",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (lizardfolk)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 10,
+        "Constitution": 13,
+        "Intelligence": 7,
+        "Wisdom": 12,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Lizardfolk Shaman",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (lizardfolk)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 10,
+        "Constitution": 13,
+        "Intelligence": 10,
+        "Wisdom": 15,
+        "Charisma": 8
+      }
+    },
+    {
+      "Name": "Mage",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (any race)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 9,
+        "Dexterity": 14,
+        "Constitution": 11,
+        "Intelligence": 17,
+        "Wisdom": 12,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Magma Mephit",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "elemental",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 8,
+        "Dexterity": 12,
+        "Constitution": 12,
+        "Intelligence": 7,
+        "Wisdom": 10,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Magmin",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "elemental",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 7,
+        "Dexterity": 15,
+        "Constitution": 12,
+        "Intelligence": 8,
+        "Wisdom": 11,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Mammoth",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 24,
+        "Dexterity": 9,
+        "Constitution": 21,
+        "Intelligence": 3,
+        "Wisdom": 11,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Manes",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (demon)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 9,
+        "Constitution": 13,
+        "Intelligence": 3,
+        "Wisdom": 8,
+        "Charisma": 4
+      }
+    },
+    {
+      "Name": "Manticore",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 16,
+        "Constitution": 17,
+        "Intelligence": 7,
+        "Wisdom": 12,
+        "Charisma": 8
+      }
+    },
+    {
+      "Name": "Marid",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "elemental",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 22,
+        "Dexterity": 12,
+        "Constitution": 26,
+        "Intelligence": 18,
+        "Wisdom": 17,
+        "Charisma": 18
+      }
+    },
+    {
+      "Name": "Marilith",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (demon)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 20,
+        "Constitution": 20,
+        "Intelligence": 18,
+        "Wisdom": 16,
+        "Charisma": 20
+      }
+    },
+    {
+      "Name": "Mastiff",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 13,
+        "Dexterity": 14,
+        "Constitution": 12,
+        "Intelligence": 3,
+        "Wisdom": 12,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Medusa",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 15,
+        "Constitution": 16,
+        "Intelligence": 12,
+        "Wisdom": 13,
+        "Charisma": 15
+      }
+    },
+    {
+      "Name": "Merfolk",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (merfolk)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 13,
+        "Constitution": 12,
+        "Intelligence": 11,
+        "Wisdom": 11,
+        "Charisma": 12
+      }
+    },
+    {
+      "Name": "Merrow",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 10,
+        "Constitution": 15,
+        "Intelligence": 8,
+        "Wisdom": 10,
+        "Charisma": 9
+      }
+    },
+    {
+      "Name": "Mezzoloth",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (yugoloth)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 11,
+        "Constitution": 16,
+        "Intelligence": 7,
+        "Wisdom": 10,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Mimic",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity (shapechanger)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 12,
+        "Constitution": 15,
+        "Intelligence": 5,
+        "Wisdom": 13,
+        "Charisma": 8
+      }
+    },
+    {
+      "Name": "Mind Flayer",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "aberration",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 11,
+        "Dexterity": 12,
+        "Constitution": 12,
+        "Intelligence": 19,
+        "Wisdom": 17,
+        "Charisma": 17
+      }
+    },
+    {
+      "Name": "Mind Flayer Arcanist",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "aberration",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 11,
+        "Dexterity": 12,
+        "Constitution": 12,
+        "Intelligence": 19,
+        "Wisdom": 17,
+        "Charisma": 17
+      }
+    },
+    {
+      "Name": "Minotaur",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 11,
+        "Constitution": 16,
+        "Intelligence": 6,
+        "Wisdom": 16,
+        "Charisma": 9
+      }
+    },
+    {
+      "Name": "Minotaur Skeleton",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 11,
+        "Constitution": 15,
+        "Intelligence": 6,
+        "Wisdom": 8,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Monodrone",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "construct",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 13,
+        "Constitution": 12,
+        "Intelligence": 4,
+        "Wisdom": 10,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Mud Mephit",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "elemental",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 8,
+        "Dexterity": 12,
+        "Constitution": 12,
+        "Intelligence": 9,
+        "Wisdom": 11,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Mule",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 14,
+        "Dexterity": 10,
+        "Constitution": 13,
+        "Intelligence": 2,
+        "Wisdom": 10,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Mummy",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 8,
+        "Constitution": 15,
+        "Intelligence": 6,
+        "Wisdom": 10,
+        "Charisma": 12
+      }
+    },
+    {
+      "Name": "Mummy Lord",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 10,
+        "Constitution": 17,
+        "Intelligence": 11,
+        "Wisdom": 18,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Myconid Adult",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "plant",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 10,
+        "Constitution": 12,
+        "Intelligence": 10,
+        "Wisdom": 13,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Myconid Sovereign",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "plant",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 12,
+        "Dexterity": 10,
+        "Constitution": 14,
+        "Intelligence": 13,
+        "Wisdom": 15,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Myconid Sprout",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "plant",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 8,
+        "Dexterity": 10,
+        "Constitution": 10,
+        "Intelligence": 8,
+        "Wisdom": 11,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Nalfeshnee",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (demon)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 21,
+        "Dexterity": 10,
+        "Constitution": 22,
+        "Intelligence": 19,
+        "Wisdom": 12,
+        "Charisma": 15
+      }
+    },
+    {
+      "Name": "Needle Blight",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "plant",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 12,
+        "Dexterity": 12,
+        "Constitution": 13,
+        "Intelligence": 4,
+        "Wisdom": 8,
+        "Charisma": 3
+      }
+    },
+    {
+      "Name": "Night Hag",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 15,
+        "Constitution": 16,
+        "Intelligence": 16,
+        "Wisdom": 14,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Nightmare",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 15,
+        "Constitution": 16,
+        "Intelligence": 10,
+        "Wisdom": 13,
+        "Charisma": 15
+      }
+    },
+    {
+      "Name": "Noble",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (any race)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 11,
+        "Dexterity": 12,
+        "Constitution": 11,
+        "Intelligence": 12,
+        "Wisdom": 14,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Nothic",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "aberration",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 14,
+        "Dexterity": 16,
+        "Constitution": 16,
+        "Intelligence": 13,
+        "Wisdom": 10,
+        "Charisma": 8
+      }
+    },
+    {
+      "Name": "Nycaloth",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (yugoloth)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 20,
+        "Dexterity": 11,
+        "Constitution": 19,
+        "Intelligence": 12,
+        "Wisdom": 10,
+        "Charisma": 15
+      }
+    },
+    {
+      "Name": "Ochre Jelly",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "ooze",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 6,
+        "Constitution": 14,
+        "Intelligence": 2,
+        "Wisdom": 6,
+        "Charisma": 1
+      }
+    },
+    {
+      "Name": "Octopus",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 4,
+        "Dexterity": 15,
+        "Constitution": 11,
+        "Intelligence": 3,
+        "Wisdom": 10,
+        "Charisma": 4
+      }
+    },
+    {
+      "Name": "Ogre",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "giant",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 19,
+        "Dexterity": 8,
+        "Constitution": 16,
+        "Intelligence": 5,
+        "Wisdom": 7,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Ogre Zombie",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 19,
+        "Dexterity": 6,
+        "Constitution": 18,
+        "Intelligence": 3,
+        "Wisdom": 6,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Oni",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "giant",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 19,
+        "Dexterity": 11,
+        "Constitution": 16,
+        "Intelligence": 14,
+        "Wisdom": 12,
+        "Charisma": 15
+      }
+    },
+    {
+      "Name": "Orc",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (orc)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 12,
+        "Constitution": 16,
+        "Intelligence": 7,
+        "Wisdom": 11,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Orc Eye of Gruumsh",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (orc)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 12,
+        "Constitution": 17,
+        "Intelligence": 9,
+        "Wisdom": 13,
+        "Charisma": 12
+      }
+    },
+    {
+      "Name": "Orc War Chief",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (orc)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 12,
+        "Constitution": 18,
+        "Intelligence": 11,
+        "Wisdom": 11,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Orog",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (orc)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 12,
+        "Constitution": 18,
+        "Intelligence": 12,
+        "Wisdom": 11,
+        "Charisma": 12
+      }
+    },
+    {
+      "Name": "Otyugh",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "aberration",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 11,
+        "Constitution": 19,
+        "Intelligence": 6,
+        "Wisdom": 13,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Owl",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 3,
+        "Dexterity": 13,
+        "Constitution": 8,
+        "Intelligence": 2,
+        "Wisdom": 12,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Owlbear",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 20,
+        "Dexterity": 12,
+        "Constitution": 17,
+        "Intelligence": 3,
+        "Wisdom": 12,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Panther",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 14,
+        "Dexterity": 15,
+        "Constitution": 10,
+        "Intelligence": 3,
+        "Wisdom": 14,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Pegasus",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "celestial",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 15,
+        "Constitution": 16,
+        "Intelligence": 10,
+        "Wisdom": 15,
+        "Charisma": 13
+      }
+    },
+    {
+      "Name": "Pentadrone",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "construct",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 14,
+        "Constitution": 12,
+        "Intelligence": 10,
+        "Wisdom": 10,
+        "Charisma": 13
+      }
+    },
+    {
+      "Name": "Peryton",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 12,
+        "Constitution": 13,
+        "Intelligence": 9,
+        "Wisdom": 12,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Phase Spider",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 15,
+        "Constitution": 12,
+        "Intelligence": 6,
+        "Wisdom": 10,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Piercer",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 13,
+        "Constitution": 16,
+        "Intelligence": 1,
+        "Wisdom": 7,
+        "Charisma": 3
+      }
+    },
+    {
+      "Name": "Pit Fiend",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (devil)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 26,
+        "Dexterity": 14,
+        "Constitution": 24,
+        "Intelligence": 22,
+        "Wisdom": 18,
+        "Charisma": 24
+      }
+    },
+    {
+      "Name": "Pixie",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fey",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 2,
+        "Dexterity": 20,
+        "Constitution": 8,
+        "Intelligence": 10,
+        "Wisdom": 14,
+        "Charisma": 15
+      }
+    },
+    {
+      "Name": "Planetar",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "celestial",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 24,
+        "Dexterity": 20,
+        "Constitution": 24,
+        "Intelligence": 19,
+        "Wisdom": 22,
+        "Charisma": 25
+      }
+    },
+    {
+      "Name": "Plesiosaurus",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 15,
+        "Constitution": 16,
+        "Intelligence": 2,
+        "Wisdom": 12,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Poisonous Snake",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 2,
+        "Dexterity": 16,
+        "Constitution": 11,
+        "Intelligence": 1,
+        "Wisdom": 10,
+        "Charisma": 3
+      }
+    },
+    {
+      "Name": "Polar Bear",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 20,
+        "Dexterity": 10,
+        "Constitution": 16,
+        "Intelligence": 2,
+        "Wisdom": 13,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Poltergeist",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 1,
+        "Dexterity": 14,
+        "Constitution": 11,
+        "Intelligence": 10,
+        "Wisdom": 10,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Pony",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 10,
+        "Constitution": 13,
+        "Intelligence": 2,
+        "Wisdom": 11,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Priest",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (any race)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 10,
+        "Constitution": 12,
+        "Intelligence": 13,
+        "Wisdom": 16,
+        "Charisma": 13
+      }
+    },
+    {
+      "Name": "Pseudodragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 6,
+        "Dexterity": 15,
+        "Constitution": 13,
+        "Intelligence": 10,
+        "Wisdom": 12,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Pteranodon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 12,
+        "Dexterity": 15,
+        "Constitution": 10,
+        "Intelligence": 2,
+        "Wisdom": 9,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Purple Worm",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 28,
+        "Dexterity": 7,
+        "Constitution": 22,
+        "Intelligence": 1,
+        "Wisdom": 8,
+        "Charisma": 4
+      }
+    },
+    {
+      "Name": "Quadrone",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "construct",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 12,
+        "Dexterity": 14,
+        "Constitution": 12,
+        "Intelligence": 10,
+        "Wisdom": 10,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Quaggoth",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (quaggoth)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 12,
+        "Constitution": 16,
+        "Intelligence": 6,
+        "Wisdom": 12,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Quaggoth Spore Servant",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "plant",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 12,
+        "Constitution": 16,
+        "Intelligence": 2,
+        "Wisdom": 6,
+        "Charisma": 1
+      }
+    },
+    {
+      "Name": "Quaggoth Thonot",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (quaggoth)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 12,
+        "Constitution": 16,
+        "Intelligence": 6,
+        "Wisdom": 12,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Quasit",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (demon)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 5,
+        "Dexterity": 17,
+        "Constitution": 10,
+        "Intelligence": 7,
+        "Wisdom": 10,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Quipper",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 2,
+        "Dexterity": 16,
+        "Constitution": 9,
+        "Intelligence": 1,
+        "Wisdom": 7,
+        "Charisma": 2
+      }
+    },
+    {
+      "Name": "Rakshasa",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 14,
+        "Dexterity": 17,
+        "Constitution": 18,
+        "Intelligence": 13,
+        "Wisdom": 16,
+        "Charisma": 20
+      }
+    },
+    {
+      "Name": "Rat",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 2,
+        "Dexterity": 11,
+        "Constitution": 9,
+        "Intelligence": 2,
+        "Wisdom": 10,
+        "Charisma": 4
+      }
+    },
+    {
+      "Name": "Raven",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 2,
+        "Dexterity": 14,
+        "Constitution": 8,
+        "Intelligence": 2,
+        "Wisdom": 12,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Red Dragon Wyrmling",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 19,
+        "Dexterity": 10,
+        "Constitution": 17,
+        "Intelligence": 12,
+        "Wisdom": 11,
+        "Charisma": 15
+      }
+    },
+    {
+      "Name": "Red Slaad",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "aberration",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 12,
+        "Constitution": 16,
+        "Intelligence": 6,
+        "Wisdom": 6,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Reef Shark",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 14,
+        "Dexterity": 13,
+        "Constitution": 13,
+        "Intelligence": 1,
+        "Wisdom": 10,
+        "Charisma": 4
+      }
+    },
+    {
+      "Name": "Remorhaz",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 24,
+        "Dexterity": 13,
+        "Constitution": 21,
+        "Intelligence": 4,
+        "Wisdom": 10,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Revenant",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 14,
+        "Constitution": 18,
+        "Intelligence": 13,
+        "Wisdom": 16,
+        "Charisma": 18
+      }
+    },
+    {
+      "Name": "Rhinoceros",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 21,
+        "Dexterity": 8,
+        "Constitution": 15,
+        "Intelligence": 2,
+        "Wisdom": 12,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Riding Horse",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 10,
+        "Constitution": 12,
+        "Intelligence": 2,
+        "Wisdom": 11,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Roc",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 28,
+        "Dexterity": 10,
+        "Constitution": 20,
+        "Intelligence": 3,
+        "Wisdom": 10,
+        "Charisma": 9
+      }
+    },
+    {
+      "Name": "Roper",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 8,
+        "Constitution": 17,
+        "Intelligence": 7,
+        "Wisdom": 16,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Rug of Smothering",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "construct",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 14,
+        "Constitution": 10,
+        "Intelligence": 1,
+        "Wisdom": 3,
+        "Charisma": 1
+      }
+    },
+    {
+      "Name": "Rust Monster",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 13,
+        "Dexterity": 12,
+        "Constitution": 13,
+        "Intelligence": 2,
+        "Wisdom": 13,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Saber-Toothed Tiger",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 14,
+        "Constitution": 15,
+        "Intelligence": 3,
+        "Wisdom": 12,
+        "Charisma": 8
+      }
+    },
+    {
+      "Name": "Sahuagin",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (sahuagin)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 13,
+        "Dexterity": 11,
+        "Constitution": 12,
+        "Intelligence": 12,
+        "Wisdom": 13,
+        "Charisma": 9
+      }
+    },
+    {
+      "Name": "Sahuagin Baron",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (sahuagin)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 19,
+        "Dexterity": 15,
+        "Constitution": 16,
+        "Intelligence": 14,
+        "Wisdom": 13,
+        "Charisma": 17
+      }
+    },
+    {
+      "Name": "Sahuagin Priestess",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (sahuagin)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 13,
+        "Dexterity": 11,
+        "Constitution": 12,
+        "Intelligence": 12,
+        "Wisdom": 14,
+        "Charisma": 13
+      }
+    },
+    {
+      "Name": "Salamander",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "elemental",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 14,
+        "Constitution": 15,
+        "Intelligence": 11,
+        "Wisdom": 10,
+        "Charisma": 12
+      }
+    },
+    {
+      "Name": "Satyr",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fey",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 12,
+        "Dexterity": 16,
+        "Constitution": 11,
+        "Intelligence": 12,
+        "Wisdom": 10,
+        "Charisma": 14
+      }
+    },
+    {
+      "Name": "Scarecrow",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "construct",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 11,
+        "Dexterity": 13,
+        "Constitution": 11,
+        "Intelligence": 10,
+        "Wisdom": 10,
+        "Charisma": 13
+      }
+    },
+    {
+      "Name": "Scorpion",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 2,
+        "Dexterity": 11,
+        "Constitution": 8,
+        "Intelligence": 1,
+        "Wisdom": 8,
+        "Charisma": 2
+      }
+    },
+    {
+      "Name": "Scout",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (any race)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 11,
+        "Dexterity": 14,
+        "Constitution": 12,
+        "Intelligence": 11,
+        "Wisdom": 13,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Sea Hag",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fey",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 13,
+        "Constitution": 16,
+        "Intelligence": 12,
+        "Wisdom": 12,
+        "Charisma": 13
+      }
+    },
+    {
+      "Name": "Sea Horse",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 1,
+        "Dexterity": 12,
+        "Constitution": 8,
+        "Intelligence": 1,
+        "Wisdom": 10,
+        "Charisma": 2
+      }
+    },
+    {
+      "Name": "Shadow",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 6,
+        "Dexterity": 14,
+        "Constitution": 13,
+        "Intelligence": 6,
+        "Wisdom": 10,
+        "Charisma": 8
+      }
+    },
+    {
+      "Name": "Shadow Demon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (demon)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 1,
+        "Dexterity": 17,
+        "Constitution": 12,
+        "Intelligence": 14,
+        "Wisdom": 13,
+        "Charisma": 14
+      }
+    },
+    {
+      "Name": "Shambling Mound",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "plant",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 8,
+        "Constitution": 16,
+        "Intelligence": 5,
+        "Wisdom": 10,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Shield Guardian",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "construct",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 8,
+        "Constitution": 18,
+        "Intelligence": 7,
+        "Wisdom": 10,
+        "Charisma": 3
+      }
+    },
+    {
+      "Name": "Shrieker",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "plant",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 1,
+        "Dexterity": 1,
+        "Constitution": 10,
+        "Intelligence": 1,
+        "Wisdom": 3,
+        "Charisma": 1
+      }
+    },
+    {
+      "Name": "Silver Dragon Wyrmling",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 19,
+        "Dexterity": 10,
+        "Constitution": 17,
+        "Intelligence": 12,
+        "Wisdom": 11,
+        "Charisma": 15
+      }
+    },
+    {
+      "Name": "Skeleton",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 14,
+        "Constitution": 15,
+        "Intelligence": 6,
+        "Wisdom": 8,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Slaad Tadpole",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "aberration",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 7,
+        "Dexterity": 15,
+        "Constitution": 10,
+        "Intelligence": 3,
+        "Wisdom": 5,
+        "Charisma": 3
+      }
+    },
+    {
+      "Name": "Smoke Mephit",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "elemental",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 6,
+        "Dexterity": 14,
+        "Constitution": 12,
+        "Intelligence": 10,
+        "Wisdom": 10,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Solar",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "celestial",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 26,
+        "Dexterity": 22,
+        "Constitution": 26,
+        "Intelligence": 25,
+        "Wisdom": 25,
+        "Charisma": 30
+      }
+    },
+    {
+      "Name": "Spectator",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "aberration",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 8,
+        "Dexterity": 14,
+        "Constitution": 14,
+        "Intelligence": 13,
+        "Wisdom": 14,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Specter",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 1,
+        "Dexterity": 14,
+        "Constitution": 11,
+        "Intelligence": 10,
+        "Wisdom": 10,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Spider",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 2,
+        "Dexterity": 14,
+        "Constitution": 8,
+        "Intelligence": 1,
+        "Wisdom": 10,
+        "Charisma": 2
+      }
+    },
+    {
+      "Name": "Spined Devil",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (devil)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 15,
+        "Constitution": 12,
+        "Intelligence": 11,
+        "Wisdom": 14,
+        "Charisma": 8
+      }
+    },
+    {
+      "Name": "Spirit Naga",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 17,
+        "Constitution": 14,
+        "Intelligence": 16,
+        "Wisdom": 15,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Sprite",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fey",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 3,
+        "Dexterity": 18,
+        "Constitution": 10,
+        "Intelligence": 14,
+        "Wisdom": 13,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Spy",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (any race)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 15,
+        "Constitution": 10,
+        "Intelligence": 12,
+        "Wisdom": 14,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Steam Mephit",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "elemental",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 5,
+        "Dexterity": 11,
+        "Constitution": 10,
+        "Intelligence": 11,
+        "Wisdom": 10,
+        "Charisma": 12
+      }
+    },
+    {
+      "Name": "Stirge",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 4,
+        "Dexterity": 16,
+        "Constitution": 11,
+        "Intelligence": 2,
+        "Wisdom": 8,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Stone Giant",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "giant",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 23,
+        "Dexterity": 15,
+        "Constitution": 20,
+        "Intelligence": 10,
+        "Wisdom": 12,
+        "Charisma": 9
+      }
+    },
+    {
+      "Name": "Stone Golem",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "construct",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 22,
+        "Dexterity": 9,
+        "Constitution": 20,
+        "Intelligence": 3,
+        "Wisdom": 11,
+        "Charisma": 1
+      }
+    },
+    {
+      "Name": "Storm Giant",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "giant",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 29,
+        "Dexterity": 14,
+        "Constitution": 20,
+        "Intelligence": 16,
+        "Wisdom": 18,
+        "Charisma": 18
+      }
+    },
+    {
+      "Name": "Succubus",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (shapechanger)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 8,
+        "Dexterity": 17,
+        "Constitution": 13,
+        "Intelligence": 15,
+        "Wisdom": 12,
+        "Charisma": 20
+      }
+    },
+    {
+      "Name": "Swarm of Bats",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast (swarm:T)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 5,
+        "Dexterity": 15,
+        "Constitution": 10,
+        "Intelligence": 2,
+        "Wisdom": 12,
+        "Charisma": 4
+      }
+    },
+    {
+      "Name": "Swarm of Beetles",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast (swarm:T)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 3,
+        "Dexterity": 13,
+        "Constitution": 10,
+        "Intelligence": 1,
+        "Wisdom": 7,
+        "Charisma": 1
+      }
+    },
+    {
+      "Name": "Swarm of Centipedes",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast (swarm:T)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 3,
+        "Dexterity": 13,
+        "Constitution": 10,
+        "Intelligence": 1,
+        "Wisdom": 7,
+        "Charisma": 1
+      }
+    },
+    {
+      "Name": "Swarm of Insects",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast (swarm:T)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 3,
+        "Dexterity": 13,
+        "Constitution": 10,
+        "Intelligence": 1,
+        "Wisdom": 7,
+        "Charisma": 1
+      }
+    },
+    {
+      "Name": "Swarm of Poisonous Snakes",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast (swarm:T)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 8,
+        "Dexterity": 18,
+        "Constitution": 11,
+        "Intelligence": 1,
+        "Wisdom": 10,
+        "Charisma": 3
+      }
+    },
+    {
+      "Name": "Swarm of Quippers",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast (swarm:T)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 13,
+        "Dexterity": 16,
+        "Constitution": 9,
+        "Intelligence": 1,
+        "Wisdom": 7,
+        "Charisma": 2
+      }
+    },
+    {
+      "Name": "Swarm of Rats",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast (swarm:T)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 9,
+        "Dexterity": 11,
+        "Constitution": 9,
+        "Intelligence": 2,
+        "Wisdom": 10,
+        "Charisma": 3
+      }
+    },
+    {
+      "Name": "Swarm of Ravens",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast (swarm:T)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 6,
+        "Dexterity": 14,
+        "Constitution": 8,
+        "Intelligence": 3,
+        "Wisdom": 12,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Swarm of Spiders",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast (swarm:T)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 3,
+        "Dexterity": 13,
+        "Constitution": 10,
+        "Intelligence": 1,
+        "Wisdom": 7,
+        "Charisma": 1
+      }
+    },
+    {
+      "Name": "Swarm of Wasps",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast (swarm:T)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 3,
+        "Dexterity": 13,
+        "Constitution": 10,
+        "Intelligence": 1,
+        "Wisdom": 7,
+        "Charisma": 1
+      }
+    },
+    {
+      "Name": "Tarrasque",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity (titan)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 30,
+        "Dexterity": 11,
+        "Constitution": 30,
+        "Intelligence": 3,
+        "Wisdom": 11,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Thri-kreen",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (thri-kreen)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 12,
+        "Dexterity": 15,
+        "Constitution": 13,
+        "Intelligence": 8,
+        "Wisdom": 12,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Thug",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (any race)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 11,
+        "Constitution": 14,
+        "Intelligence": 10,
+        "Wisdom": 10,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Tiger",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 15,
+        "Constitution": 14,
+        "Intelligence": 3,
+        "Wisdom": 12,
+        "Charisma": 8
+      }
+    },
+    {
+      "Name": "Treant",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "plant",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 23,
+        "Dexterity": 8,
+        "Constitution": 21,
+        "Intelligence": 12,
+        "Wisdom": 16,
+        "Charisma": 12
+      }
+    },
+    {
+      "Name": "Tribal Warrior",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (any race)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 13,
+        "Dexterity": 11,
+        "Constitution": 12,
+        "Intelligence": 8,
+        "Wisdom": 11,
+        "Charisma": 8
+      }
+    },
+    {
+      "Name": "Triceratops",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 22,
+        "Dexterity": 9,
+        "Constitution": 17,
+        "Intelligence": 2,
+        "Wisdom": 11,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Tridrone",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "construct",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 12,
+        "Dexterity": 13,
+        "Constitution": 12,
+        "Intelligence": 9,
+        "Wisdom": 10,
+        "Charisma": 9
+      }
+    },
+    {
+      "Name": "Troglodyte",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (troglodyte)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 14,
+        "Dexterity": 10,
+        "Constitution": 14,
+        "Intelligence": 6,
+        "Wisdom": 10,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Troll",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "giant",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 13,
+        "Constitution": 20,
+        "Intelligence": 7,
+        "Wisdom": 9,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Twig Blight",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "plant",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 6,
+        "Dexterity": 13,
+        "Constitution": 12,
+        "Intelligence": 4,
+        "Wisdom": 8,
+        "Charisma": 3
+      }
+    },
+    {
+      "Name": "Tyrannosaurus Rex",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 25,
+        "Dexterity": 10,
+        "Constitution": 19,
+        "Intelligence": 2,
+        "Wisdom": 12,
+        "Charisma": 9
+      }
+    },
+    {
+      "Name": "Ultroloth",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (yugoloth)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 16,
+        "Constitution": 18,
+        "Intelligence": 18,
+        "Wisdom": 15,
+        "Charisma": 19
+      }
+    },
+    {
+      "Name": "Umber Hulk",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 20,
+        "Dexterity": 13,
+        "Constitution": 16,
+        "Intelligence": 9,
+        "Wisdom": 10,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Unicorn",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "celestial",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 14,
+        "Constitution": 15,
+        "Intelligence": 11,
+        "Wisdom": 17,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Vampire",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead (shapechanger)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 18,
+        "Constitution": 18,
+        "Intelligence": 17,
+        "Wisdom": 15,
+        "Charisma": 18
+      }
+    },
+    {
+      "Name": "Vampire Spawn",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 16,
+        "Constitution": 16,
+        "Intelligence": 11,
+        "Wisdom": 10,
+        "Charisma": 12
+      }
+    },
+    {
+      "Name": "Vampire Spellcaster",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead (shapechanger)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 18,
+        "Constitution": 18,
+        "Intelligence": 17,
+        "Wisdom": 15,
+        "Charisma": 18
+      }
+    },
+    {
+      "Name": "Vampire Warrior",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead (shapechanger)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 18,
+        "Constitution": 18,
+        "Intelligence": 17,
+        "Wisdom": 15,
+        "Charisma": 18
+      }
+    },
+    {
+      "Name": "Veteran",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (any race)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 13,
+        "Constitution": 14,
+        "Intelligence": 10,
+        "Wisdom": 11,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Vine Blight",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "plant",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 8,
+        "Constitution": 14,
+        "Intelligence": 5,
+        "Wisdom": 10,
+        "Charisma": 3
+      }
+    },
+    {
+      "Name": "Violet Fungus",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "plant",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 3,
+        "Dexterity": 1,
+        "Constitution": 10,
+        "Intelligence": 1,
+        "Wisdom": 3,
+        "Charisma": 1
+      }
+    },
+    {
+      "Name": "Vrock",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (demon)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 15,
+        "Constitution": 18,
+        "Intelligence": 8,
+        "Wisdom": 13,
+        "Charisma": 8
+      }
+    },
+    {
+      "Name": "Vulture",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 7,
+        "Dexterity": 10,
+        "Constitution": 13,
+        "Intelligence": 2,
+        "Wisdom": 12,
+        "Charisma": 4
+      }
+    },
+    {
+      "Name": "Warhorse",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 12,
+        "Constitution": 13,
+        "Intelligence": 2,
+        "Wisdom": 12,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Warhorse Skeleton",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 12,
+        "Constitution": 15,
+        "Intelligence": 2,
+        "Wisdom": 8,
+        "Charisma": 5
+      }
+    },
+    {
+      "Name": "Water Elemental",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "elemental",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 14,
+        "Constitution": 18,
+        "Intelligence": 5,
+        "Wisdom": 10,
+        "Charisma": 8
+      }
+    },
+    {
+      "Name": "Water Weird",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "elemental",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 16,
+        "Constitution": 13,
+        "Intelligence": 11,
+        "Wisdom": 10,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "Weasel",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 3,
+        "Dexterity": 16,
+        "Constitution": 8,
+        "Intelligence": 2,
+        "Wisdom": 12,
+        "Charisma": 3
+      }
+    },
+    {
+      "Name": "Werebear",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (human, shapechanger)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 19,
+        "Dexterity": 10,
+        "Constitution": 17,
+        "Intelligence": 11,
+        "Wisdom": 12,
+        "Charisma": 12
+      }
+    },
+    {
+      "Name": "Wereboar",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (human, shapechanger)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 10,
+        "Constitution": 15,
+        "Intelligence": 10,
+        "Wisdom": 11,
+        "Charisma": 8
+      }
+    },
+    {
+      "Name": "Wererat",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (human, shapechanger)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 10,
+        "Dexterity": 15,
+        "Constitution": 12,
+        "Intelligence": 11,
+        "Wisdom": 10,
+        "Charisma": 8
+      }
+    },
+    {
+      "Name": "Weretiger",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (human, shapechanger)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 15,
+        "Constitution": 16,
+        "Intelligence": 10,
+        "Wisdom": 13,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Werewolf",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (human, shapechanger)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 13,
+        "Constitution": 14,
+        "Intelligence": 10,
+        "Wisdom": 11,
+        "Charisma": 10
+      }
+    },
+    {
+      "Name": "White Dragon Wyrmling",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 14,
+        "Dexterity": 10,
+        "Constitution": 14,
+        "Intelligence": 5,
+        "Wisdom": 10,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Wight",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 14,
+        "Constitution": 16,
+        "Intelligence": 10,
+        "Wisdom": 13,
+        "Charisma": 15
+      }
+    },
+    {
+      "Name": "Will-o\u0027-Wisp",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 1,
+        "Dexterity": 28,
+        "Constitution": 10,
+        "Intelligence": 13,
+        "Wisdom": 14,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Winged Kobold",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (kobold)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 7,
+        "Dexterity": 16,
+        "Constitution": 9,
+        "Intelligence": 8,
+        "Wisdom": 7,
+        "Charisma": 8
+      }
+    },
+    {
+      "Name": "Winter Wolf",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 13,
+        "Constitution": 14,
+        "Intelligence": 7,
+        "Wisdom": 12,
+        "Charisma": 8
+      }
+    },
+    {
+      "Name": "Wolf",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "beast",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 12,
+        "Dexterity": 15,
+        "Constitution": 12,
+        "Intelligence": 3,
+        "Wisdom": 12,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Worg",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 13,
+        "Constitution": 13,
+        "Intelligence": 7,
+        "Wisdom": 11,
+        "Charisma": 8
+      }
+    },
+    {
+      "Name": "Wraith",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 6,
+        "Dexterity": 16,
+        "Constitution": 16,
+        "Intelligence": 12,
+        "Wisdom": 14,
+        "Charisma": 15
+      }
+    },
+    {
+      "Name": "Wyvern",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 19,
+        "Dexterity": 10,
+        "Constitution": 16,
+        "Intelligence": 5,
+        "Wisdom": 12,
+        "Charisma": 6
+      }
+    },
+    {
+      "Name": "Xorn",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "elemental",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 17,
+        "Dexterity": 10,
+        "Constitution": 22,
+        "Intelligence": 11,
+        "Wisdom": 10,
+        "Charisma": 11
+      }
+    },
+    {
+      "Name": "Yeti",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 13,
+        "Constitution": 16,
+        "Intelligence": 8,
+        "Wisdom": 12,
+        "Charisma": 7
+      }
+    },
+    {
+      "Name": "Yochlol",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "fiend (demon, shapechanger)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 15,
+        "Dexterity": 14,
+        "Constitution": 18,
+        "Intelligence": 13,
+        "Wisdom": 15,
+        "Charisma": 15
+      }
+    },
+    {
+      "Name": "Young Black Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 19,
+        "Dexterity": 14,
+        "Constitution": 17,
+        "Intelligence": 12,
+        "Wisdom": 11,
+        "Charisma": 15
+      }
+    },
+    {
+      "Name": "Young Blue Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 21,
+        "Dexterity": 10,
+        "Constitution": 19,
+        "Intelligence": 14,
+        "Wisdom": 13,
+        "Charisma": 17
+      }
+    },
+    {
+      "Name": "Young Brass Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 19,
+        "Dexterity": 10,
+        "Constitution": 17,
+        "Intelligence": 12,
+        "Wisdom": 11,
+        "Charisma": 15
+      }
+    },
+    {
+      "Name": "Young Bronze Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 21,
+        "Dexterity": 10,
+        "Constitution": 19,
+        "Intelligence": 14,
+        "Wisdom": 13,
+        "Charisma": 17
+      }
+    },
+    {
+      "Name": "Young Copper Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 19,
+        "Dexterity": 12,
+        "Constitution": 17,
+        "Intelligence": 16,
+        "Wisdom": 13,
+        "Charisma": 15
+      }
+    },
+    {
+      "Name": "Young Gold Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 23,
+        "Dexterity": 14,
+        "Constitution": 21,
+        "Intelligence": 16,
+        "Wisdom": 13,
+        "Charisma": 20
+      }
+    },
+    {
+      "Name": "Young Green Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 19,
+        "Dexterity": 12,
+        "Constitution": 17,
+        "Intelligence": 16,
+        "Wisdom": 13,
+        "Charisma": 15
+      }
+    },
+    {
+      "Name": "Young Red Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 23,
+        "Dexterity": 10,
+        "Constitution": 21,
+        "Intelligence": 14,
+        "Wisdom": 11,
+        "Charisma": 19
+      }
+    },
+    {
+      "Name": "Young Red Shadow Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 23,
+        "Dexterity": 10,
+        "Constitution": 21,
+        "Intelligence": 14,
+        "Wisdom": 11,
+        "Charisma": 19
+      }
+    },
+    {
+      "Name": "Young Remorhaz",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 13,
+        "Constitution": 17,
+        "Intelligence": 3,
+        "Wisdom": 10,
+        "Charisma": 4
+      }
+    },
+    {
+      "Name": "Young Silver Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 23,
+        "Dexterity": 10,
+        "Constitution": 21,
+        "Intelligence": 14,
+        "Wisdom": 11,
+        "Charisma": 19
+      }
+    },
+    {
+      "Name": "Young White Dragon",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "dragon",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 18,
+        "Dexterity": 10,
+        "Constitution": 18,
+        "Intelligence": 6,
+        "Wisdom": 11,
+        "Charisma": 12
+      }
+    },
+    {
+      "Name": "Yuan-ti Abomination",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity (shapechanger, yuan-ti)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 19,
+        "Dexterity": 16,
+        "Constitution": 17,
+        "Intelligence": 17,
+        "Wisdom": 15,
+        "Charisma": 18
+      }
+    },
+    {
+      "Name": "Yuan-ti Malison (Type 1)",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity (shapechanger, yuan-ti)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 14,
+        "Constitution": 13,
+        "Intelligence": 14,
+        "Wisdom": 12,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Yuan-ti Malison (Type 2)",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity (shapechanger, yuan-ti)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 14,
+        "Constitution": 13,
+        "Intelligence": 14,
+        "Wisdom": 12,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Yuan-ti Malison (Type 3)",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "monstrosity (shapechanger, yuan-ti)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 16,
+        "Dexterity": 14,
+        "Constitution": 13,
+        "Intelligence": 14,
+        "Wisdom": 12,
+        "Charisma": 16
+      }
+    },
+    {
+      "Name": "Yuan-ti Pureblood",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "humanoid (yuan-ti)",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 11,
+        "Dexterity": 12,
+        "Constitution": 11,
+        "Intelligence": 13,
+        "Wisdom": 12,
+        "Charisma": 14
+      }
+    },
+    {
+      "Name": "Zombie",
+      "ReferenceCardSize": 0,
+      "CreatureTypeRef": "undead",
+      "HarvestingTable": {
+        "Rows": []
+      },
+      "StatBlock": {
+        "Strength": 13,
+        "Dexterity": 6,
+        "Constitution": 16,
+        "Intelligence": 3,
+        "Wisdom": 6,
+        "Charisma": 5
+      }
+    }
+  ],
+  "CreatureTypes": [
+    {
+      "Type": "humanoid",
+      "Tags": [
+        "aarakocra"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "aberration",
+      "Tags": [],
+      "TrinketTable": null
+    },
+    {
+      "Type": "monstrosity",
+      "Tags": [],
+      "TrinketTable": null
+    },
+    {
+      "Type": "humanoid",
+      "Tags": [
+        "any race"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "dragon",
+      "Tags": [],
+      "TrinketTable": null
+    },
+    {
+      "Type": "undead",
+      "Tags": [],
+      "TrinketTable": null
+    },
+    {
+      "Type": "elemental",
+      "Tags": [],
+      "TrinketTable": null
+    },
+    {
+      "Type": "beast",
+      "Tags": [],
+      "TrinketTable": null
+    },
+    {
+      "Type": "construct",
+      "Tags": [],
+      "TrinketTable": null
+    },
+    {
+      "Type": "fiend",
+      "Tags": [
+        "yugoloth"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "plant",
+      "Tags": [],
+      "TrinketTable": null
+    },
+    {
+      "Type": "fiend",
+      "Tags": [
+        "demon"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "fiend",
+      "Tags": [
+        "devil"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "ooze",
+      "Tags": [],
+      "TrinketTable": null
+    },
+    {
+      "Type": "fey",
+      "Tags": [],
+      "TrinketTable": null
+    },
+    {
+      "Type": "humanoid",
+      "Tags": [
+        "goblinoid"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "humanoid",
+      "Tags": [
+        "bullywug"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "fiend",
+      "Tags": [],
+      "TrinketTable": null
+    },
+    {
+      "Type": "giant",
+      "Tags": [],
+      "TrinketTable": null
+    },
+    {
+      "Type": "celestial",
+      "Tags": [],
+      "TrinketTable": null
+    },
+    {
+      "Type": "aberration",
+      "Tags": [
+        "shapechanger"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "humanoid",
+      "Tags": [
+        "gnome"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "monstrosity",
+      "Tags": [
+        "shapechanger"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "humanoid",
+      "Tags": [
+        "elf"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "humanoid",
+      "Tags": [
+        "dwarf"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "celestial",
+      "Tags": [
+        "titan"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "humanoid",
+      "Tags": [
+        "gith"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "humanoid",
+      "Tags": [
+        "gnoll"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "fiend",
+      "Tags": [
+        "gnoll"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "humanoid",
+      "Tags": [
+        "grimlock"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "humanoid",
+      "Tags": [
+        "human"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "fiend",
+      "Tags": [
+        "shapechanger"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "humanoid",
+      "Tags": [
+        "shapechanger"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "humanoid",
+      "Tags": [
+        "kenku"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "humanoid",
+      "Tags": [
+        "kobold"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "monstrosity",
+      "Tags": [
+        "titan"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "humanoid",
+      "Tags": [
+        "kuo-toa"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "humanoid",
+      "Tags": [
+        "lizardfolk"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "humanoid",
+      "Tags": [
+        "merfolk"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "humanoid",
+      "Tags": [
+        "orc"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "humanoid",
+      "Tags": [
+        "quaggoth"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "humanoid",
+      "Tags": [
+        "sahuagin"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "humanoid",
+      "Tags": [
+        "thri-kreen"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "humanoid",
+      "Tags": [
+        "troglodyte"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "undead",
+      "Tags": [
+        "shapechanger"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "humanoid",
+      "Tags": [
+        "human",
+        "shapechanger"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "fiend",
+      "Tags": [
+        "demon",
+        "shapechanger"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "monstrosity",
+      "Tags": [
+        "shapechanger",
+        "yuan-ti"
+      ],
+      "TrinketTable": null
+    },
+    {
+      "Type": "humanoid",
+      "Tags": [
+        "yuan-ti"
+      ],
+      "TrinketTable": null
+    }
+  ]
+}

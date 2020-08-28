@@ -1,0 +1,14 @@
+﻿@namespace DnDBlazorReference.Client.Shared.Monsters
+@using DnDBlazorReference.Shared.Models.BinaricPox
+
+@if (Monster != null)
+{
+    <div>
+        Name: <span>@Monster.Name</span>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public Monster Monster { get; set; }
+}

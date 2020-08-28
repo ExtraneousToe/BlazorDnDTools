@@ -1,0 +1,39 @@
+﻿@page "/creaturetypes"
+
+@using System
+@using DnDBlazorReference.Shared
+@using DnDBlazorReference.Shared.Models
+@using DnDBlazorReference.Shared.Models.FiveETools
+@using DnDBlazorReference.Shared.Models.BinaricPox
+@using DnDBlazorReference.Client.Data
+@using System.Text.Json
+@using System.Text.Json.Serialization
+@using Tewr.Blazor.FileReader
+@using DnDBlazorReference.Client.Shared.CreatureTypes
+
+@inject HttpClient Http
+@inject IFileReaderService FileReaderService
+@inject DnDBlazorReference.Client.Data.DataStorage DataStore
+
+<div class="w-100 h-100">
+    <h1>Creature Types</h1>
+    <div class="container">
+        <div id="left-column" class="view-column">
+            <CreatureTypeList OnItemSelected="SelectCreatureType" />
+        </div>
+        <div id="right-column" class="view-column">
+            <CreatureTypeDisplay CreatureType="SelectedCreatureType" />
+        </div>
+    </div>
+</div>
+
+@code {
+    private CreatureType SelectedCreatureType { get; set; }
+
+    private string outputJson = string.Empty;
+
+    public void SelectCreatureType(CreatureType toSelect)
+    {
+        SelectedCreatureType = toSelect;
+    }
+}

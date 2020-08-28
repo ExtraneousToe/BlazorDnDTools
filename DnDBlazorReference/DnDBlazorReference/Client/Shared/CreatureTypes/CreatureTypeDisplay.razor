@@ -1,0 +1,66 @@
+﻿@namespace DnDBlazorReference.Client.Shared.CreatureTypes
+@using DnDBlazorReference.Shared.Models.BinaricPox
+
+@if (CreatureType != null)
+{
+    <div>
+        Type: <span>@CreatureType.Type</span>
+    </div>
+    <div>
+        Tags: <span>@(CreatureType.Tags.Count > 0 ? string.Join(", ", CreatureType.Tags) : "None")</span>
+    </div>
+    @if (CreatureType.TrinketTable == null)
+    {
+        <button @onclick="CreateTrinketTable">Create Trinket Table</button>
+    }
+    else
+    {
+        <button @onclick="ClearTrinketTable">Clear Trinket Table</button>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>D8</th>
+                    <th>Description</th>
+                    <th>Value (GP)</th>
+                    <th>Weight (LB)</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var row in CreatureType.TrinketTable.Rows)
+                {
+                    var localrow = row;
+                    <tr>
+                        <td>@localrow.D8Roll</td>
+                        <td>
+                            <input type="text" @bind="localrow.DescriptionLine" />
+                        </td>
+                        <td>
+                            <input type="number" @bind="localrow.ValueGP" />
+                        </td>
+                        <td>
+                            <input type="number" @bind="localrow.WeightLB" />
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+}
+
+@code {
+    [Parameter]
+    public CreatureType CreatureType { get; set; }
+
+    public void CreateTrinketTable()
+    {
+        CreatureType.TrinketTable = new TrinketTable();
+        StateHasChanged();
+    }
+
+    public void ClearTrinketTable()
+    {
+        CreatureType.TrinketTable = null;
+        StateHasChanged();
+    }
+}

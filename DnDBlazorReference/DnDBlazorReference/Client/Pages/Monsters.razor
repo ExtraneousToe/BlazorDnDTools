@@ -1,0 +1,38 @@
+﻿@page "/monsters"
+
+@using System
+@using DnDBlazorReference.Shared
+@using DnDBlazorReference.Shared.Models
+@using DnDBlazorReference.Shared.Models.FiveETools
+@using DnDBlazorReference.Shared.Models.BinaricPox
+@using DnDBlazorReference.Client.Data
+@using DnDBlazorReference.Client.Shared.Monsters
+@using System.Text.Json
+@using System.Text.Json.Serialization
+@using Tewr.Blazor.FileReader
+@inject HttpClient Http
+@inject IFileReaderService FileReaderService
+@inject DnDBlazorReference.Client.Data.DataStorage DataStore
+
+<div class="w-100 h-100">
+    <h1>Monsters</h1>
+    <div class="container">
+        <div id="left-column" class="view-column">
+            <MonsterList OnItemSelected="SelectMonster" />
+        </div>
+        <div id="right-column" class="view-column">
+            <MonsterDisplay Monster="SelectedMonster" />
+        </div>
+    </div>
+</div>
+
+@code {
+    private Monster SelectedMonster { get; set; }
+
+    private string outputJson = string.Empty;
+
+    public void SelectMonster(Monster toSelect)
+    {
+        SelectedMonster = toSelect;
+    }
+}

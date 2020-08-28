@@ -89,7 +89,7 @@ namespace DnDBlazorReference.Shared.Models.FiveETools
         {
             string output = Type;
 
-            if (Tags.Count >= 0)
+            if (Tags.Count > 0)
             {
                 output = $"{output} ({string.Join(", ", Tags)})";
             }

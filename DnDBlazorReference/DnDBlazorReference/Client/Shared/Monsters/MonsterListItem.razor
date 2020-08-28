@@ -1,0 +1,41 @@
+﻿@namespace DnDBlazorReference.Client.Shared.Monsters
+@using DnDBlazorReference.Shared.Models.BinaricPox
+
+<li class="flex-row row" @onmouseover="OnMouseOver" @onmouseout="OnMouseOut" @onmousedown="OnMouseDown" style="background-color: @colourString">
+    @if (Monster == null)
+    {
+        <span>Error ...</span>
+    }
+    else
+    {
+        <span class="col-list-name">@Monster.Name</span>
+        <span class="col-list-type">@Monster.CreatureTypeRef</span>
+        <span class="col-list-cr">@Monster.ChallengeRating</span>
+        <span class="col-list-refSize">@Monster.ReferenceCardSize</span>
+    }
+</li>
+
+@code {
+    [Parameter]
+    public Monster Monster { get; set; }
+
+    [Parameter]
+    public EventCallback<Monster> OnSelectedItem { get; set; }
+
+    private string colourString = "white";
+
+    public void OnMouseOver()
+    {
+        colourString = "gray";
+    }
+
+    public void OnMouseOut()
+    {
+        colourString = "white";
+    }
+
+    public void OnMouseDown()
+    {
+        OnSelectedItem.InvokeAsync(Monster);
+    }
+}

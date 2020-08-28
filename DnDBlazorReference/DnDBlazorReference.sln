@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnDBlazorReference.Server", "DnDBlazorReference\Server\DnDBlazorReference.Server.csproj", "{9ED24F08-BE90-4B8F-B0A2-401DB95EF65C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DnDBlazorReference.Server", "DnDBlazorReference\Server\DnDBlazorReference.Server.csproj", "{9ED24F08-BE90-4B8F-B0A2-401DB95EF65C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnDBlazorReference.Client", "DnDBlazorReference\Client\DnDBlazorReference.Client.csproj", "{AAC38DAE-E744-444F-9F99-8CADF13B4487}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DnDBlazorReference.Client", "DnDBlazorReference\Client\DnDBlazorReference.Client.csproj", "{AAC38DAE-E744-444F-9F99-8CADF13B4487}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnDBlazorReference.Shared", "DnDBlazorReference\Shared\DnDBlazorReference.Shared.csproj", "{5E897441-0140-4D4E-9F0A-E1D44809EAC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DnDBlazorReference.Shared", "DnDBlazorReference\Shared\DnDBlazorReference.Shared.csproj", "{5E897441-0140-4D4E-9F0A-E1D44809EAC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

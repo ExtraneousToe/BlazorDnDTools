@@ -22,7 +22,7 @@ namespace DnDBlazorReference.Shared.Models.FiveETools
         public string Size { get; set; }
 
         [JsonPropertyName("ac")]
-        public List<object> ArmorClass { get; set; }
+        public List<ArmorClassEntry5e> ArmorClass { get; set; }
 
         [JsonPropertyName("hp")]
         public HealthBlock5e Health { get; set; }
@@ -41,7 +41,7 @@ namespace DnDBlazorReference.Shared.Models.FiveETools
         public CreatureType5e CreatureType { get; set; }
 
         [JsonPropertyName("cr")]
-        public object ChallengeRating { get; set; }
+        public ChallengeRatingEntry5e ChallengeRating { get; set; }
 
         [JsonPropertyName("passive")]
         public int PassivePerception { get; set; }
