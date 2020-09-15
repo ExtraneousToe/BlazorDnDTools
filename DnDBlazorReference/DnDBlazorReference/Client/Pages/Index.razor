@@ -7,14 +7,14 @@
 @using DnDBlazorReference.Client.Data
 @using System.Text.Json
 @using System.Text.Json.Serialization
-@*@using Tewr.Blazor.FileReader*@
+@using Tewr.Blazor.FileReader
 @using DnDBlazorReference.Shared.Models.BinaricPox
 
 @inject DataStorage DataStore
 @inject HttpClient Http
-@*@inject IFileReaderService FileReaderService*@
+@inject IFileReaderService FileReaderService
 
-@*@if (!DataStore.IsLoaded)
+@if (!DataStore.IsLoaded)
     {
         <div>
             <div>
@@ -52,7 +52,7 @@
                 <div>@str</div>
             }
         </div>
-    }*@
+    }
 
 @code {
 
@@ -69,70 +69,76 @@
     {
         if (!DataStore.IsLoaded)
         {
-            DataStorage.DnDToolsState state = await Http.GetFromJsonAsync<DataStorage.DnDToolsState>("state-data/system-state.json");
-            DataStore.LoadState(state);
+            try
+            {
+                DataStorage.DnDToolsState state = await Http.GetFromJsonAsync<DataStorage.DnDToolsState>("state-data/system-state.json");
+                DataStore.LoadState(state);
+            }
+            catch (Exception)
+            { 
+            }
         }
     }
 
 
-    //public async void ProcessInitialStateFile()
-    //{
-    //    _processingState = "Starting ...";
-    //    StateHasChanged();
+    public async void ProcessInitialStateFile()
+    {
+        _processingState = "Starting ...";
+        StateHasChanged();
 
-    //    //foreach (var file in await FileReaderService.CreateReference(_stateFile).EnumerateFilesAsync())
-    //    //{
-    //    //    if (file == null)
-    //    //    {
-    //    //        continue;
-    //    //    }
+        foreach (var file in await FileReaderService.CreateReference(_stateFile).EnumerateFilesAsync())
+        {
+            if (file == null)
+            {
+                continue;
+            }
 
-    //    //    await DataStore.ProcessFile(file);
-    //    //}
+            await DataStore.ProcessFile(file);
+        }
 
-    //    _processingState = "Done";
-    //    StateHasChanged();
-    //}
+        _processingState = "Done";
+        StateHasChanged();
+    }
 
-    //public async void ProcessFilesIntoMonsters()
-    //{
-    //    _processingState = "Starting ...";
-    //    StateHasChanged();
+    public async void ProcessFilesIntoMonsters()
+    {
+        _processingState = "Starting ...";
+        StateHasChanged();
 
-    //    //foreach (var file in await FileReaderService.CreateReference(_monster5eFiles).EnumerateFilesAsync())
-    //    //{
-    //    //    if (file == null)
-    //    //    {
-    //    //        continue;
-    //    //    }
+        foreach (var file in await FileReaderService.CreateReference(_monster5eFiles).EnumerateFilesAsync())
+        {
+            if (file == null)
+            {
+                continue;
+            }
 
-    //    //    await DataStore.Process5eFile(file);
+            await DataStore.Process5eFile(file);
 
-    //    //    var info = await file.ReadFileInfoAsync();
-    //    //    _processingState = $"Done [{info.Name}]";
-    //    //}
+            var info = await file.ReadFileInfoAsync();
+            _processingState = $"Done [{info.Name}]";
+        }
 
-    //    StateHasChanged();
-    //}
+        StateHasChanged();
+    }
 
-    //public async void ProcessTSVFilesIntoMonsterRef()
-    //{
-    //    _processingState = "Starting ...";
-    //    StateHasChanged();
+    public async void ProcessTSVFilesIntoMonsterRef()
+    {
+        _processingState = "Starting ...";
+        StateHasChanged();
 
-    //    //foreach (var file in await FileReaderService.CreateReference(_monsterRefFile).EnumerateFilesAsync())
-    //    //{
-    //    //    if (file == null)
-    //    //    {
-    //    //        continue;
-    //    //    }
+        foreach (var file in await FileReaderService.CreateReference(_monsterRefFile).EnumerateFilesAsync())
+        {
+            if (file == null)
+            {
+                continue;
+            }
 
-    //    //    errorLines = (await DataStore.ProcessTSVFile(file)).Split("\n");
+            errorLines = (await DataStore.ProcessTSVFile(file)).Split("\n");
 
-    //    //    var info = await file.ReadFileInfoAsync();
-    //    //    _processingState = $"Done [{info.Name}]";
-    //    //}
+            var info = await file.ReadFileInfoAsync();
+            _processingState = $"Done [{info.Name}]";
+        }
 
-    //    StateHasChanged();
-    //}
+        StateHasChanged();
+    }
 }
