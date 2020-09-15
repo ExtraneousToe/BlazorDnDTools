@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.IO;
-using Tewr.Blazor.FileReader;
+//using Tewr.Blazor.FileReader;
 using System.Text;
 
 namespace DnDBlazorReference.Client.Data
@@ -20,8 +20,8 @@ namespace DnDBlazorReference.Client.Data
         [Inject]
         public HttpClient Http { get; set; }
 
-        [Inject]
-        public IFileReaderService FileReaderService { get; set; }
+        //[Inject]
+        //public IFileReaderService FileReaderService { get; set; }
 
         public delegate void StateChangedDelegate();
         public event StateChangedDelegate StorageStateChanged;
@@ -235,69 +235,69 @@ namespace DnDBlazorReference.Client.Data
             return JsonSerializer.Serialize<DnDToolsState>(State, JsonSerializeOptions);
         }
 
-        public async Task ProcessFile(IFileReference fileReference)
-        {
-            using (var reader = await fileReference.OpenReadAsync())
-            {
-                try
-                {
-                    DnDToolsState state = await JsonSerializer.DeserializeAsync<DnDToolsState>(reader, JsonDeserializeOptions);
-                    LoadState(state);
-                }
-                catch (Exception e)
-                {
-                    throw e;
-                }
-            }
-        }
+        //public async Task ProcessFile(IFileReference fileReference)
+        //{
+        //    using (var reader = await fileReference.OpenReadAsync())
+        //    {
+        //        try
+        //        {
+        //            DnDToolsState state = await JsonSerializer.DeserializeAsync<DnDToolsState>(reader, JsonDeserializeOptions);
+        //            LoadState(state);
+        //        }
+        //        catch (Exception e)
+        //        {
+        //            throw e;
+        //        }
+        //    }
+        //}
 
-        public async Task Process5eFile(IFileReference fileReference)
-        {
-            using (var reader = await fileReference.OpenReadAsync())
-            {
-                Monster5eJson state = null;
-                try
-                {
-                    state = await JsonSerializer.DeserializeAsync<Monster5eJson>(reader, JsonDeserializeOptions);
-                }
-                catch (Exception e)
-                {
-                    throw e;
-                }
+        //public async Task Process5eFile(IFileReference fileReference)
+        //{
+        //    using (var reader = await fileReference.OpenReadAsync())
+        //    {
+        //        Monster5eJson state = null;
+        //        try
+        //        {
+        //            state = await JsonSerializer.DeserializeAsync<Monster5eJson>(reader, JsonDeserializeOptions);
+        //        }
+        //        catch (Exception e)
+        //        {
+        //            throw e;
+        //        }
 
-                try
-                {
-                    if (state != null && state.monsters != null)
-                    {
-                        Store5eMonsters(state.monsters);
-                    }
-                }
-                catch (Exception e)
-                {
-                    throw e;
-                }
-            }
-        }
+        //        try
+        //        {
+        //            if (state != null && state.monsters != null)
+        //            {
+        //                Store5eMonsters(state.monsters);
+        //            }
+        //        }
+        //        catch (Exception e)
+        //        {
+        //            throw e;
+        //        }
+        //    }
+        //}
 
-        public async Task<string> ProcessTSVFile(IFileReference fileReference)
-        {
-            using (var reader = await fileReference.OpenReadAsync())
-            {
-                string fileAsString = string.Empty;
+        //public async Task<string> ProcessTSVFile(IFileReference fileReference)
+        //{
+        //    using (var reader = await fileReference.OpenReadAsync())
+        //    {
+        //        string fileAsString = string.Empty;
 
-                int bufferSize = 1024;
-                byte[] buffer = new byte[bufferSize];
-                int readAmount = 0;
-                while ((readAmount = await reader.ReadAsync(buffer, 0, bufferSize)) != 0)
-                {
-                    string converted = Encoding.UTF8.GetString(buffer, 0, readAmount);
+        //        int bufferSize = 1024;
+        //        byte[] buffer = new byte[bufferSize];
+        //        int readAmount = 0;
+        //        while ((readAmount = await reader.ReadAsync(buffer, 0, bufferSize)) != 0)
+        //        {
+        //            string converted = Encoding.UTF8.GetString(buffer, 0, readAmount);
 
-                    fileAsString += converted;
-                }
+        //            fileAsString += converted;
+        //        }
 
-                return ProcessTSVLines(fileAsString);
-            }
-        }
+        //        return ProcessTSVLines(fileAsString);
+        //    }
+        //}
 
         private string ProcessTSVLines(string fileAsString)
         {
