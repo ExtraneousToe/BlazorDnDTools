@@ -187,7 +187,7 @@ namespace DnDBlazorReference.Client.Data
 
                 UpdateDictionaries();
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 throw new Exception($"Damn it!! {monster5e.Name}");
             }

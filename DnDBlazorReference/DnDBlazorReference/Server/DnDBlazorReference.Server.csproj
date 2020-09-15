@@ -6,8 +6,6 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="3.2.1" />
-    <PackageReference Include="Tewr.Blazor.FileReader" Version="2.0.0.20200" />
-    <PackageReference Include="Tewr.Blazor.FileReader.Wasm" Version="0.11.19128" />
   </ItemGroup>
 
   <ItemGroup>
