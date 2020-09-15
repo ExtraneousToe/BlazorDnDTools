@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-//using Tewr.Blazor.FileReader;
+using Tewr.Blazor.FileReader;
 using DnDBlazorReference.Client.Data;
 
 namespace DnDBlazorReference.Client
@@ -22,7 +22,7 @@ namespace DnDBlazorReference.Client
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
             builder.Services.AddSingleton<DataStorage>();
             builder.Services.AddSingleton<EditAndStyleController>();
-            //builder.Services.AddFileReaderService(o => o.UseWasmSharedBuffer = true);
+            builder.Services.AddFileReaderService(o => o.UseWasmSharedBuffer = true);
 
             await builder.Build().RunAsync();
         }
