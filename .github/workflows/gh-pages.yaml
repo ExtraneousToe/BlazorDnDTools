@@ -15,8 +15,8 @@ jobs:
               uses: actions/setup-dotnet@v1
               with:
                   dotnet-version: 3.1.301
-            - name: SetUp FileReader
-              run: dotnet add DnDBlazorReference package Tewr.Blazor.FileReader --version 2.0.0.20242
+            - name: SetUp FileReader Client
+              run: dotnet add DnDBlazorReference/DnDBlazorReference/Client package Tewr.Blazor.FileReader --version 2.0.0.20242
             - name: Publish with dotnet
               run: dotnet publish --configuration Release --output build DnDBlazorReference
             - name: Deploy to Github Pages
