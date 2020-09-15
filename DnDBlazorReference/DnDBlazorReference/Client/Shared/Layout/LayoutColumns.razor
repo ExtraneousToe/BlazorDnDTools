@@ -1,0 +1,9 @@
+﻿
+<div class="layout-columns">
+    @ChildContent
+</div>
+
+@code {
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+}

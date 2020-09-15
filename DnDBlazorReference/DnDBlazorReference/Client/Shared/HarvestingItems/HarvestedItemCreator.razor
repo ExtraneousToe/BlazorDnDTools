@@ -1,0 +1,141 @@
+﻿@using DnDBlazorReference.Shared.Models.BinaricPox
+@inject IJSRuntime JSRuntime
+
+<form @onsubmit="CreateItem">
+
+    <table class="table-bordered">
+        <tr>
+            <td>
+                <strong>Name:</strong>
+            </td>
+            <td>
+                <input type="text" @bind="FormName" id="@_initialFocusId" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Quantity:</strong>
+            </td>
+            <td>
+                <input type="text" @bind="FormQuantity" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Value (GP): </strong>
+            </td>
+            <td>
+                <input type="text" @bind="FormValueGP" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Weight (LB): </strong>
+            </td>
+            <td>
+                <input type="text" @bind="FormWeightLB" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Required Tools:</strong>
+            </td>
+            <td>
+                <input type="text" @bind="FormRequiredToolNames" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Description:</strong>
+            </td>
+            <td>
+                <input type="text" @bind="FormDescription" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Use Text:</strong>
+            </td>
+            <td>
+                <input type="text" @bind="FormUseText" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Is Consumable:</strong>
+            </td>
+            <td>
+                <input type="checkbox" @bind="FormIsConsumable" />
+            </td>
+        </tr>
+    </table>
+
+    <button type="submit">Create Item</button>
+    <button @onclick="ClearFields">Clear Fields</button>
+</form>
+
+
+@code {
+    [Parameter]
+    public EventCallback<HarvestedItem> OnItemCreated { get; set; }
+
+    public string FormName { get; set; }
+    public string FormDescription { get; set; }
+    public bool FormIsConsumable { get; set; }
+    public string FormValueGP { get; set; }
+    public string FormWeightLB { get; set; }
+    public string FormQuantity { get; set; }
+    public string FormUseText { get; set; }
+    public string FormRequiredToolNames { get; set; }
+
+    private string _initialFocusId = "createName";
+
+    public async void CreateItem()
+    {
+        HarvestedItem newItem = new HarvestedItem
+        {
+            Name = FormName,
+            Description = new Description(),
+            IsConsumable = FormIsConsumable,
+            ValueGP = FormValueGP,
+            WeightLB = FormWeightLB,
+            Quantity = FormQuantity,
+            UseText = new Description(),
+            RequiredToolNames = new List<string>()
+        };
+
+        if (!string.IsNullOrEmpty(FormDescription))
+        {
+            newItem.Description.Paragraphs.AddRange(FormDescription.Split(";"));
+        }
+
+        if (!string.IsNullOrEmpty(FormUseText))
+        {
+            newItem.UseText.Paragraphs.AddRange(FormUseText.Split(";"));
+        }
+
+        if (!string.IsNullOrEmpty(FormRequiredToolNames))
+        {
+            newItem.RequiredToolNames.AddRange(FormRequiredToolNames.Split(";"));
+        }
+
+        await OnItemCreated.InvokeAsync(newItem);
+
+        ClearFields();
+
+        await JSRuntime.InvokeAsync<object>("focusElement", _initialFocusId);
+    }
+
+    public void ClearFields()
+    {
+        FormName = string.Empty;
+        FormDescription = string.Empty;
+        FormIsConsumable = false;
+        FormValueGP = string.Empty;
+        FormWeightLB = string.Empty;
+
+        FormQuantity = string.Empty;
+        FormUseText = string.Empty;
+        FormRequiredToolNames = string.Empty;
+    }
+}

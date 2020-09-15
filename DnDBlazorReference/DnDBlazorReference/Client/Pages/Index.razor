@@ -8,62 +8,122 @@
 @using System.Text.Json
 @using System.Text.Json.Serialization
 @using Tewr.Blazor.FileReader
+@using DnDBlazorReference.Shared.Models.BinaricPox
+
+@inject DataStorage DataStore
 @inject HttpClient Http
 @inject IFileReaderService FileReaderService
-@inject DnDBlazorReference.Client.Data.DataStorage DataStore
+
+@if (!DataStore.IsLoaded)
+{
+    <div>
+        <div>
+            <h3>Load Initial State Data</h3>
+            <input type="file" @ref="_stateFile" accept=".json" @onchange="ProcessInitialStateFile" />
+        </div>
+    </div>
+}
+else
+{
+    <div>
+        <div>
+            <h3>Load 5e Tools Data</h3>
+            <input type="file" @ref="_monster5eFiles" accept=".json" @onchange="ProcessFilesIntoMonsters" />
+        </div>
+    </div>
+
+    <div>
+        <div>
+            <h3>Load Card Data</h3>
+            <input type="file" @ref="_monsterRefFile" accept=".tsv" @onchange="ProcessTSVFilesIntoMonsterRef" />
+        </div>
+    </div>
+}
+
+<div>
+    <b>State:</b> <span>@_processingState</span>
+</div>
+@if (errorLines != null && errorLines.Length > 0)
+{
+    <div>
+        <b>Error:</b>
+        @foreach (string str in errorLines)
+        {
+            <div>@str</div>
+        }
+    </div>
+}
 
 @code {
-    //protected void SearchStringChanged() { StateHasChanged(); }
 
-    //public async void FileChanged()
-    //{
-    //    var options = new JsonSerializerOptions
-    //    {
-    //        ReadCommentHandling = JsonCommentHandling.Skip,
-    //        AllowTrailingCommas = true
-    //    };
+    private DataStorage.Monster5eJson monster5eJson;
 
-    //    foreach (var file in await FileReaderService.CreateReference(_input).EnumerateFilesAsync())
-    //    {
-    //        if (file == null)
-    //        {
-    //            continue;
-    //        }
+    private ElementReference _stateFile;
+    private ElementReference _monster5eFiles;
+    private ElementReference _monsterRefFile;
 
-    //        isProcessing = true;
+    private string _processingState;
+    private string[] errorLines = new string[0];
 
-    //        var fileInfo = await file.ReadFileInfoAsync();
 
-    //        fileOutput = new List<string>();
-    //        const int byteBufferSize = 1024;
-    //        byte[] buffer = new byte[byteBufferSize];
-    //        using (var reader = await file.OpenReadAsync())
-    //        {
-    //            try
-    //            {
-    //                monsterJson = await JsonSerializer.DeserializeAsync<DataStorage.Monster5eJson>(reader, options);
-    //            }
-    //            catch (Exception e)
-    //            {
-    //                // do nothing
-    //                errorString = e.Message;
-    //            }
-    //        }
+    public async void ProcessInitialStateFile()
+    {
+        _processingState = "Starting ...";
+        StateHasChanged();
 
-    //        isProcessing = false;
-    //    }
+        foreach (var file in await FileReaderService.CreateReference(_stateFile).EnumerateFilesAsync())
+        {
+            if (file == null)
+            {
+                continue;
+            }
 
-    //    StateHasChanged();
-    //}
+            await DataStore.ProcessFile(file);
+        }
 
-    //public void ProcessJsonOutput()
-    //{
-    //    outputJson = "Trying to process";
-    //    var options = new JsonSerializerOptions
-    //    {
-    //        WriteIndented = true,
-    //    };
+        _processingState = "Done";
+        StateHasChanged();
+    }
 
-    //    outputJson = JsonSerializer.Serialize(monsterJson, options);
-    //} 
+    public async void ProcessFilesIntoMonsters()
+    {
+        _processingState = "Starting ...";
+        StateHasChanged();
+
+        foreach (var file in await FileReaderService.CreateReference(_monster5eFiles).EnumerateFilesAsync())
+        {
+            if (file == null)
+            {
+                continue;
+            }
+
+            await DataStore.Process5eFile(file);
+
+            var info = await file.ReadFileInfoAsync();
+            _processingState = $"Done [{info.Name}]";
+        }
+
+        StateHasChanged();
+    }
+
+    public async void ProcessTSVFilesIntoMonsterRef()
+    {
+        _processingState = "Starting ...";
+        StateHasChanged();
+
+        foreach (var file in await FileReaderService.CreateReference(_monsterRefFile).EnumerateFilesAsync())
+        {
+            if (file == null)
+            {
+                continue;
+            }
+
+            errorLines = (await DataStore.ProcessTSVFile(file)).Split("\n");
+
+            var info = await file.ReadFileInfoAsync();
+            _processingState = $"Done [{info.Name}]";
+        }
+
+        StateHasChanged();
+    }
 }

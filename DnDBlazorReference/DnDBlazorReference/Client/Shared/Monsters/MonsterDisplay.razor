@@ -1,14 +1,96 @@
 ﻿@namespace DnDBlazorReference.Client.Shared.Monsters
 @using DnDBlazorReference.Shared.Models.BinaricPox
+@using DnDBlazorReference.Client.Shared.CreatureTypes
+@using DnDBlazorReference.Client.Shared.Tables
+@using DnDBlazorReference.Client.Data
+@inject EditAndStyleController EditAndStyle
+@inject DataStorage DataStore
 
 @if (Monster != null)
 {
-    <div>
-        Name: <span>@Monster.Name</span>
-    </div>
+    <divs>
+        <div>
+            <strong>Name:</strong> <span>@Monster.Name</span>
+        </div>
+        <CreatureTypeDisplay CreatureType="Monster.CreatureType" />
+        <div>
+            <strong>Reference Card Size:</strong>
+            @if (EditAndStyle.IsEditting)
+            {
+                <select @bind="Monster.ReferenceCardSize">
+                    @foreach (var val in Enum.GetValues(typeof(ECardSize)))
+                    {
+                        var localEVal = val;
+                        <option value="@localEVal">@localEVal</option>
+                    }
+                </select>
+            }
+            else
+            {
+                <span>@Monster.ReferenceCardSize</span>
+            }
+        </div>
+        <div>
+            <StatBlockDisplay StatBlock="Monster.StatBlock" />
+        </div>
+        <div>
+            <strong>Challenge Rating:</strong>  <span>@Monster.ChallengeRating</span>
+        </div>
+        <div>
+            <HarvestingTableDisplay Monster="Monster" />
+        </div>
+        <div>
+            <strong>Trinket Table Type: </strong>
+            @if (EditAndStyle.IsEditting)
+            {
+                <form @onsubmit="SearchForTable">
+                    <input type="text" @bind="Monster.TrinketTableType" />
+                    <button type="submit">Search</button>
+                </form>
+            }
+            else
+            {
+                <span>@Monster.TrinketTableType</span>
+            }
+        </div>
+        <div>
+            @if (Monster.TrinketTable != null)
+            {
+                <TrinketTableDisplay TrinketTable="Monster.TrinketTable" />
+            }
+        </div>
+    </divs>
 }
 
 @code {
     [Parameter]
     public Monster Monster { get; set; }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        EditAndStyle.EdittingStateChanged += StateHasChanged;
+    }
+
+    private void SearchForTable()
+    {
+        if (!string.IsNullOrEmpty(Monster.TrinketTableType)
+            && DataStore.TrinketTables.TryGetValue(Monster.TrinketTableType, out TrinketTable table))
+        {
+            Monster.TrinketTable = table;
+        }
+        else
+        {
+            Monster.TrinketTable = null;
+        }
+
+        StateHasChanged();
+    }
+
+    private void CreateTrinketTable()
+    {
+        DataStore.TrinketTables[Monster.TrinketTableType] = new TrinketTable(Monster.TrinketTableType);
+        DataStore.UpdateDictionaries();
+    }
 }

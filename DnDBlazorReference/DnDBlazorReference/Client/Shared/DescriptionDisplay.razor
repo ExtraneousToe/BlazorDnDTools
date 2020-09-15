@@ -1,0 +1,61 @@
+﻿@using DnDBlazorReference.Client.Data
+@using DnDBlazorReference.Shared.Models.BinaricPox;
+
+@inject DataStorage DataStore
+@inject EditAndStyleController EditAndStyle
+
+@if (Description != null)
+{
+    @for (int i = 0; i < Description.Paragraphs.Count; ++i)
+    {
+        var localPara = Description.Paragraphs[i];
+        var localI = i;
+        @if (EditAndStyle.IsEditting)
+        {
+            <div>
+                <button @onclick="(_ => RemoveParagraph(localPara))">-</button>
+                <input type="text" @bind="Description.Paragraphs[localI]" />
+            </div>
+        }
+        else
+        {
+            <p>@localPara</p>
+        }
+    }
+
+    @if (EditAndStyle.IsEditting)
+    {
+        <button @onclick="AddParagraph">+</button>
+    }
+}
+else
+{
+    <span>-</span>
+}
+
+@code {
+    [Parameter]
+    public Description Description { get; set; }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        EditAndStyle.EdittingStateChanged += StateHasChanged;
+    }
+
+    public void AddParagraph()
+    {
+        Description.Paragraphs.Add(string.Empty);
+    }
+
+    public void RemoveParagraph(string paragraph)
+    {
+        Description.Paragraphs.Remove(paragraph);
+    }
+
+    public void ValueChanged(int index, string value)
+    {
+        Description.Paragraphs[index] = value;
+    }
+}

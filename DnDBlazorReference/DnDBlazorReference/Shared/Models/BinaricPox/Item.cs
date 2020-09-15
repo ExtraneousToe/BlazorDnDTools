@@ -6,12 +6,17 @@ using System.Text.Json.Serialization;
 
 namespace DnDBlazorReference.Shared.Models.BinaricPox
 {
-    public class Item
+    public class Item : IComparable<Item>
     {
         public string Name { get; set; }
         public Description Description { get; set; }
         public bool IsConsumable { get; set; }
-        public float ValueGP { get; set; }
-        public float WeightLB { get; set; }
+        public string ValueGP { get; set; }
+        public string WeightLB { get; set; }
+
+        public int CompareTo(Item other)
+        {
+            return Name.CompareTo(other.Name);
+        }
     }
 }

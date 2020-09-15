@@ -15,13 +15,13 @@
 @inject IFileReaderService FileReaderService
 @inject DnDBlazorReference.Client.Data.DataStorage DataStore
 
-<div class="w-100 h-100">
+<div>
     <h1>Creature Types</h1>
-    <div class="container">
-        <div id="left-column" class="view-column">
+    <div>
+        <div id="left-column">
             <CreatureTypeList OnItemSelected="SelectCreatureType" />
         </div>
-        <div id="right-column" class="view-column">
+        <div id="right-column">
             <CreatureTypeDisplay CreatureType="SelectedCreatureType" />
         </div>
     </div>

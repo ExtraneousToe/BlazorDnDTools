@@ -8,7 +8,7 @@ namespace DnDBlazorReference.Shared.Models.BinaricPox
     {
         public int D8Roll { get; set; }
         public string DescriptionLine { get; set; }
-        public float ValueGP { get; set; }
-        public float WeightLB { get; set; }
+        public string ValueGP { get; set; }
+        public string WeightLB { get; set; }
     }
 }

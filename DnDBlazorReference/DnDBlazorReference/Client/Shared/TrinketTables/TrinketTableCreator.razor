@@ -1,0 +1,34 @@
+﻿@using DnDBlazorReference.Shared.Models.BinaricPox
+@inject IJSRuntime JSRuntime
+@inject DnDBlazorReference.Client.Data.DataStorage DataStore
+
+<form @onsubmit="CreateItem">
+    <div>
+        <strong>Type: </strong>
+        <input @bind="FormType" type="text" id="@_initialFocusId" />
+    </div>
+    <button type="submit">Create Item</button>
+</form>
+
+@code {
+    [Parameter]
+    public EventCallback<TrinketTable> OnItemCreated { get; set; }
+
+    public string FormType { get; set; }
+
+    private string _initialFocusId = "createName";
+
+    public async void CreateItem()
+    {
+        TrinketTable newItem = new TrinketTable(FormType);
+
+        await OnItemCreated.InvokeAsync(newItem);
+
+        DataStore.TrinketTables.TryAdd(newItem.TrinketTableType, newItem);
+        DataStore.UpdateDictionaries();
+
+        FormType = string.Empty;
+
+        await JSRuntime.InvokeAsync<object>("focusElement", _initialFocusId);
+    }
+}

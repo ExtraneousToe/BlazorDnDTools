@@ -9,5 +9,10 @@ namespace DnDBlazorReference.Shared.Models.BinaricPox
     public class Description
     {
         public List<string> Paragraphs { get; set; }
+
+        public Description()
+        {
+            Paragraphs = new List<string>();
+        }
     }
 }

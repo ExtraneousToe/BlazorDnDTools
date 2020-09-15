@@ -1,0 +1,26 @@
+﻿@using DnDBlazorReference.Shared.Models.BinaricPox
+
+<li @onmousedown="OnMouseDown">
+    @if (HarvestedItem == null)
+    {
+        <span>Error ...</span>
+    }
+    else
+    {
+        <span>@HarvestedItem.NameWithQuantity</span>
+    }
+</li>
+
+
+@code {
+    [Parameter]
+    public HarvestedItem HarvestedItem { get; set; }
+
+    [Parameter]
+    public EventCallback<HarvestedItem> OnSelectedItem { get; set; }
+
+    public void OnMouseDown()
+    {
+        OnSelectedItem.InvokeAsync(HarvestedItem);
+    }
+}

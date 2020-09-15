@@ -1,0 +1,59 @@
+﻿@page "/harvestingitems"
+
+@using System
+@using DnDBlazorReference.Shared
+@using DnDBlazorReference.Shared.Models
+@using DnDBlazorReference.Shared.Models.FiveETools
+@using DnDBlazorReference.Shared.Models.BinaricPox
+@using DnDBlazorReference.Client.Data
+@using DnDBlazorReference.Client.Shared.HarvestingItems
+@using System.Text.Json
+@using System.Text.Json.Serialization
+@using Tewr.Blazor.FileReader
+@using DnDBlazorReference.Client.Shared.CreatureTypes;
+
+@inject HttpClient Http
+@inject DataStorage DataStore
+@inject EditAndStyleController EditAndStyle
+
+<div>
+    <h1>Harvesting Items</h1>
+    <div>
+        @if (EditAndStyle.IsEditting)
+        {
+            <div>
+                <HarvestedItemCreator OnItemCreated="CreateHarvestedItem" />
+            </div>
+        }
+        <div>
+            <div id="left-column">
+                <HarvestingItemsList OnItemSelected="SelectHarvestedItem" />
+            </div>
+            <div id="right-column">
+                <HarvestingItemsDisplay HarvestedItem="SelectedHarvestedItem" />
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private HarvestedItem SelectedHarvestedItem { get; set; }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        EditAndStyle.EdittingStateChanged += StateHasChanged;
+    }
+
+    public void SelectHarvestedItem(HarvestedItem toSelect)
+    {
+        SelectedHarvestedItem = toSelect;
+    }
+
+    public void CreateHarvestedItem(HarvestedItem newItem)
+    {
+        SelectHarvestedItem(newItem);
+        DataStore.HarvestedItems.TryAdd(newItem.Name, newItem);
+    }
+}

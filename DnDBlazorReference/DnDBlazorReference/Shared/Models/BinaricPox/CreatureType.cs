@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 using DnDBlazorReference.Shared.Models.FiveETools;
 
 namespace DnDBlazorReference.Shared.Models.BinaricPox
@@ -13,7 +14,6 @@ namespace DnDBlazorReference.Shared.Models.BinaricPox
             {
                 Type = creatureType5e.Type,
                 Tags = creatureType5e.Tags,
-                TrinketTable = null
             };
         }
 
@@ -24,25 +24,31 @@ namespace DnDBlazorReference.Shared.Models.BinaricPox
         }
     }
 
-    public class CreatureType : IEquatable<CreatureType>
+    public class CreatureType : IEquatable<CreatureType>, IComparable<CreatureType>
     {
         public string Type { get; set; }
         public List<string> Tags { get; set; }
-        public TrinketTable TrinketTable { get; set; }
 
         public override string ToString()
         {
             string output = Type;
-            if (Tags.Count > 0)
+            
+            if (Tags.Count() > 0)
             {
                 output = $"{output} ({string.Join(", ", Tags)})";
             }
+
             return output;
         }
 
         public bool Equals(CreatureType other)
         {
             return ToString().Equals(other.ToString());
+        }
+
+        public int CompareTo(CreatureType other)
+        {
+            return ToString().CompareTo(other.ToString());
         }
     }
 }

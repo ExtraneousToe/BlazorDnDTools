@@ -1,0 +1,26 @@
+﻿@using DnDBlazorReference.Client.Data
+@using DnDBlazorReference.Shared.Models.BinaricPox
+@using DnDBlazorReference.Client.Shared.HarvestingItems
+
+@inject DataStorage DataStore
+@inject HttpClient Http
+
+@if (DataStore.IsLoaded)
+{
+    <ul>
+        @foreach (var harvestingItem in DataStore.SortedHarvestedItems)
+        {
+            var hItem = harvestingItem;
+            <HarvestingItemsListItem HarvestedItem="hItem" OnSelectedItem="OnItemSelected" />
+        }
+    </ul>
+}
+else
+{
+    <span>Loading...</span>
+}
+
+@code {
+    [Parameter]
+    public EventCallback<HarvestedItem> OnItemSelected { get; set; }
+}

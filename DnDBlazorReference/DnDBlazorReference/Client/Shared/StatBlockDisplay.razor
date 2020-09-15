@@ -1,0 +1,54 @@
+﻿@using DnDBlazorReference.Shared
+@using DnDBlazorReference.Shared.Models.BinaricPox
+
+<table class="table-bordered">
+    <thead>
+        <tr>
+            <th>
+                Str
+            </th>
+            <th>
+                Dex
+            </th>
+            <th>
+                Con
+            </th>
+            <th>
+                Int
+            </th>
+            <th>
+                Wis
+            </th>
+            <th>
+                Cha
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                @StatBlock.Strength.AsModifierString()
+            </td>
+            <td>
+                @StatBlock.Dexterity.AsModifierString()
+            </td>
+            <td>
+                @StatBlock.Constitution.AsModifierString()
+            </td>
+            <td>
+                @StatBlock.Intelligence.AsModifierString()
+            </td>
+            <td>
+                @StatBlock.Wisdom.AsModifierString()
+            </td>
+            <td>
+                @StatBlock.Charisma.AsModifierString()
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+@code {
+    [Parameter]
+    public StatBlock StatBlock { get; set; }
+}

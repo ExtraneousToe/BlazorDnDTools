@@ -1,0 +1,27 @@
+﻿@using DnDBlazorReference.Shared.Models.BinaricPox
+
+<li @onmousedown="OnMouseDown">
+    @if (TrinketTable == null)
+    {
+        <span>Error ...</span>
+    }
+    else
+    {
+        <span>@TrinketTable.TrinketTableType</span>
+    }
+</li>
+
+@code {
+    [Parameter]
+    public TrinketTable TrinketTable { get; set; }
+
+    [Parameter]
+    public EventCallback<TrinketTable> OnSelectedItem { get; set; }
+
+    private string hoveredStyle = string.Empty;
+
+    public void OnMouseDown()
+    {
+        OnSelectedItem.InvokeAsync(TrinketTable);
+    }
+}

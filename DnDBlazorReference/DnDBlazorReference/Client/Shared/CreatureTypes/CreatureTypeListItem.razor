@@ -1,14 +1,14 @@
 ﻿@namespace DnDBlazorReference.Client.Shared.CreatureTypes
 @using DnDBlazorReference.Shared.Models.BinaricPox
 
-<li class="flex-row row" @onmouseover="OnMouseOver" @onmouseout="OnMouseOut" @onmousedown="OnMouseDown" style="background-color: @colourString">
+<li @onmousedown="OnMouseDown">
     @if (CreatureType == null)
     {
         <span>Error ...</span>
     }
     else
     {
-        <span class="w-100">@CreatureType.ToString()</span>
+        <span>@CreatureType.ToString()</span>
     }
 </li>
 
@@ -18,19 +18,7 @@
 
     [Parameter]
     public EventCallback<CreatureType> OnSelectedItem { get; set; }
-
-    private string colourString = "white";
-
-    public void OnMouseOver()
-    {
-        colourString = "gray";
-    }
-
-    public void OnMouseOut()
-    {
-        colourString = "white";
-    }
-
+    
     public void OnMouseDown()
     {
         OnSelectedItem.InvokeAsync(CreatureType);

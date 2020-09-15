@@ -1,0 +1,28 @@
+﻿@using DnDBlazorReference.Client.Data
+@using DnDBlazorReference.Shared.Models.BinaricPox
+@using DnDBlazorReference.Client.Shared.HarvestingItems
+@using DnDBlazorReference.Client.Shared.TrinketTables
+
+@inject DataStorage DataStore
+@inject HttpClient Http
+
+@if (DataStore.IsLoaded)
+{
+    <ul>
+        @foreach (var trinketTable in DataStore.SortedTrinketTables)
+        {
+            var tTable = trinketTable;
+            <TrinketTablesListItem TrinketTable="tTable" OnSelectedItem="OnItemSelected" />
+        }
+    </ul>
+}
+else
+{
+    <span>Loading...</span>
+}
+
+
+@code {
+    [Parameter]
+    public EventCallback<TrinketTable> OnItemSelected { get; set; }
+}

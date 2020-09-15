@@ -1,69 +1,73 @@
 ﻿
+/*content > * {
+    border: 0.5px solid lightgrey;
+}*/
 
-.container {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    height: 100%;
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
 }
 
-.view-column {
-    width: 50%;
-    margin: 5px;
-    padding: 5px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+}
+
+::-webkit-scrollbar-track {
+    background: 0 0;
+}
+
+.main {
+    background-color: rgb(10, 10, 10);
+    color: white;
+}
+
+.element-list {
+    list-style: none;
+    padding-left: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 500px;
+    border: 1px solid lightgray;
+    font-size: 0.75em;
+}
+
+    .element-list li {
+        border-bottom: 1px solid gray;
+    }
+
+        .element-list li:hover {
+            background-color: darkgray;
+            color: black;
+        }
+
+.elist-column {
+    text-overflow: ellipsis;
+    min-width: 25% !important;
+    max-width: 33.3333333%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.list-header:hover {
+    background-color: darkgray;
+    color: black;
+}
+
+.layout-columns {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid lightgray;
+}
+
+.content-column {
+    padding: 0.5px 0.5px 0.5px 0.5px;
+    border: 1px solid lightgray;
+    width: 100%!important;
 }
 
 #left-column {
+    max-width: 33.333333%;
 }
 
 #right-column {
-}
-
-.h-80 {
-    height: 80%
-}
-
-.flex-column {
-    display: flex;
-    flex-direction: column;
-}
-
-.flex-row {
-    display: flex;
-    flex-direction: row;
-}
-
-.row {
-    margin-left: -40px;
-}
-
-.list {
-    overflow-x: hidden;
-    overflow-y: auto;
-    list-style-type: none;
-    clear: both;
-    height: 100%;
-}
-
-li, .list {
-    cursor: pointer;
-}
-
-.col-list-name {
-    width: 25%!important;
-}
-
-.col-list-type {
-    width: 25% !important;
-}
-
-.col-list-cr {
-    width: 25% !important;
-}
-
-.col-list-refSize {
-    width: 25% !important;
 }

@@ -6,8 +6,11 @@
 @inject Tewr.Blazor.FileReader.IFileReaderService FileReaderService
 @inject DataStorage DataStore
 @inject IJSRuntime JSRuntime
+@inject EditAndStyleController EditAndStyle
 
 <h3>DataProcessing</h3>
+
+<div>Editing: <input type="checkbox" @bind="IsEditing" /></div>
 
 <div>
     <b>State:</b> <span>@_processingState</span>
@@ -30,19 +33,19 @@
 
     private string _processingState;
 
-    protected async override Task OnInitializedAsync()
+    public bool IsEditing
     {
-        await DataStore.LoadState(Http);
+        get => EditAndStyle.IsEditting;
+        set
+        {
+            EditAndStyle.IsEditting = value;
+            StateHasChanged();
+        }
     }
 
     public async void SaveState()
     {
-        var options = new JsonSerializerOptions
-        {
-            WriteIndented = true
-        };
-
-        string jsonString = JsonSerializer.Serialize<DataStorage.DnDToolsState>(DataStore.State, options);
+        string jsonString = DataStore.GetJsonState();
 
         await JSRuntime.InvokeAsync<object>(
             "FileSaveAs",
@@ -82,10 +85,10 @@
                 {
                     monster5eJson = await JsonSerializer.DeserializeAsync<DataStorage.Monster5eJson>(reader, options);
                     _processingState = $"Storing {fileInfo.Name} ...";
-                    DataStore.StoreMonsters(monster5eJson.monsters);
+                    DataStore.Store5eMonsters(monster5eJson.monsters);
                     StateHasChanged();
                 }
-                catch (Exception e)
+                catch (Exception)
                 {
                 }
             }

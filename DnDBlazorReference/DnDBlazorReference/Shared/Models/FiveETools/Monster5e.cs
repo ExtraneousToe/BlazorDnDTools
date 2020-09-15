@@ -9,6 +9,13 @@ namespace DnDBlazorReference.Shared.Models.FiveETools
 {
     public class Monster5e
     {
+        [JsonPropertyName("isNpc")]
+        public bool IsNPC { get; set; }
+        [JsonPropertyName("_copy")]
+        public object CopyDirective { get; set; }
+        [JsonIgnore]
+        public bool HasCopyDirective => CopyDirective != null;
+
         [JsonPropertyName("name")]
         public string Name { get; set; }
 

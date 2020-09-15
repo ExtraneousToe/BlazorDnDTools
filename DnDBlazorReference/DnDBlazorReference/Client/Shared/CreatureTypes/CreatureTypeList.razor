@@ -5,10 +5,10 @@
 @inject DataStorage DataStore
 @inject HttpClient Http
 
-@if (DataStore.State != null)
+@if (DataStore.IsLoaded)
 {
-    <ul class="list w-100">
-        @foreach (var creatureType in DataStore.State.CreatureTypes)
+    <ul>
+        @foreach (var creatureType in DataStore.SortedCreatureTypes)
         {
             var cType = creatureType;
             <CreatureTypeListItem CreatureType="cType" OnSelectedItem="OnItemSelected" />
@@ -23,9 +23,4 @@ else
 @code {
     [Parameter]
     public EventCallback<CreatureType> OnItemSelected { get; set; }
-
-    protected async override Task OnInitializedAsync()
-    {
-        await DataStore.LoadState(Http);
-    }
 }

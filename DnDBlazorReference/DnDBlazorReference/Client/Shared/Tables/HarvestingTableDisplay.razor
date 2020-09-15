@@ -1,0 +1,99 @@
+﻿@using DnDBlazorReference.Shared.Models.BinaricPox
+@using DnDBlazorReference.Client.Data
+@inject DataStorage DataStore
+@inject EditAndStyleController EditAndStyle
+
+<div>
+    <h4>Harvesting Table</h4>
+    <table class="table-bordered">
+        <thead>
+            <tr>
+                @if (EditAndStyle.IsEditting)
+                {
+                    <th>X</th>
+                }
+                <th>DC</th>
+                <th>Item</th>
+                <th>Description</th>
+                <th>Value</th>
+                <th>Weight</th>
+                <th>Crafting</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var row in Monster.HarvestingTable.Rows)
+            {
+                var localRow = row;
+                <tr>
+                    @if (EditAndStyle.IsEditting)
+                    {
+                        <td><button @onclick="(a => RemoveRow(localRow))">X</button></td>
+                    }
+                <td>
+                    @if (EditAndStyle.IsEditting)
+                    {
+                        <input type="number" @bind="localRow.DifficultyClass" />
+                    }
+                    else
+                    {
+                        @localRow.DifficultyClass
+                    }
+                </td>
+                    <td>
+                        @(localRow.Item?.NameWithQuantity ?? localRow.ItemNameRef)
+                    </td>
+                    <td><DescriptionDisplay Description="localRow.Item?.Description" /></td>
+                    <td>@(localRow.Item?.ValueGP ?? "missing")</td>
+                    <td>@(localRow.Item?.WeightLB ?? "missing")</td>
+                    <td>-</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    @if (EditAndStyle.IsEditting)
+    {
+        <form @onsubmit="TryAddRow">
+            <input type="number" @bind="DC" />
+            <input type="text" @bind="ItemName" />
+            <button type="submit">Add Row</button>
+        </form>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public Monster Monster { get; set; }
+
+    private int DC { get; set; }
+    private string ItemName { get; set; }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        EditAndStyle.EdittingStateChanged += StateHasChanged;
+    }
+
+    public void TryAddRow()
+    {
+        Monster.HarvestingTable.Rows.Add(new HarvestingTableRow
+        {
+            DifficultyClass = DC,
+            ItemNameRef = ItemName
+        });
+
+        Monster.HarvestingTable.Rows.Sort((a, b) => a.DifficultyClass - b.DifficultyClass);
+
+        DataStore.UpdateDictionaries();
+
+        StateHasChanged();
+
+        DC += 5;
+        ItemName = string.Empty;
+    }
+
+    public void RemoveRow(HarvestingTableRow row)
+    {
+        Monster.HarvestingTable.Rows.Remove(row);
+    }
+}

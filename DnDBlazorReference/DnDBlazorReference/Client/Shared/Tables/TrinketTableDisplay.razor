@@ -1,0 +1,84 @@
+﻿@using DnDBlazorReference.Shared.Models.BinaricPox
+@using DnDBlazorReference.Client.Data
+@inject EditAndStyleController EditAndStyle
+
+@if (TrinketTable != null)
+{
+    <div>
+        <h4>
+            Trinket Table
+        </h4>
+        <div>
+            <strong>Type: </strong>
+            @if (EditAndStyle.IsEditting)
+            {
+                <input @bind="TrinketTable.TrinketTableType" type="text" />
+            }
+            else
+            { 
+                <span>@TrinketTable.TrinketTableType</span>
+            }
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>D8</th>
+                    <th>Description</th>
+                    <th>Value (GP)</th>
+                    <th>Weight (LB)</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var row in TrinketTable.Rows)
+                {
+                    var localrow = row;
+                    <tr>
+                        <td>@localrow.D8Roll</td>
+                        <td>
+                            @if (EditAndStyle.IsEditting)
+                            {
+                                <input type="text" @bind="localrow.DescriptionLine" />
+                            }
+                            else
+                            {
+                                @localrow.DescriptionLine
+                            }
+                        </td>
+                        <td>
+                            @if (EditAndStyle.IsEditting)
+                            {
+                                <input type="text" @bind="localrow.ValueGP" />
+                            }
+                            else
+                            {
+                                @localrow.ValueGP
+                            }
+                        </td>
+                        <td>
+                            @if (EditAndStyle.IsEditting)
+                            {
+                                <input type="text" @bind="localrow.WeightLB" />
+                            }
+                            else
+                            {
+                                @localrow.WeightLB
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public TrinketTable TrinketTable { get; set; }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        EditAndStyle.EdittingStateChanged += StateHasChanged;
+    }
+}

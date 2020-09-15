@@ -1,41 +1,113 @@
 ﻿@namespace DnDBlazorReference.Client.Shared.Monsters
 
+@using System.Linq
 @using DnDBlazorReference.Client.Data
 @using DnDBlazorReference.Shared.Models.BinaricPox
 
 @inject DataStorage DataStore
 @inject HttpClient Http
 
-@if (DataStore.State != null)
-{
-    <!--
-    <div class="w-100 flex-row">
-        <span class="col-list-name">Name</span>
-        <span class="col-list-type">Type</span>
-        <span class="col-list-cr">Challenge Rating</span>
-        <span class="col-list-refSize">Reference Size</span>
-    </div>
-    -->
-    <span>DataStore.State.Monsters: @DataStore.State.Monsters.Count</span>
-    <ul class="list w-100">
-        @foreach (var monsterItem in DataStore.State.Monsters)
+<div>
+    Name Search:
+    <input @bind="NameSearch" type="text" />
+</div>
+<div>
+    Source Search:
+    <input @bind="SrcSearch" type="text" />
+</div>
+
+<div class="flex-row d-flex">
+    @{
+        int index = 0;
+        <span class="list-header elist-column @GetColumnClass(index++)">Name [@DataStore.Monsters.Count]</span>
+        <span class="list-header elist-column @GetColumnClass(index++)">Type</span>
+        <span class="list-header elist-column @GetColumnClass(index++)">Source</span>
+        <span class="list-header elist-column @GetColumnClass(index++)">Reference Size</span>
+    }
+</div>
+
+<ElementList>
+    @{
+        foreach (var monsterItem in DisplayMonster)
         {
             var monster = monsterItem;
-            <MonsterListItem Monster="monster" OnSelectedItem="OnItemSelected" />
+            <MonsterListItem Monster="monster" OnSelectedItem="OnItemSelected" ColumnClasses="ColumnClasses" />
         }
-    </ul>
-}
-else
-{
-    <span>Loading...</span>
-}
+    }
+</ElementList>
 
 @code {
     [Parameter]
     public EventCallback<Monster> OnItemSelected { get; set; }
 
-    protected async override Task OnInitializedAsync()
+    private string _nameSearch;
+    public string NameSearch
     {
-        await DataStore.LoadState(Http);
+        get => _nameSearch;
+        set
+        {
+            bool diff = _nameSearch != value;
+
+            _nameSearch = value;
+
+            if (diff)
+            {
+                RebuildList();
+            }
+        }
+    }
+
+    private string _srcSearch;
+    public string SrcSearch
+    {
+        get => _srcSearch;
+        set
+        {
+            bool diff = _srcSearch != value;
+
+            _srcSearch = value;
+
+            if (diff)
+            {
+                RebuildList();
+            }
+        }
+    }
+    private List<Monster> DisplayMonster { get; set; }
+
+    private string[] ColumnClasses = new string[] { "", "", "", "" };
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        DisplayMonster = new List<Monster>(DataStore.SortedMonsters);
+    }
+
+    private void RebuildList()
+    {
+        DisplayMonster = DataStore.SortedMonsters
+            .Where(
+                mon =>
+                {
+                    bool state = true;
+
+                    state &= (string.IsNullOrEmpty(NameSearch) || mon.Name.ToLower().Contains(NameSearch.ToLower()));
+                    state &= (string.IsNullOrEmpty(SrcSearch) || mon.PrimarySource.ToLower().Contains(SrcSearch.ToLower()));
+
+                    return state;
+                }
+            )
+            .ToList();
+
+
+        StateHasChanged();
+    }
+
+    private string GetColumnClass(int index)
+    {
+        if (ColumnClasses == null || index > ColumnClasses.Length) return string.Empty;
+
+        return ColumnClasses[index];
     }
 }
