@@ -20,8 +20,8 @@ namespace DnDBlazorReference.Client
             builder.RootComponents.Add<App>("app");
 
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
-            builder.Services.AddSingleton<DataStorage>();
-            builder.Services.AddSingleton<EditAndStyleController>();
+            builder.Services.AddScoped<DataStorage>();
+            builder.Services.AddScoped<EditAndStyleController>();
             builder.Services.AddFileReaderService(o => o.UseWasmSharedBuffer = true);
 
             await builder.Build().RunAsync();
