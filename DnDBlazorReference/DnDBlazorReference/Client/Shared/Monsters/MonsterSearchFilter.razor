@@ -1,16 +1,19 @@
 ﻿
 
-
-<dl class="row">
-    <dt class="col-sm-4">Name:</dt>
-    <dd><input value="@FilterBlock.Name" type="text" @onchange="@(async (e) => { FilterBlock.Name = e.Value.ToString(); await OnFilterBlockChanged.InvokeAsync(FilterBlock); })" /></dd>
-
-    <dt class="col-sm-4">Source:</dt>
-    <dd><input value="@FilterBlock.Source" type="text"  @onchange="@(async (e) => { FilterBlock.Source = e.Value.ToString(); await OnFilterBlockChanged.InvokeAsync(FilterBlock); })" /></dd>
-
-    <dt class="col-sm-4">Creature Type:</dt>
-    <dd><input value="@FilterBlock.CreatureType" type="text" @onchange="@(async (e) => { FilterBlock.CreatureType = e.Value.ToString(); await OnFilterBlockChanged.InvokeAsync(FilterBlock); })" /></dd>
-</dl>
+<div>
+    <div>
+        Name:
+        <span><input value="@FilterBlock.Name" type="text" @onchange="@(async (e) => { FilterBlock.Name = e.Value.ToString(); await OnFilterBlockChanged.InvokeAsync(FilterBlock); })" /></span>
+    </div>
+    <div>
+        Source:
+        <span><input value="@FilterBlock.Source" type="text" @onchange="@(async (e) => { FilterBlock.Source = e.Value.ToString(); await OnFilterBlockChanged.InvokeAsync(FilterBlock); })" /></span>
+    </div>
+    <div>
+        Creature Type:
+        <span><input value="@FilterBlock.CreatureType" type="text" @onchange="@(async (e) => { FilterBlock.CreatureType = e.Value.ToString(); await OnFilterBlockChanged.InvokeAsync(FilterBlock); })" /></span>
+    </div>
+</div>
 
 @code {
     [Parameter]
