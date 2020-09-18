@@ -59,15 +59,20 @@
     border: 1px solid lightgray;
 }
 
-.content-column {
+    .layout-columns > div {
+        padding: 0.5px 0.5px 0.5px 0.5px;
+        border: 1px solid lightgray;
+        width: 100% !important;
+        min-width: 33.33333%
+    }
+    /*.content-column {
     padding: 0.5px 0.5px 0.5px 0.5px;
     border: 1px solid lightgray;
     width: 100%!important;
-}
+}*/
+    .layout-columns > #left-column {
+        max-width: 33.333333%;
+    }
 
-#left-column {
-    max-width: 33.333333%;
-}
-
-#right-column {
-}
+    .layout-columns > #right-column {
+    }

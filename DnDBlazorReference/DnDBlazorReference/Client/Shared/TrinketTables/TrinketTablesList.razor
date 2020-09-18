@@ -8,13 +8,13 @@
 
 @if (DataStore.IsLoaded)
 {
-    <ul>
+    <ElementList>
         @foreach (var trinketTable in DataStore.SortedTrinketTables)
         {
             var tTable = trinketTable;
             <TrinketTablesListItem TrinketTable="tTable" OnSelectedItem="OnItemSelected" />
         }
-    </ul>
+    </ElementList>
 }
 else
 {

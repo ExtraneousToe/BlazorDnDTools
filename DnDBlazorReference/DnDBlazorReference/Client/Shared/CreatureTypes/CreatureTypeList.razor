@@ -7,13 +7,13 @@
 
 @if (DataStore.IsLoaded)
 {
-    <ul>
+    <ElementList>
         @foreach (var creatureType in DataStore.SortedCreatureTypes)
         {
             var cType = creatureType;
             <CreatureTypeListItem CreatureType="cType" OnSelectedItem="OnItemSelected" />
         }
-    </ul>
+    </ElementList>
 }
 else
 {

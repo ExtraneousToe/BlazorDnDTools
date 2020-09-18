@@ -7,14 +7,7 @@
 @inject DataStorage DataStore
 @inject HttpClient Http
 
-<div>
-    Name Search:
-    <input @bind="NameSearch" type="text" />
-</div>
-<div>
-    Source Search:
-    <input @bind="SrcSearch" type="text" />
-</div>
+<MonsterSearchFilter FilterBlock="@FilterBlock" OnFilterBlockChanged="OnFilterBlockChanged" />
 
 <div class="flex-row d-flex">
     @{
@@ -40,39 +33,57 @@
     [Parameter]
     public EventCallback<Monster> OnItemSelected { get; set; }
 
-    private string _nameSearch;
-    public string NameSearch
-    {
-        get => _nameSearch;
-        set
-        {
-            bool diff = _nameSearch != value;
+    public FilterBlock FilterBlock { get; set; } = new FilterBlock();
 
-            _nameSearch = value;
+    //private string _nameSearch;
+    //public string NameSearch
+    //{
+    //    get => _nameSearch;
+    //    set
+    //    {
+    //        bool diff = _nameSearch != value;
 
-            if (diff)
-            {
-                RebuildList();
-            }
-        }
-    }
+    //        _nameSearch = value;
 
-    private string _srcSearch;
-    public string SrcSearch
-    {
-        get => _srcSearch;
-        set
-        {
-            bool diff = _srcSearch != value;
+    //        if (diff)
+    //        {
+    //            RebuildList();
+    //        }
+    //    }
+    //}
 
-            _srcSearch = value;
+    //private string _srcSearch;
+    //public string SrcSearch
+    //{
+    //    get => _srcSearch;
+    //    set
+    //    {
+    //        bool diff = _srcSearch != value;
 
-            if (diff)
-            {
-                RebuildList();
-            }
-        }
-    }
+    //        _srcSearch = value;
+
+    //        if (diff)
+    //        {
+    //            RebuildList();
+    //        }
+    //    }
+    //}
+    //private string _typeSearch;
+    //public string TypeSearch
+    //{
+    //    get => _typeSearch;
+    //    set
+    //    {
+    //        bool diff = _typeSearch != value;
+
+    //        _typeSearch = value;
+
+    //        if (diff)
+    //        {
+    //            RebuildList();
+    //        }
+    //    }
+    //}
     private List<Monster> DisplayMonster { get; set; }
 
     private string[] ColumnClasses = new string[] { "", "", "", "" };
@@ -84,6 +95,12 @@
         DisplayMonster = new List<Monster>(DataStore.SortedMonsters);
     }
 
+    private void OnFilterBlockChanged(FilterBlock aFilterBlock)
+    {
+        FilterBlock = aFilterBlock;
+        RebuildList();
+    }
+
     private void RebuildList()
     {
         DisplayMonster = DataStore.SortedMonsters
@@ -92,8 +109,9 @@
                 {
                     bool state = true;
 
-                    state &= (string.IsNullOrEmpty(NameSearch) || mon.Name.ToLower().Contains(NameSearch.ToLower()));
-                    state &= (string.IsNullOrEmpty(SrcSearch) || mon.PrimarySource.ToLower().Contains(SrcSearch.ToLower()));
+                    state &= (string.IsNullOrEmpty(FilterBlock.Name) || mon.Name.ToLower().Contains(FilterBlock.Name.ToLower()));
+                    state &= (string.IsNullOrEmpty(FilterBlock.Source) || mon.PrimarySource.ToLower().Contains(FilterBlock.Source.ToLower()));
+                    state &= (string.IsNullOrEmpty(FilterBlock.CreatureType) || mon.CreatureTypeRef.ToLower().Contains(FilterBlock.CreatureType.ToLower()));
 
                     return state;
                 }

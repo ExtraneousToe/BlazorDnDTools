@@ -15,14 +15,14 @@
 
 <div>
     <h1>Creature Types</h1>
-    <div>
+    <LayoutColumns>
         <div id="left-column">
             <CreatureTypeList OnItemSelected="SelectCreatureType" />
         </div>
         <div id="right-column">
             <CreatureTypeDisplay CreatureType="SelectedCreatureType" />
         </div>
-    </div>
+    </LayoutColumns>
 </div>
 
 @code {

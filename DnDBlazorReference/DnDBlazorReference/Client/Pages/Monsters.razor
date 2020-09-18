@@ -11,15 +11,15 @@
 @using System.Text.Json.Serialization
 
 @inject HttpClient Http
-@inject DnDBlazorReference.Client.Data.DataStorage DataStore
+@inject DataStorage DataStore
 
 <div>
     <h1>Monsters</h1>
     <LayoutColumns>
-        <div id="left-column" class="content-column">
+        <div id="left-column">
             <MonsterList OnItemSelected="SelectMonster" />
         </div>
-        <div id="right-column" class="content-column">
+        <div id="right-column">
             <MonsterDisplay Monster="SelectedMonster" />
         </div>
     </LayoutColumns>

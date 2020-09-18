@@ -3,8 +3,7 @@
 @using DnDBlazorReference.Client.Shared.CreatureTypes
 @using DnDBlazorReference.Client.Shared.Tables
 @using DnDBlazorReference.Client.Data
-@inject EditAndStyleController EditAndStyle
-@inject DataStorage DataStore
+@inherits ServiceRedrawReactiveComponent
 
 @if (Monster != null)
 {
@@ -65,13 +64,6 @@
 @code {
     [Parameter]
     public Monster Monster { get; set; }
-
-    protected override void OnInitialized()
-    {
-        base.OnInitialized();
-
-        EditAndStyle.EdittingStateChanged += StateHasChanged;
-    }
 
     private void SearchForTable()
     {
