@@ -1,8 +1,9 @@
 ﻿@namespace DnDBlazorReference.Client.Shared.Monsters
 @using DnDBlazorReference.Shared.Models.BinaricPox
+@inherits ElementListItemBase<Monster>
 
-<li @onmousedown="OnMouseDown" class="d-flex flex-row">
-    @if (Monster == null)
+<li @onmousedown="SelectItem" class="d-flex flex-row @GetCssByItem(MonsterList.SelectedMonster)">
+    @if (ListItem == null)
     {
         <span>Error ...</span>
     }
@@ -10,32 +11,30 @@
     {
         var index = 0;
 
-        <span class="elist-column @GetColumnClass(index++)">@Monster.Name</span>
-        <span class="elist-column @GetColumnClass(index++)">@Monster.CreatureType?.ToString()</span>
-        <span class="elist-column @GetColumnClass(index++)">@Monster.PrimarySource</span>
-        <span class="elist-column @GetColumnClass(index++)">@Monster.ReferenceCardSize</span>
+        <span class="elist-column @GetColumnClass(index++)">@ListItem.Name</span>
+        <span class="elist-column @GetColumnClass(index++)">@ListItem.CreatureType?.ToString()</span>
+        <span class="elist-column @GetColumnClass(index++)">@ListItem.PrimarySource</span>
+        <span class="elist-column @GetColumnClass(index++)">@ListItem.ReferenceCardSize</span>
     }
 </li>
 
 @code {
-    [Parameter]
-    public Monster Monster { get; set; }
-
-    [Parameter]
-    public EventCallback<Monster> OnSelectedItem { get; set; }
+    [CascadingParameter]
+    public MonsterList MonsterList { get; set; }
 
     [Parameter]
     public string[] ColumnClasses { get; set; }
-
-    public void OnMouseDown()
-    {
-        OnSelectedItem.InvokeAsync(Monster);
-    }
 
     private string GetColumnClass(int index)
     {
         if (ColumnClasses == null || index > ColumnClasses.Length) return string.Empty;
 
         return ColumnClasses[index];
+    }
+
+    public override Task SetParametersAsync(ParameterView parameters)
+    {
+        StateHasChanged();
+        return base.SetParametersAsync(parameters);
     }
 }

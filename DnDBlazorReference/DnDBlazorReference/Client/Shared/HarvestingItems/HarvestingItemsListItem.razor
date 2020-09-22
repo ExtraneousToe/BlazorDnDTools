@@ -1,26 +1,18 @@
 ﻿@using DnDBlazorReference.Shared.Models.BinaricPox
+@inherits ElementListItemBase<HarvestedItem>
 
-<li @onmousedown="OnMouseDown">
-    @if (HarvestedItem == null)
+<li @onmousedown="SelectItem"class="d-flex flex-row @GetCssByItem(List.SelectedHarvestedItem)">
+    @if (ListItem == null)
     {
         <span>Error ...</span>
     }
     else
     {
-        <span>@HarvestedItem.NameWithQuantity</span>
+        <span>@ListItem.NameWithQuantity</span>
     }
 </li>
 
-
 @code {
-    [Parameter]
-    public HarvestedItem HarvestedItem { get; set; }
-
-    [Parameter]
-    public EventCallback<HarvestedItem> OnSelectedItem { get; set; }
-
-    public void OnMouseDown()
-    {
-        OnSelectedItem.InvokeAsync(HarvestedItem);
-    }
+    [CascadingParameter]
+    public HarvestingItemsList List { get; set; }
 }

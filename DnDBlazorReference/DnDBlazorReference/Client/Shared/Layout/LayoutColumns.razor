@@ -1,7 +1,9 @@
 ﻿
-<div class="layout-columns">
-    @ChildContent
-</div>
+<CascadingValue Value=this>
+    <div class="layout-columns">
+        @ChildContent
+    </div>
+</CascadingValue>
 
 @code {
     [Parameter]

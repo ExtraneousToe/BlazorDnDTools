@@ -1,9 +1,30 @@
 ﻿
-<ul class="element-list">
-    @ChildContent
-</ul>
+<CascadingValue Value=this Name="ParentList">
+    <ul class="element-list">
+        @ChildContent
+    </ul>
+</CascadingValue>
 
 @code {
     [Parameter]
     public RenderFragment ChildContent { get; set; }
+
+    public ElementListItemBase SelectedItem { get; set; }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        SelectedItem = null;
+    }
+
+    public void SelectItem(ElementListItemBase item)
+    {
+        SelectedItem = item;
+    }
+
+    public void ClearItem()
+    {
+        SelectedItem = null;
+    }
 }

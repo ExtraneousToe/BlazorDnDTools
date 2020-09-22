@@ -1,0 +1,54 @@
+﻿
+@inject DiceRoller Roller
+
+<div class="dice-roller">
+    @if (OutputList.Count > 0)
+    {
+        <div class="roller-output-box">
+            @foreach (string outputLine in OutputList)
+            {
+                <div class="px-2">
+                    @outputLine
+                </div>
+            }
+        </div>
+    }
+    <input @bind="ConsoleInput"/>
+</div>
+
+@code {
+    private string m_consoleInput;
+    public string ConsoleInput
+    {
+        get => m_consoleInput;
+        set
+        {
+            m_consoleInput = value;
+
+            if (!string.IsNullOrEmpty(m_consoleInput))
+            {
+                if (m_consoleInput.Equals("/clear"))
+                {
+                    OutputList.Clear();
+                }
+                else
+                {
+                    try
+                    {
+                        var rollPair = Roller.ProcessDice(m_consoleInput);
+
+                        OutputList.Add($"{rollPair.Value}");
+                    }
+                    catch (Exception e)
+                    {
+                        OutputList.Add($"{e.Message}");
+                    }
+                }
+            }
+
+            m_consoleInput = string.Empty;
+        }
+    }
+
+    public List<string> OutputList { get; set; } = new List<string>();
+}

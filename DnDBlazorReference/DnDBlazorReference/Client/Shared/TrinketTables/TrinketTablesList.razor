@@ -6,23 +6,27 @@
 @inject DataStorage DataStore
 @inject HttpClient Http
 
-@if (DataStore.IsLoaded)
-{
-    <ElementList>
-        @foreach (var trinketTable in DataStore.SortedTrinketTables)
-        {
-            var tTable = trinketTable;
-            <TrinketTablesListItem TrinketTable="tTable" OnSelectedItem="OnItemSelected" />
-        }
-    </ElementList>
-}
-else
-{
-    <span>Loading...</span>
-}
-
+<CascadingValue Value=this>
+    @if (DataStore.IsLoaded)
+    {
+        <ElementList>
+            @foreach (var trinketTable in DataStore.SortedTrinketTables)
+            {
+                var tTable = trinketTable;
+                <TrinketTablesListItem ListItem="tTable" OnSelectedItem="OnItemSelected" />
+            }
+        </ElementList>
+    }
+    else
+    {
+        <span>Loading...</span>
+    }
+</CascadingValue>
 
 @code {
+    [Parameter]
+    public TrinketTable SelectedTrinketTable { get; set; }
+
     [Parameter]
     public EventCallback<TrinketTable> OnItemSelected { get; set; }
 }

@@ -21,6 +21,7 @@ namespace DnDBlazorReference.Client
 
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
             builder.Services.AddScoped<DataStorage>();
+            builder.Services.AddScoped<DiceRoller>();
             builder.Services.AddScoped<EditAndStyleController>();
             builder.Services.AddFileReaderService(o => o.UseWasmSharedBuffer = true);
 

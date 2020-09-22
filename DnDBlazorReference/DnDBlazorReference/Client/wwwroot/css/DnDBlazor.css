@@ -21,6 +21,22 @@
     color: white;
 }
 
+.dice-roller {
+    position: fixed;
+    right: 25px;
+    bottom: 0px;
+    background-color: rgb(100,100,100);
+    color: white;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.roller-output-box {
+    display: flex;
+    flex-direction: column;
+}
+
 .element-list {
     list-style: none;
     padding-left: 0px;
@@ -40,6 +56,10 @@
             color: black;
         }
 
+        .element-list li.active {
+            background-color: rgb(75,75,75);
+        }
+
 .elist-column {
     text-overflow: ellipsis;
     min-width: 25% !important;
@@ -51,6 +71,10 @@
 .list-header:hover {
     background-color: darkgray;
     color: black;
+}
+
+.list-header.active {
+    background-color: rgb(75,75,75);
 }
 
 .layout-columns {

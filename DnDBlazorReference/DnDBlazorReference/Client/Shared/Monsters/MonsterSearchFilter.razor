@@ -3,7 +3,7 @@
 <div>
     <div>
         Name:
-        <span><input value="@FilterBlock.Name" type="text" @onchange="@(async (e) => { FilterBlock.Name = e.Value.ToString(); await OnFilterBlockChanged.InvokeAsync(FilterBlock); })" /></span>
+        <span><input @bind="@Name" type="text" /></span>
     </div>
     <div>
         Source:
@@ -19,6 +19,21 @@
     [Parameter]
     public FilterBlock FilterBlock { get; set; }
 
+    public string Name
+    {
+        get => FilterBlock.Name;
+        set
+        {
+            FilterBlock.Name = value;
+            FireChangedEvent();
+        }
+    }
+
     [Parameter]
     public EventCallback<FilterBlock> OnFilterBlockChanged { get; set; }
+
+    private async void FireChangedEvent()
+    {
+        await OnFilterBlockChanged.InvokeAsync(FilterBlock);
+    }
 }

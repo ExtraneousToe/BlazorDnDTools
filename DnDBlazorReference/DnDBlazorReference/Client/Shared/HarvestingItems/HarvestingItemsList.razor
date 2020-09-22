@@ -5,22 +5,27 @@
 @inject DataStorage DataStore
 @inject HttpClient Http
 
-@if (DataStore.IsLoaded)
-{
-    <ElementList>
-        @foreach (var harvestingItem in DataStore.SortedHarvestedItems)
-        {
-            var hItem = harvestingItem;
-            <HarvestingItemsListItem HarvestedItem="hItem" OnSelectedItem="OnItemSelected" />
-        }
-    </ElementList>
-}
-else
-{
-    <span>Loading...</span>
-}
+<CascadingValue Value=this>
+    @if (DataStore.IsLoaded)
+    {
+        <ElementList>
+            @foreach (var harvestingItem in DataStore.SortedHarvestedItems)
+            {
+                var hItem = harvestingItem;
+                <HarvestingItemsListItem ListItem="hItem" OnSelectedItem="OnItemSelected" />
+            }
+        </ElementList>
+    }
+    else
+    {
+        <span>Loading...</span>
+    }
+</CascadingValue>
 
 @code {
+    [Parameter]
+    public HarvestedItem SelectedHarvestedItem { get; set; }
+
     [Parameter]
     public EventCallback<HarvestedItem> OnItemSelected { get; set; }
 }

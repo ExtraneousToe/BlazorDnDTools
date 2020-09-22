@@ -1,0 +1,13 @@
+﻿
+
+<li @onmousedown="ListParent.SelectItem" class="d-flex flex-row @ListParent.ActiveCssClass">
+    @ChildContent
+</li>
+
+@code {
+    [CascadingParameter]
+    public ElementListItemBase ListParent { get; set; }
+
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+}
