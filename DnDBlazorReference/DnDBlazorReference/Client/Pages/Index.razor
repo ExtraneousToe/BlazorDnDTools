@@ -65,20 +65,20 @@
     private string _processingState;
     private string[] errorLines = new string[0];
 
-    protected override async Task OnInitializedAsync()
-    {
-        if (!DataStore.IsLoaded)
-        {
-            try
-            {
-                DataStorage.DnDToolsState state = await Http.GetFromJsonAsync<DataStorage.DnDToolsState>("state-data/system-state.json");
-                DataStore.LoadState(state);
-            }
-            catch (Exception)
-            { 
-            }
-        }
-    }
+    //protected override async Task OnInitializedAsync()
+    //{
+    //if (!DataStore.IsLoaded)
+    //{
+    //    try
+    //    {
+    //        DataStorage.DnDToolsState state = await Http.GetFromJsonAsync<DataStorage.DnDToolsState>("state-data/system-state.json");
+    //        DataStore.LoadState(state);
+    //    }
+    //    catch (Exception)
+    //    { 
+    //    }
+    //}
+    //}
 
 
     public async void ProcessInitialStateFile()

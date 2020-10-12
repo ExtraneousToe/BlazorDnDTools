@@ -13,11 +13,13 @@
 @inject HttpClient Http
 @inject DataStorage DataStore
 
+@inherits ServiceRedrawReactiveComponent
+
 <div>
     <h1>Monsters</h1>
     <LayoutColumns>
         <div id="left-column">
-            <MonsterList OnItemSelected="SelectMonster" SelectedMonster="SelectedMonster"/>
+            <MonsterList OnItemSelected="SelectMonster" SelectedMonster="SelectedMonster" />
         </div>
         <div id="right-column">
             <MonsterDisplay Monster="SelectedMonster" />

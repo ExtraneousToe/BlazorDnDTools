@@ -1,5 +1,7 @@
 ﻿@inherits LayoutComponentBase
 @using DnDBlazorReference.Client.Data
+@inject DataStorage DataStore
+@inject HttpClient Http
 
 <div class="sidebar">
     <NavMenu />
@@ -16,4 +18,18 @@
 
 @code
 {
+    protected override async Task OnInitializedAsync()
+    {
+        if (!DataStore.IsLoaded)
+        {
+            try
+            {
+                DataStorage.DnDToolsState state = await Http.GetFromJsonAsync<DataStorage.DnDToolsState>("state-data/system-state.json");
+                DataStore.LoadState(state);
+            }
+            catch (Exception)
+            {
+            }
+        }
+    }
 }

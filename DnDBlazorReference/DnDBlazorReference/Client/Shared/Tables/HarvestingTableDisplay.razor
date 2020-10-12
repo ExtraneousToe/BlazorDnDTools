@@ -24,11 +24,11 @@
             @foreach (var row in Monster.HarvestingTable.Rows)
             {
                 var localRow = row;
-                <tr>
-                    @if (EditAndStyle.IsEditting)
-                    {
-                        <td><button @onclick="(a => RemoveRow(localRow))">X</button></td>
-                    }
+            <tr>
+                @if (EditAndStyle.IsEditting)
+                {
+                    <td><button @onclick="(a => RemoveRow(localRow))">X</button></td>
+                }
                 <td>
                     @if (EditAndStyle.IsEditting)
                     {
@@ -39,14 +39,23 @@
                         @localRow.DifficultyClass
                     }
                 </td>
-                    <td>
-                        @(localRow.Item?.NameWithQuantity ?? localRow.ItemNameRef)
+                <td>
+                    @(localRow.Item?.NameWithQuantity ?? localRow.ItemNameRef)
+                </td>
+                @if (localRow.Item != null)
+                {
+                    <td><DescriptionDisplay Description="localRow.Item.Description" /></td>
+                    <td>@(localRow.Item.ValueGP)</td>
+                    <td>@(localRow.Item.WeightLB)</td>
+                    <td>@(localRow.Item.CraftingUsage)</td>
+                }
+                else
+                {
+                    <td colspan="4">
+                        <button @onclick="(e => CreateFromRow(localRow))">Create</button>
                     </td>
-                    <td><DescriptionDisplay Description="localRow.Item?.Description" /></td>
-                    <td>@(localRow.Item?.ValueGP ?? "missing")</td>
-                    <td>@(localRow.Item?.WeightLB ?? "missing")</td>
-                    <td>-</td>
-                </tr>
+                }
+            </tr>
             }
         </tbody>
     </table>
@@ -90,6 +99,28 @@
 
         DC += 5;
         ItemName = string.Empty;
+    }
+
+    public void CreateFromRow(HarvestingTableRow hTableRow)
+    {
+        HarvestedItem newItem = new HarvestedItem
+        {
+            Name = hTableRow.ItemNameRef,
+            Description = new Description(),
+            IsConsumable = false,
+            ValueGP = "- gp",
+            WeightLB = "- lb",
+            Quantity = string.Empty,
+            UseText = new Description(),
+            RequiredToolNames = new List<string>()
+        };
+
+        if (DataStore.HarvestedItems.TryAdd(newItem.Name, newItem))
+        {
+            hTableRow.Item = newItem;
+            DataStore.UpdateDictionaries();
+            StateHasChanged();
+        }
     }
 
     public void RemoveRow(HarvestingTableRow row)

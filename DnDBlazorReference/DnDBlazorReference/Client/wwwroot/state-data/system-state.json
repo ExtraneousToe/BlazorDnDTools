@@ -96,7 +96,28 @@
       "CreatureTypeRef": "monstrosity",
       "TrinketTableType": null,
       "HarvestingTable": {
-        "Rows": []
+        "Rows": [
+          {
+            "DifficultyClass": 5,
+            "ItemNameRef": "Yeti Tongue"
+          },
+          {
+            "DifficultyClass": 10,
+            "ItemNameRef": "Abominable Yeti Hide"
+          },
+          {
+            "DifficultyClass": 15,
+            "ItemNameRef": "Yeti Eye"
+          },
+          {
+            "DifficultyClass": 20,
+            "ItemNameRef": "Abominable Yeti Claw"
+          },
+          {
+            "DifficultyClass": 25,
+            "ItemNameRef": "Yeti Lungs"
+          }
+        ]
       },
       "StatBlock": {
         "Strength": 24,
@@ -835,7 +856,12 @@
       "CreatureTypeRef": "elemental",
       "TrinketTableType": null,
       "HarvestingTable": {
-        "Rows": []
+        "Rows": [
+          {
+            "DifficultyClass": 15,
+            "ItemNameRef": "Mote of Air"
+          }
+        ]
       },
       "StatBlock": {
         "Strength": 14,
@@ -4541,7 +4567,24 @@
       "CreatureTypeRef": "dragon",
       "TrinketTableType": null,
       "HarvestingTable": {
-        "Rows": []
+        "Rows": [
+          {
+            "DifficultyClass": 10,
+            "ItemNameRef": "Dragon Turtle Blood (1000 gallons)"
+          },
+          {
+            "DifficultyClass": 15,
+            "ItemNameRef": "Dragon Turtle Plastron (3 large pouches of shards)"
+          },
+          {
+            "DifficultyClass": 20,
+            "ItemNameRef": "Steam Ventral"
+          },
+          {
+            "DifficultyClass": 25,
+            "ItemNameRef": "Dragon Turtle Shell Shard"
+          }
+        ]
       },
       "StatBlock": {
         "Strength": 25,
@@ -4602,7 +4645,20 @@
       "CreatureTypeRef": "monstrosity",
       "TrinketTableType": null,
       "HarvestingTable": {
-        "Rows": []
+        "Rows": [
+          {
+            "DifficultyClass": 10,
+            "ItemNameRef": "Drider Oil (4 vials)"
+          },
+          {
+            "DifficultyClass": 15,
+            "ItemNameRef": "Drider Poison (vial)"
+          },
+          {
+            "DifficultyClass": 20,
+            "ItemNameRef": "Mark of Lolth"
+          }
+        ]
       },
       "StatBlock": {
         "Strength": 16,
@@ -4634,7 +4690,12 @@
       "CreatureTypeRef": "humanoid (elf)",
       "TrinketTableType": "Drow",
       "HarvestingTable": {
-        "Rows": []
+        "Rows": [
+          {
+            "DifficultyClass": 10,
+            "ItemNameRef": "Drow Blood (3 vials)"
+          }
+        ]
       },
       "StatBlock": {
         "Strength": 10,
@@ -4666,7 +4727,12 @@
       "CreatureTypeRef": "humanoid (elf)",
       "TrinketTableType": "Drow",
       "HarvestingTable": {
-        "Rows": []
+        "Rows": [
+          {
+            "DifficultyClass": 10,
+            "ItemNameRef": "Drow Blood"
+          }
+        ]
       },
       "StatBlock": {
         "Strength": 13,
@@ -4699,7 +4765,16 @@
       "CreatureTypeRef": "humanoid (elf)",
       "TrinketTableType": "Drow",
       "HarvestingTable": {
-        "Rows": []
+        "Rows": [
+          {
+            "DifficultyClass": 10,
+            "ItemNameRef": "Drow Blood"
+          },
+          {
+            "DifficultyClass": 15,
+            "ItemNameRef": "Drow Heart"
+          }
+        ]
       },
       "StatBlock": {
         "Strength": 9,
@@ -4727,7 +4802,20 @@
       "CreatureTypeRef": "humanoid (elf)",
       "TrinketTableType": "Drow",
       "HarvestingTable": {
-        "Rows": []
+        "Rows": [
+          {
+            "DifficultyClass": 10,
+            "ItemNameRef": "Drow Blood"
+          },
+          {
+            "DifficultyClass": 15,
+            "ItemNameRef": "Drow Heart"
+          },
+          {
+            "DifficultyClass": 20,
+            "ItemNameRef": "Mark of Lolth"
+          }
+        ]
       },
       "StatBlock": {
         "Strength": 10,
@@ -4793,7 +4881,20 @@
       "CreatureTypeRef": "fey",
       "TrinketTableType": null,
       "HarvestingTable": {
-        "Rows": []
+        "Rows": [
+          {
+            "DifficultyClass": 5,
+            "ItemNameRef": "Dryad Hair"
+          },
+          {
+            "DifficultyClass": 10,
+            "ItemNameRef": "Dryad Sap (vial)"
+          },
+          {
+            "DifficultyClass": 15,
+            "ItemNameRef": "Dryad Eye (x2)"
+          }
+        ]
       },
       "StatBlock": {
         "Strength": 10,
@@ -4824,7 +4925,12 @@
       "CreatureTypeRef": "humanoid (dwarf)",
       "TrinketTableType": "Duergar",
       "HarvestingTable": {
-        "Rows": []
+        "Rows": [
+          {
+            "DifficultyClass": 10,
+            "ItemNameRef": "Duergar Brainstem"
+          }
+        ]
       },
       "StatBlock": {
         "Strength": 14,
@@ -4930,7 +5036,12 @@
       "CreatureTypeRef": "elemental",
       "TrinketTableType": null,
       "HarvestingTable": {
-        "Rows": []
+        "Rows": [
+          {
+            "DifficultyClass": 15,
+            "ItemNameRef": "Mote of Earth"
+          }
+        ]
       },
       "StatBlock": {
         "Strength": 20,
@@ -5044,7 +5155,24 @@
       "CreatureTypeRef": "celestial (titan)",
       "TrinketTableType": null,
       "HarvestingTable": {
-        "Rows": []
+        "Rows": [
+          {
+            "DifficultyClass": 10,
+            "ItemNameRef": "Lock of Empyrean Hair (x10)"
+          },
+          {
+            "DifficultyClass": 15,
+            "ItemNameRef": "Empyrean Blood (7 vials)"
+          },
+          {
+            "DifficultyClass": 20,
+            "ItemNameRef": "Marble Skin"
+          },
+          {
+            "DifficultyClass": 25,
+            "ItemNameRef": "Empyrean Heart"
+          }
+        ]
       },
       "StatBlock": {
         "Strength": 30,
@@ -5118,7 +5246,16 @@
       "CreatureTypeRef": "monstrosity",
       "TrinketTableType": null,
       "HarvestingTable": {
-        "Rows": []
+        "Rows": [
+          {
+            "DifficultyClass": 10,
+            "ItemNameRef": "Ettercap Poison (vial)"
+          },
+          {
+            "DifficultyClass": 15,
+            "ItemNameRef": "Web Gland"
+          }
+        ]
       },
       "StatBlock": {
         "Strength": 14,
@@ -5148,7 +5285,16 @@
       "CreatureTypeRef": "giant",
       "TrinketTableType": null,
       "HarvestingTable": {
-        "Rows": []
+        "Rows": [
+          {
+            "DifficultyClass": 10,
+            "ItemNameRef": "Ettin Fingernail"
+          },
+          {
+            "DifficultyClass": 15,
+            "ItemNameRef": "Ettin Head (x2)"
+          }
+        ]
       },
       "StatBlock": {
         "Strength": 21,
@@ -5172,7 +5318,20 @@
       "CreatureTypeRef": "dragon",
       "TrinketTableType": null,
       "HarvestingTable": {
-        "Rows": []
+        "Rows": [
+          {
+            "DifficultyClass": 10,
+            "ItemNameRef": "Faerie Dragon Blood (vial)"
+          },
+          {
+            "DifficultyClass": 15,
+            "ItemNameRef": "Faerie Dragon Lungs"
+          },
+          {
+            "DifficultyClass": 20,
+            "ItemNameRef": "Faerie Dragon Wing (x2)"
+          }
+        ]
       },
       "StatBlock": {
         "Strength": 3,
@@ -5356,7 +5515,12 @@
       "CreatureTypeRef": "elemental",
       "TrinketTableType": null,
       "HarvestingTable": {
-        "Rows": []
+        "Rows": [
+          {
+            "DifficultyClass": 15,
+            "ItemNameRef": "Mote of Fire"
+          }
+        ]
       },
       "StatBlock": {
         "Strength": 10,
@@ -5450,7 +5614,16 @@
       "CreatureTypeRef": "undead",
       "TrinketTableType": null,
       "HarvestingTable": {
-        "Rows": []
+        "Rows": [
+          {
+            "DifficultyClass": 10,
+            "ItemNameRef": "Flameskull Ashes (small pouch)"
+          },
+          {
+            "DifficultyClass": 15,
+            "ItemNameRef": "Flameskull"
+          }
+        ]
       },
       "StatBlock": {
         "Strength": 1,
@@ -13957,7 +14130,12 @@
       "CreatureTypeRef": "elemental",
       "TrinketTableType": null,
       "HarvestingTable": {
-        "Rows": []
+        "Rows": [
+          {
+            "DifficultyClass": 15,
+            "ItemNameRef": "Mote of Water"
+          }
+        ]
       },
       "StatBlock": {
         "Strength": 18,
@@ -14521,7 +14699,24 @@
       "CreatureTypeRef": "monstrosity",
       "TrinketTableType": null,
       "HarvestingTable": {
-        "Rows": []
+        "Rows": [
+          {
+            "DifficultyClass": 5,
+            "ItemNameRef": "Yeti Tongue"
+          },
+          {
+            "DifficultyClass": 10,
+            "ItemNameRef": "Yeti Hide"
+          },
+          {
+            "DifficultyClass": 15,
+            "ItemNameRef": "Yeti Eye"
+          },
+          {
+            "DifficultyClass": 20,
+            "ItemNameRef": "Yeti Claw"
+          }
+        ]
       },
       "StatBlock": {
         "Strength": 18,
@@ -21499,9 +21694,18 @@
       "PrimarySource": "VGM",
       "OtherSources": [],
       "CreatureTypeRef": "humanoid (goblinoid)",
-      "TrinketTableType": null,
+      "TrinketTableType": "hobgoblin (v2)",
       "HarvestingTable": {
-        "Rows": []
+        "Rows": [
+          {
+            "DifficultyClass": 5,
+            "ItemNameRef": "Hobgoblin Ear"
+          },
+          {
+            "DifficultyClass": 10,
+            "ItemNameRef": "Hobgoblin War Braid"
+          }
+        ]
       },
       "StatBlock": {
         "Strength": 13,
@@ -21523,9 +21727,18 @@
       "PrimarySource": "VGM",
       "OtherSources": [],
       "CreatureTypeRef": "humanoid (goblinoid)",
-      "TrinketTableType": null,
+      "TrinketTableType": "hobgoblin (v2)",
       "HarvestingTable": {
-        "Rows": []
+        "Rows": [
+          {
+            "DifficultyClass": 5,
+            "ItemNameRef": "Hobgoblin Ear"
+          },
+          {
+            "DifficultyClass": 15,
+            "ItemNameRef": "Hobgoblin War Braid"
+          }
+        ]
       },
       "StatBlock": {
         "Strength": 14,
@@ -23592,7 +23805,12 @@
       "CreatureTypeRef": "construct",
       "TrinketTableType": null,
       "HarvestingTable": {
-        "Rows": []
+        "Rows": [
+          {
+            "DifficultyClass": 10,
+            "ItemNameRef": "Animating Rune"
+          }
+        ]
       },
       "StatBlock": {
         "Strength": 18,
@@ -23612,7 +23830,12 @@
       "CreatureTypeRef": "construct",
       "TrinketTableType": null,
       "HarvestingTable": {
-        "Rows": []
+        "Rows": [
+          {
+            "DifficultyClass": 10,
+            "ItemNameRef": "Animating Rune"
+          }
+        ]
       },
       "StatBlock": {
         "Strength": 14,
@@ -23632,7 +23855,12 @@
       "CreatureTypeRef": "construct",
       "TrinketTableType": null,
       "HarvestingTable": {
-        "Rows": []
+        "Rows": [
+          {
+            "DifficultyClass": 10,
+            "ItemNameRef": "Animating Rune"
+          }
+        ]
       },
       "StatBlock": {
         "Strength": 10,
@@ -23652,7 +23880,12 @@
       "CreatureTypeRef": "construct",
       "TrinketTableType": null,
       "HarvestingTable": {
-        "Rows": []
+        "Rows": [
+          {
+            "DifficultyClass": 10,
+            "ItemNameRef": "Animating Rune"
+          }
+        ]
       },
       "StatBlock": {
         "Strength": 6,
@@ -23672,7 +23905,12 @@
       "CreatureTypeRef": "construct",
       "TrinketTableType": null,
       "HarvestingTable": {
-        "Rows": []
+        "Rows": [
+          {
+            "DifficultyClass": 10,
+            "ItemNameRef": "Animating Rune"
+          }
+        ]
       },
       "StatBlock": {
         "Strength": 4,
@@ -24100,10 +24338,12 @@
         ]
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Aarakocra Heart",
       "Description": {
         "Paragraphs": [
-          "Aarakocra have an innate connection to the elemental planes that allows them to summon air elementals when enough of them gather together. Burning their hearts in an offering can achieve much of the same effect but with less control over the temperment of the summoned elemental."
+          "Aarakocra have an innate connection to the elemental planes that allows them to summon air elementals when enough of them gather together. Burning their hearts in an offering can achieve much of the same effect but with less control over the temperment of the summoned elemental.",
+          "Use: When 5 different creatures within 30 feet of each other hold 5 different aarakocra hearts and spend their actions on three consecutive turns to burn the hearts, they may summon an air elemental in an unoccupied space within 60 feet of them. The burners must remain still while burning the hearts. This elemental is hostile to all creatures it can see around it, but any of the 5 creatures that summoned it can spend their action to try and succeed on a DC 15 Charisma (Persuasion) check to direct the air elemental\u0027s hostility at a creature they can both see within 60 feet. The air elemental remains for 1 hour."
         ]
       },
       "IsConsumable": true,
@@ -24116,6 +24356,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Aarakocra Feathers",
       "Description": {
         "Paragraphs": [
@@ -24132,6 +24373,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "",
       "Description": {
         "Paragraphs": []
@@ -24146,6 +24388,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Aboleth Teeth",
       "Description": {
         "Paragraphs": [
@@ -24162,6 +24405,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Aboleth Mucus",
       "Description": {
         "Paragraphs": [
@@ -24178,6 +24422,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Aboleth Eye",
       "Description": {
         "Paragraphs": [
@@ -24194,6 +24439,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Aboleth Brain Lobe",
       "Description": {
         "Paragraphs": [
@@ -24212,10 +24458,12 @@
         ]
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Deva Blood",
       "Description": {
         "Paragraphs": [
-          "The blood of an angel flows with radiant energy that brings life to all it touches (it clearly didn\u0027t work hard enough for its original owner though). Many of the most desperate people actively seek angels in an attempt to harvest their blood as a panacea, without putting much thought into the worse fate that awaits them should they succeed."
+          "The blood of an angel flows with radiant energy that brings life to all it touches (it clearly didn\u0027t work hard enough for its original owner though). Many of the most desperate people actively seek angels in an attempt to harvest their blood as a panacea, without putting much thought into the worse fate that awaits them should they succeed.",
+          "Use: When you drink this blood, you regain 4d8\u002B2 hit points and are freed from any curse (except the curse of the fallen), disease, poison, blindness, and deafness."
         ]
       },
       "IsConsumable": false,
@@ -24228,9 +24476,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Deva Wing",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "There is perhaps nothing more distinctive than the sillhouette of glorious white angel wings against a radiant light. As some of the most powerful magical wings in all the planes, these make for almost perfect base materials for the ever-useful wings of flying"
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "700 gp",
@@ -24242,9 +24493,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Deva Skin",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The alabaster white skin of a deva gleams in the morning sun, and a single glance of its beatuty has been known to turn sinners from their paths of evil. If you are not one of those people however, you may take this skin and use it to simulate some of the miraculous abilities inherent in these angels."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "750 gp",
@@ -24256,9 +24510,13 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Planetar Ear",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "A planetar is known for its ability to hear lies whenever they are spoken. Their ears carry on this trait even in death and can be seen twitching when falsehood passes through them.",
+          "Use: While holding two of these ears, you have advantage on Wisdom (Insight) ability checks to detect a lie being spoken."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "200 gp",
@@ -24270,9 +24528,13 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Planetar Blood",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The blood of an angel flows with radiant energy that brings life to all it touches (it clearly didn\u0027t work hard enough for its original owner though). Many of the most desperate people actively seek angels in an attempt to harvest their blood as a panacea, without putting much thought into the worse fate that awaits them should they succeed.",
+          "Use: When you drink this blood, you regain 6d8\u002B3 hit points and are freed from any curse (except the curse of the fallen), disease, poison, blindness, and deafness."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "600 gp",
@@ -24284,9 +24546,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Planetar Wing",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "There is perhaps nothing more distinctive than the sillhouette of glorious white angel wings against a radiant light. As some of the most powerful magical wings in all the planes, these make for almost perfect base materials for the ever-useful wings of flying."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "700 gp",
@@ -24298,9 +24563,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Planetar Bone",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The celestial bones of a planetar are stronger than steel and carry a charge of radiant energy within them long after their owner\u0027s demise. While most radiantly infused weapons are designed to force evil creatures to scurry away, weapons forged from the ever-vigilant planetars are designed to keep evil creatures nearby, ensuring they meet their divine judgement."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "7500 gp",
@@ -24312,9 +24580,13 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Solar Ear",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "A solar is known for its ability to hear lies whenever they are spoken. Their ears carry on this trait even in death and can be seen twitching when falsehood passes through them.",
+          "Use: While holding 2 of these ears, you have advantage on Wisdom (Insight) ability checks to detect a lie being spoken."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "200 gp",
@@ -24326,9 +24598,13 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Solar Blood",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The blood of an angel flows with radiant energy that brings life to all it touches (it clearly didn\u0027t work hard enough for its original owner though). Many of the most desperate people actively seek angels in an attempt to harvest their blood as a panacea, without putting much thought into the worse fate that awaits them should they succeed.",
+          "Use: When you drink this blood, you regain 8d8\u002B4 hit points and are freed from any curse (except the curse of the fallen), disease, poison, blindness, and deafness."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "800 gp",
@@ -24340,9 +24616,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Solar Wing",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "There is perhaps nothing more distinctive than the sillhouette of glorious white angel wings against a radiant light. As some of the most powerful magical wings in all the planes, these make for almost perfect base materials for the ever-useful wings of flying."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "700 gp",
@@ -24354,9 +24633,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Solar Eye",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The burning gaze of a solar is capable of reducing even the strongest of evildoers to a smoking mass of flesh on the ground. Taking these eyes and performing extraordinarily powerful magic on them can transform them into diamonds that shine the same way they did under the solar\u0027s control."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "11000 gp",
@@ -24368,6 +24650,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Animating Rune",
       "Description": {
         "Paragraphs": [
@@ -24384,6 +24667,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Shimmer Cloth",
       "Description": {
         "Paragraphs": []
@@ -24398,9 +24682,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Ankheg Chitin",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "Extremely hard, but too unwieldy and unconfortable to use in making armour. The ankheg\u0027s hide still finds some uses as a building material, especially for subterranean dwelllers who appreciate its suitability to rocky environments."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "1 gp",
@@ -24412,9 +24699,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Ankheg Gaster",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "A series of bladders in the hindquarters of an ankheg, this organ is analagous to the intestines of a humanoid. Although ankhegs are known for eating flesh, they absorb the majority of their nutrients from the soil they burrow through. Artificers are able to take this fact and create a handy survival tool for explorers with a strong stomach."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "2 gp",
@@ -24426,9 +24716,13 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Ankheg Bile",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "Ankhegs are well known for their incredibly potent digestive fluids that dissolve their prey. As such, alchemists find ankheg bile to be a particularly useful ingredient when creating their own acidic concoctions.",
+          "Use: As an action you may make a ranged weapon attack to throw this vial at a target within 20 feet, shattering it on impact. Make a ranged attack against the target, treating the vial as an improvised object. On a hit, the target suffers 1d6 acid damage."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "4 gp",
@@ -24440,9 +24734,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Azer Ash",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "Residual material from the azer\u0027s corpse. This ash still maintains a faint trace of the magic that created it. While not overly useful, some artisans like to sprinkle it over their creations for good luck."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "1 sp",
@@ -24454,9 +24751,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Azer Bronze Skin",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "Azers need no armour, as their skin is already made of durable, mastercrafted bronze. While the trauma of its owner\u0027s demise has made the skin difficult to repurpose directly for armour, it is still high quality material, and any blacksmith worth their salt would be happy to get it."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "10 gp",
@@ -24470,9 +24770,12 @@
       "RequiredToolNames": [
         "Enchanted vial"
       ],
+      "CraftingUsage": null,
       "Name": "Spark of Creation",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "Although the azer of this particular flame of creation is dead, a single smouldering spark remains, and those with knowledge of the arcane are able to quickly harvest and store it safely for later use. While small, these sparks have immense potential and are often used in either the construction of living trinkets, or the lighting of magical forges. Requires enchanted vial."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "12 gp",
@@ -24486,9 +24789,13 @@
       "RequiredToolNames": [
         "Spirit paper"
       ],
+      "CraftingUsage": null,
       "Name": "Banshee Echo",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The incorporeal banshee leaves very little behind except the last whispers of its terrible wail. With some spirit paper, a good harvester can collect the echo of this wail before it vanishes forever and use it in times of desperation. Requires spirit paper.",
+          "Use: You may spend an action to tear this item open and release the banshee wail kept within. All creatures within 30 feet of you that can hear must make a DC 13 Constitution saving throw. On a failure, a creature drops to 0 hit points. On a success, a creature takes 3d6 psychic damage. This wail has no effect on constructs and undead."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "13 gp",
@@ -24502,9 +24809,12 @@
       "RequiredToolNames": [
         "Spirit paper"
       ],
+      "CraftingUsage": null,
       "Name": "Banshee Remnant",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "It takes a particularly nimble mind and fast action to trap enough remnants of a banshee to make a usable crafting item. If successful however, they are often refashioned into enchanted reeds that create a haunting noise when used in wind instruments. Requires spirit paper."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "60 gp",
@@ -24516,9 +24826,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Basilisk Tooth",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "As the basilisk feeds on stone, its teeth are infamous for being extraordinarily hard and sharp. Stonemasons across the land value these teeth as tools in their craft."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "2 gp",
@@ -24530,9 +24843,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Basilisk Eye",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The petrifying gaze of the basilisk is known far and wide. As such, the eyes of a basilisk are prized for their inherent magical properties and their use in the creation of petrifying tonics. It is said that more nefarious wizards make use of these eyes to create trapped statues that transform unwary intruders into stone."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "2 gp",
@@ -24544,9 +24860,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Basilisk Bile",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "It is a common misconception that basilisks digest stone. In fact, the fluids inside the basilisk\u0027s gullet transform consumed stone back into organic matter to be consumed. This bile is thus worth a good amount to alchemists seeking to make an oil to counter the effects of a basilisk\u0027s gaze."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "6 gp",
@@ -24558,9 +24877,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Behir Scales",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The scales of a behir resemble a dragon\u0027s but are different in many ways in the eyes of a trained observer. While these scales are often found decorating items in an unscrupulous tailor\u0027s shop marketed as actual dragon scales, the fact that they are much smoother and more flexible than an actual dragon\u0027s makes them much more useful for fashion."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "55 gp",
@@ -24572,9 +24894,13 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Behir Horn",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The horn of a behir is composed of a unique keratin that has an odd reaction to the presence of dragons. A dragon\u0027s mere presence causes these horns to resonate, usually alerting a behir to the presence of their hated foe. The horns will still function in the hands of anyone else, but the dragon usually must be much closer for the vibrations to be detected.",
+          "Use: When within 1 mile of a dragon (whether it in its true form or polymorphed into a different shape), this horn will begin to vibrate, with the vibrations becoming more pronounced the closer it is to the dragon. This horn does not indicate the direction of the dragon, only its general proximity."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "300 gp",
@@ -24586,9 +24912,13 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Lightning Sack",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "This large, but surprisingly light leathery sack is located at the back of the behir\u0027s cavernous mouth, and is roughly the size of a picnic basket. Inside is a mixture of chemicals, fluids and enzymes that when exposed to the open air, erupts in a destructive crackle of lightning. While extremely dangerous, alchemists and weaponsmiths alike will crawl over themselves to obtain some of this powerful energy.",
+          "Use: The lightning sack can be thrown by itself up to a range of 20 feet. If thrown, the lightning sack will explode on impact, dealing 4d10 lightning damage to all creatures in a 10 foot radius, or half that on a successful DC 14 Dexterity saving throw."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "875 gp",
@@ -24600,9 +24930,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Beholder Membrum",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The anatomy of a beholder is infinitely alien and strange to any scholar native to the Material Plane. One of the most curious features of the beholder is that aside from its brain, the beholder features a noticeable dearth of internal organs. Instead, any internal space not occupied by brain matter is filled with a large rubbery balloon that seems to act as the beholder\u0027s heart, lungs, and stomach. How it achieves all of these simultaneous functions is unknown. This organ is as versatile as its owner, and many scholars are eager to obtain a complete sample for their research into transmutation."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "45 gp",
@@ -24614,9 +24947,13 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Beholder Eye Stalk",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "While the eye stalks of the beholder may be severed from its body, they still retain some of the magical energy that allowed them to fire powerful rays at their enemies. Skilled artificers can take these stalks and use them as the cores of magical wands that emit the same types of rays they emitted in life. Alternatively, four of the intact stalks may be used as part of a ritual to summon a spectator.",
+          "If a player harvests an eye stalk, roll 1d10. The type of eye stalk they receive corresponds to the number rolled, as described in the beholder statblock."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "650 gp",
@@ -24628,9 +24965,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Beholder Main Eye",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The main eye of the beholder is unique in that instead of issuing forth a beam of magical energy, it instead does the opposite: emitting a cone of nullification that disrupts the Weave and prevents the functioning of any magic it gazes at. While it is inactive due to being severed from a living beholder, learned wizards know how to transfigure this organ into an anti-magic crystal, the type that can be used to protect their own strongholds against magical incursions."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "3250 gp",
@@ -24642,9 +24982,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Death Tyrant Jaw",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The teeth of a beholder must never be underestimated, even in death. Their jaws possess a wicked bite, and when attached to the handle of an axe, so can your backswing."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "700 gp",
@@ -24656,9 +24999,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Death Tyrant Eye",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The eye of a beholder undergoes a terrible transformation when it transitions into undeath, emitting a cone of negative energy rather than anti-magic. But like a normal beholder eye, this eye can be transformed into a crystal of great power that many powerful wizards enjoy employing in their lairs."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "3500 gp",
@@ -24670,9 +25016,13 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Spectator Eye Stalk",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The stalks of the spectator are less powerful than those of the beholder it consumed to be summoned. However, their potential to be made into wands by artificers are the same. When crafted properly, they continue to contain an arcane charge that allows them to discharge the same types of magical rays they did in life.",
+          "If a player harvests an eye stalk, roll 1d4. The type of eye stalk they receive corresponds to the number rolled, as described in the spectator statblock."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "14 gp",
@@ -24684,9 +25034,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Spectator Main Eye",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The main eye of the spectator functions differently to that of the beholder. While the beholder\u0027s emits an anti-magic cone at all times, the spectator\u0027s can be used to reflect poorly casted spells at other targets. When used for crafting, the magic of the eye can be transferred over to a shield, to grant it the same ability."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "60 gp",
@@ -24698,9 +25051,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Needles",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The signature needles of the needle blight. While not more particularly useful than any other needle you would find on the forest floor, some fletchers find they make reliable sturdy material for wooden darts."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "5 cp",
@@ -24712,9 +25068,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Blight Pollen",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "Most blights are incapable of speech as we understand it. Instead, they communicate with each other through the use of pollen that can be carried for miles. Alchemists and druids however have figured out how to repurpose this pollen for potions that allow the user to communicate with regular plant life."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "3 sp",
@@ -24726,9 +25085,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Blight Seeds",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The rapid ability of the blights to spread their influence is well known to any forest dweller. They do this through the many seeds that each blight carries within them. These dry, wrinkled seeds sprout in a matter of hours and grow to maturity in days, forming the infamous vines, brambles, and weeds of a blight infestation. While most of their dark properties are lost if not planted by an actual blight, some alchemists are capable of repurposing them for a crop fertiliser or an oil that reacts strangely with plantlife."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "1 sp",
@@ -24740,9 +25102,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Gulthias Sap",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The bodies of blights exhibit a strange property. When large quantities are mulched and then strained for some time, a few drops of a sticky, dark red sap sometimes drips out which more daring druids use in their rituals."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "6 sp",
@@ -24754,9 +25119,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Vines",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The signature vines of the vine blight. These have been made sturdier yet more flexible in order to constitute the blight\u0027s body. When stripped down to their fibers, they make good material for rope and ties."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "5 cp",
@@ -24768,6 +25136,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Bugbear Hide",
       "Description": {
         "Paragraphs": [
@@ -24786,6 +25155,7 @@
         ]
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Heart of Hruggek",
       "Description": {
         "Paragraphs": [
@@ -24802,9 +25172,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Bulette Teeth",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "Capable of puncturing even steel armour, bulette teeth are well regarded as materials for crafting daggers and spears. Some cultures even consider bulette hunting to be a rite of passage, using the weapon made from their kill for the rest of their adult lives."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "11 gp",
@@ -24816,9 +25189,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Bulette Claw",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "Capable of powerful digging, the bullette claw makes for a wonderful weapon base, one that is capable of piercing rock and metals alike."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "8 gp",
@@ -24830,9 +25206,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Bulette Hide",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "While the bulette relies on its powerful jaws and claws to tunnel through solid rock, it is aided by a layer of rock dissolving slime that it exudes constantly from its hide. When harvested quickly, the hide itself retains this property and can be crafted into protective equipment for subterranean adventurers."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "60 gp",
@@ -24844,9 +25223,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Bullywug Tongue",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "A bullywug tongue is remarkably long for their size and incredibly tough. Swamp folk can often be found drying these and using them as rope substitutes."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "8 cp",
@@ -24858,9 +25240,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Cambion Sulfur",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "Unlike most fiends, a cambion does not dissolve when it is slain. Its bizarre physiology however does still react strangely on death with parts of its body spontaneously combusting as it dies. These reactions are not enough to destroy the body, but it does create small piles of sulfur that are quite useful in various demonology related projects."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "7 gp",
@@ -24872,9 +25257,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Devil-Tinged Blood",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "As the child of a fiend and a human, the blood of a cambion possesses certain magical properties that are even more powerful due to their compatibility with humanoid physiology."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "4 gp",
@@ -24886,9 +25274,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Cambion Wing",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "As with many fiends, the wings of a cambion are useful in creating the famous item: infernal wings. When taken whole, they can serve as a majority of the base, forming bat wings when the final item is put to use."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "30 gp",
@@ -24900,9 +25291,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Carrion Crawler Guts",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "As their name implies, carrion crawlers feast solely on putrid and rotting flesh. As disgusting as their digestive system may seem, it is uniquely adapted to overcoming any diseases or poisoning that would befall any other creature attempting such a diet. Local healers have thus developed numerous uses for a carrion crawler\u0027s guts, ranging from a salve to treat gangrene, to a tonic for treating indigestion."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "5 sp",
@@ -24916,9 +25310,13 @@
         ]
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Carrion Crawler Mucus",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The mucus of a carrion crawler is remarkably poisonous, especially since it only requires contact with the skin to take effect.",
+          "Use: A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. The poisoned creature is paralyzed. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A vial of this poison may be applied to coat 1 melee weapon or up to 10 pieces of ammunition. These remain coated for 10 minutes after which the poison degrades too much to be useful."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "10 gp",
@@ -24930,9 +25328,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Centaur Hoof",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The hooves of a centaur are much harder than those of a mundane horse, and centaurs in their pragmatism have even been found harvesting them for their own use. It is not uncommon for centaurs to be in the possession of tools, bowls, and even weapons made from the hooves of their dead tribal members."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "5 sp",
@@ -24944,9 +25345,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Centaur Tail",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The hairs of a centaur are renowned for their tensile strength while remaining supple and flexible. As such they make superb bowstrings and centaur archers are known for using their own hairs in their bows."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "3 gp",
@@ -24958,9 +25362,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Chimera Goat Hoof",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The hindquarters of the monstrous chimera. While they resemble an ordinary goat in shape, they are noticebly larger in size. While not usable for much, they do make for fine trophies."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "2 gp",
@@ -24972,9 +25379,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Chimera Goat Head",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "One of the chimera\u0027s three heads. Larger than a regular goat\u0027s, the horns are particularly hard and large. Many mountain folk consider an ale mug made from a chimera\u0027s horns to be a very enticing gift."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "25 gp",
@@ -24986,9 +25396,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Chimera Lion Paw",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The leonine front paws of the chimera. Larger than a normal lion\u0027s, with claws twice as sharp. Some druids prefer using these as their focus when performing transmutation magic, believing that it makes their spellwork easier. Whether that is true or not has yet to be confirmed."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "4 gp",
@@ -25000,9 +25413,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Chimera Lion Head",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "One of the chimera\u0027s three heads. Larger than a regular lion\u0027s, this head makes a fantastic trophy when stuffed and mounted, particularly when placed in the quarters of a skittish house guest."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "40 gp",
@@ -25014,9 +25430,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Chimera Dragon Wing",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The draconic wings of the chimera. While they lack the same amount of magical power as a genuine dragon\u0027s wings, they are also much easier to handle and much easier to get a hold of. Daring tinkers have taken to using them in making kites strong enough to lift smaller races high into the air."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "25 gp",
@@ -25028,9 +25447,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Chimera Dragon Head",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "One of the chimera\u0027s three heads. While the flame is less powerful than a genuine dragon\u0027s, the glands that produce the flame is much easier to access in a chimera\u0027s head, and provide materials that are much more stable to work with. Alchemists prize these glands as a source of highly flammable oil."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "150 gp",
@@ -25042,9 +25464,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Chuul Pincer",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The oversized pincer of a monstrous chuul. While too unwieldy to be fashioned into a useful weapon, the razor sharp hooks can be repurposed for useful tools, including, but not limited to, instruments of torture."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "3 gp",
@@ -25056,9 +25481,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Chuul Venom",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "A rather nasty toxin, wringed from the tentacle appendages of the chuul. Unfortunately, the death of its owner causes it to lose much of its potency but can still be used as a base by knowledgable alchemists to create another paralysing potion."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "10 gp",
@@ -25070,9 +25498,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Arcana Ganglia",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "At the base of a chuul\u0027s brain lies a peculiar bundle of nerves referred to as the arcana ganglia. This highly sensitive lobe vibrates in the presence of magic and is what grants chuul\u0027s their innate ability to sense magic around them. Designed by their aboleth masters through generations of magic and breeding, there are only a handful of artificers in the world capable of repurposing it into a functioning tool capable of replicating the chuul\u0027s natural ability."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "100 gp",
@@ -25084,9 +25515,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Cloaker Tooth",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "Resembling the needle-like teeth of a moray eel but stronger, the teeth of the cloaker can be used to make a variety of tools. Some of the more notorious thieves in the world even boast possessing lockpick sets made entirely of cloaker teeth."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "5 gp",
@@ -25098,9 +25532,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Cloaker Tail",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The infamous cloaker tail, covered in dozens of razor sharp spines. Drow taskmasters have developed a technique of taking the tails, treating them with special oils, and reusing them as whips."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "85 gp",
@@ -25112,9 +25549,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Cloaker Hide",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "Even for the most experienced of tanners, the skin of the cloaker is exceptionally difficult to remove. Due to the cloaker\u0027s unique physiology, a single misplaced cut can cause the creature\u0027s internal enzymes to spill and stain the hide. If done correctly however, the skin will maintain its shadowy and illusive appearance and may be used as the foundation for the ever useful cloak of displacement."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "500 gp",
@@ -25126,9 +25566,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Cockatrice Bile",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "Unlike basilisks, a cockatrice cannot consume stone. Unfortunately, anything that receives so much as a graze from its beak becomes petrified, and with the cockatrice\u0027s frenzied hunting style, such an occurrence is more then common. As such, its bile has certain properties that slow down the petrification process, allowing the cockatrice to get some nourishment before its food becomes undigestible. This bile has become a staple of a stonemason\u0027s toolkit as it allows them to temporarily soften stone for easier handling."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "2 sp",
@@ -25140,9 +25583,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Cockatrice Droppings",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "Cockatrices are infamous for their enthusiasm in devouring a meal, and as such, they occasionally end up swallowing food that they have already accidentally petrified. The food remains stone through the cockatrice\u0027s digestive system, and some consider the resulting food statues to be a novelty to say the least. There are even some enterprising individuals who keep cockatrice farms in order to harvest their droppings for stone trinkets (I assume they do not reveal to their customers where they came from however)."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "5 sp",
@@ -25154,9 +25600,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Cockatrice Beak",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The infamous beak of a cockatrice, capable of turning any living creature into petrified stone. Despite common belief, the petrifying magic has nothing to do with the cockatrice\u0027s saliva, but is entirely within the cockatrice\u0027s beak alone. Any artificer worth their salt knows the techniques to turn an undamaged beak into a weapon that shares the cockatrice\u0027s petrifying ability."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "1 gp",
@@ -25168,9 +25617,13 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Couatl Venom",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The venom of a couatl is entirely non-lethal, reflective of the couatl\u0027s pacifist nature. Couatl are in fact known for occasionally secreting this venom for the mortals they partner with in the hopes of averting deaths wherever possible.",
+          "Use: Can be used to coat up to 10 pieces of slashing or piercing ammunition or one slashing or piercing melee weapon. Applying the poison takes 1 minute. For the next 10 minutes, any creature successfully hit must make a DC 13 Constitution saving throw, or become poisoned for 24 hours. Until this poison ends, the target is unconscious. A creature automatically wakes up if they receive damage or if an adjacent creature spends their action to wake them up."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "40 gp",
@@ -25182,9 +25635,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Couatl Feather",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The feathers of a couatl are extraordinarily vibrant, yet as soft as down. A particular pillow has been made with these feathers that shares the couatl\u0027s ability to shield its mind from external psychic threats. Powerful people have been known to use these pillows to shield their sleeping moments from intrusion, as well as to just get an extremely comfortable sleep."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "120 gp",
@@ -25196,9 +25652,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Cursed Knucklebones",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The bones of a hand that has been transformed by necromantic manipulation are notable for still carrying trace elements of those same energies. They are not useful for much, but it is said that a set of dice carved from these knucklebones roll lower than is statistically likely, giving rise to the ubiquitous unlucky gambler term: \u0022the dead man\u0027s hand.\u0022"
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "1 sp",
@@ -25210,9 +25669,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Cyclops Eyelid",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The enormous lid of a cyclops is made of a strange material, quite different to the rest of the cyclops\u0027 skin. The purpose of this is still a mystery, but various crafters have managed to take its esoteric properties and use it for their own entertaining projects."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "10 gp",
@@ -25224,9 +25686,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Cyclops Heart",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The extremely large heart of a cyclops. Makes a good trophy when preserved and mounted on a base."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "25 gp",
@@ -25238,9 +25703,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Cyclops Eye",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "Once they are roused to interest, cyclopses are known to relentlessly pursue whatever it is they set their eye on. Experiments on cyclops remains have revealed that the eye itself is partly to blame, as its unique situation forces the cyclops to focus on one thing for prolonged periods of time. Artificers have taken this property and applied it into a battle aid that doubles as a stylish dinner party accessory."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "140 gp",
@@ -25252,9 +25720,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Darkmantle Sucker",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "Anybody who has been attacked by a darkmantle can attest to the suction power of its tentacles. Reliable even beyond the death of its owner, many Underdark residents have adapted these suckers to be used for medical tools and other implements."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "5 sp",
@@ -25266,9 +25737,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Darkmantle Otolith",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "A bony structure on the inside of a darkmantle\u0027s head that acts as its ear. Skilled artificers can use this to create a variety of audio enhancing magical items."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "2 gp",
@@ -25280,9 +25754,13 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Blighted Ash",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "When the flesh of a defeated death knight is burned in a ritual fire, the resulting ashes retain the same dark aura of its original form. If one has the resolve for it, these ashes can be mixed with oils and special powders then applied to the body to gain certain protections from the undead.",
+          "Use: You may mix these ashes with 20 gold pieces worth of rare oils and powdered gems to create a paste that grants certain defences against undead when rubbed into the body. For 24 hours after using it on yourself, undead creatures have disadvantage on any Wisdom (Perception) checks made to find you. In addition, you gain resistance to any necrotic damage dealt from an undead source and advantage on any saving throw imposed by an undead creature."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "800 gp",
@@ -25294,9 +25772,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Cursed Blood",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "Blood is a generous term to apply to the coagulated muck that cloys in a death knight\u0027s veins. Blacker than the cursed warrior\u0027s soul, this substance makes for a versatile reagent in certain desecration rituals and blood curses. Use with caution."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "500 gp",
@@ -25308,9 +25789,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Death Knight Heart",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "Even though a death knight may fall in battle, its dark curse will eventually form a new body somewhere and force its soul to continue its mockery of life. If one takes its heart and preserves it in a secret ritual, the death knight\u0027s new body will be formed without the organ. From then on, the missing heart can be used as a method of tracking the death knight, beating whenever it senses its old master nearby."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "4000 gp",
@@ -25322,9 +25806,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Bone Dust",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The disintegrated remains of a demilich\u0027s body. Everytime you look away, it seems to move slightly. Can be used as a spell component for powerful and dark necromantic magics."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "800 gp",
@@ -25338,9 +25825,12 @@
       "RequiredToolNames": [
         "Enchanted vial"
       ],
+      "CraftingUsage": null,
       "Name": "Demilich Smoke",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "Rather than a corporeal body, most of the demilich\u0027s shape consists of a choking vapour that smells like forgotton tombs. This smoke contains an almost insignificantly small fraction of the demilich\u0027s true essence, but if bottled and stored properly, can be turned into an item to track the demilich wherever it may reappear. Requires enchancted vial."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "3000 gp",
@@ -25352,9 +25842,12 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Soul Gem (Acererak disciple Demilich only)",
       "Description": {
-        "Paragraphs": []
+        "Paragraphs": [
+          "The demilich disciples of Acererak practice a particularly notorious necromantic magic: inserting soul gems into their empty eye sockets to steal the spirits of their victims. While taking the gem away from a defeated demilich is simply a matter of picking it up, turning it over to your own control is considerably harder and requires a complicated ritual soon after the demilich\u0027s defeat. A successful result grants the bearer a powerful, but dark magical artifact."
+        ]
       },
       "IsConsumable": false,
       "ValueGP": "16000 gp",
@@ -25366,6 +25859,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Balor Ash",
       "Description": {
         "Paragraphs": []
@@ -25380,6 +25874,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Barlgura Fang",
       "Description": {
         "Paragraphs": []
@@ -25394,6 +25889,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Barlgura Hand",
       "Description": {
         "Paragraphs": []
@@ -25408,6 +25904,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Barlgura Bile",
       "Description": {
         "Paragraphs": []
@@ -25422,6 +25919,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Chasme Leg",
       "Description": {
         "Paragraphs": []
@@ -25436,6 +25934,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Chasme Proboscis",
       "Description": {
         "Paragraphs": []
@@ -25450,6 +25949,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Chasme Wing",
       "Description": {
         "Paragraphs": []
@@ -25464,6 +25964,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Fetid Miasma",
       "Description": {
         "Paragraphs": []
@@ -25478,6 +25979,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Glabrezu Horn",
       "Description": {
         "Paragraphs": []
@@ -25492,6 +25994,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Glabrezu Pincer",
       "Description": {
         "Paragraphs": []
@@ -25506,6 +26009,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Glabrezu Skin",
       "Description": {
         "Paragraphs": []
@@ -25520,6 +26024,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Goristro Fur",
       "Description": {
         "Paragraphs": []
@@ -25534,6 +26039,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Goristro Blood",
       "Description": {
         "Paragraphs": []
@@ -25548,6 +26054,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Goristro Hoof",
       "Description": {
         "Paragraphs": []
@@ -25562,6 +26069,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Goristro Horn",
       "Description": {
         "Paragraphs": []
@@ -25576,6 +26084,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Hezrou Teeth",
       "Description": {
         "Paragraphs": []
@@ -25590,6 +26099,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Hezrou Blood",
       "Description": {
         "Paragraphs": []
@@ -25604,6 +26114,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Hezrou Stink Gland",
       "Description": {
         "Paragraphs": []
@@ -25618,6 +26129,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Hezrou Claw",
       "Description": {
         "Paragraphs": []
@@ -25632,6 +26144,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Manes Vapour",
       "Description": {
         "Paragraphs": []
@@ -25646,6 +26159,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Marilith Blood",
       "Description": {
         "Paragraphs": []
@@ -25660,6 +26174,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Marilith Snake Leather",
       "Description": {
         "Paragraphs": []
@@ -25674,6 +26189,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Marilith Spine",
       "Description": {
         "Paragraphs": []
@@ -25688,6 +26204,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Nalfeshnee Teeth",
       "Description": {
         "Paragraphs": []
@@ -25702,6 +26219,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Nalfeshnee Tusk",
       "Description": {
         "Paragraphs": []
@@ -25716,6 +26234,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Nalfeshnee Wing",
       "Description": {
         "Paragraphs": []
@@ -25730,6 +26249,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Nalfeshnee Eyes",
       "Description": {
         "Paragraphs": []
@@ -25744,6 +26264,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Quasit Venom",
       "Description": {
         "Paragraphs": []
@@ -25758,6 +26279,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Quasit Blood",
       "Description": {
         "Paragraphs": []
@@ -25774,6 +26296,7 @@
       "RequiredToolNames": [
         "Spirit paper"
       ],
+      "CraftingUsage": null,
       "Name": "Demonic Imprint",
       "Description": {
         "Paragraphs": []
@@ -25788,6 +26311,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Vrock Feathers",
       "Description": {
         "Paragraphs": []
@@ -25802,6 +26326,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Vrock Talon",
       "Description": {
         "Paragraphs": []
@@ -25816,6 +26341,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Vrock Vocal Cords",
       "Description": {
         "Paragraphs": []
@@ -25832,6 +26358,7 @@
         ]
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Vrock Spores",
       "Description": {
         "Paragraphs": []
@@ -25846,6 +26373,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Demon Pearl",
       "Description": {
         "Paragraphs": []
@@ -25862,6 +26390,7 @@
         ]
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Yochlol Ooze",
       "Description": {
         "Paragraphs": []
@@ -25876,6 +26405,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Barbed Devil Barb",
       "Description": {
         "Paragraphs": []
@@ -25890,6 +26420,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Barbed Hide",
       "Description": {
         "Paragraphs": []
@@ -25904,6 +26435,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Barbed Devil Blood",
       "Description": {
         "Paragraphs": []
@@ -25918,6 +26450,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Barbed Devil Tail",
       "Description": {
         "Paragraphs": []
@@ -25932,6 +26465,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Bearded Devil Blood",
       "Description": {
         "Paragraphs": []
@@ -25946,6 +26480,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Clump of Beard Lashes",
       "Description": {
         "Paragraphs": []
@@ -25962,6 +26497,7 @@
         ]
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Beard Poison",
       "Description": {
         "Paragraphs": []
@@ -25976,6 +26512,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Bone Devil Bone",
       "Description": {
         "Paragraphs": []
@@ -25990,6 +26527,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Bone Devil Skin",
       "Description": {
         "Paragraphs": []
@@ -26004,6 +26542,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Bone Devil Tail",
       "Description": {
         "Paragraphs": []
@@ -26018,6 +26557,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Devil Wings (Bone Devil)",
       "Description": {
         "Paragraphs": [
@@ -26034,6 +26574,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Living Chain",
       "Description": {
         "Paragraphs": []
@@ -26048,6 +26589,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Chain Devil Eye",
       "Description": {
         "Paragraphs": []
@@ -26064,6 +26606,7 @@
         ]
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Fiendish Poison",
       "Description": {
         "Paragraphs": []
@@ -26080,6 +26623,7 @@
         ]
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Erinyes Heart",
       "Description": {
         "Paragraphs": []
@@ -26094,6 +26638,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Devil Wings (Erinyes)",
       "Description": {
         "Paragraphs": [
@@ -26110,6 +26655,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Horned Devil Horn",
       "Description": {
         "Paragraphs": []
@@ -26124,6 +26670,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Horned Devil Blood",
       "Description": {
         "Paragraphs": []
@@ -26138,6 +26685,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Horned Devil Tail",
       "Description": {
         "Paragraphs": []
@@ -26152,6 +26700,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Devil Wings (Horned Devil)",
       "Description": {
         "Paragraphs": []
@@ -26166,6 +26715,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Ice Devil Blood",
       "Description": {
         "Paragraphs": []
@@ -26180,6 +26730,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Ice Devil Mandible",
       "Description": {
         "Paragraphs": []
@@ -26194,6 +26745,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Ice Devil Carapace",
       "Description": {
         "Paragraphs": []
@@ -26208,6 +26760,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Imp Venom",
       "Description": {
         "Paragraphs": []
@@ -26222,6 +26775,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Imp Blood",
       "Description": {
         "Paragraphs": []
@@ -26236,6 +26790,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Imp Head",
       "Description": {
         "Paragraphs": []
@@ -26250,6 +26805,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Lemure Essence",
       "Description": {
         "Paragraphs": []
@@ -26264,6 +26820,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Pit Fiend Blood",
       "Description": {
         "Paragraphs": []
@@ -26278,6 +26835,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Pit Fiend Venom",
       "Description": {
         "Paragraphs": []
@@ -26292,6 +26850,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Pit Fiend Claw",
       "Description": {
         "Paragraphs": []
@@ -26306,6 +26865,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Devil Wing (Pit Fiend)",
       "Description": {
         "Paragraphs": []
@@ -26320,6 +26880,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Pit Fiend Head",
       "Description": {
         "Paragraphs": []
@@ -26334,6 +26895,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Spine Devil Blood",
       "Description": {
         "Paragraphs": []
@@ -26348,6 +26910,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Spined Devil Spine",
       "Description": {
         "Paragraphs": []
@@ -26362,6 +26925,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Allosaurus Jaw",
       "Description": {
         "Paragraphs": []
@@ -26376,6 +26940,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Allosaurus Claw",
       "Description": {
         "Paragraphs": []
@@ -26390,6 +26955,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Ankylosaurus Hide",
       "Description": {
         "Paragraphs": []
@@ -26404,6 +26970,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Ankylosaurus Tail",
       "Description": {
         "Paragraphs": []
@@ -26418,6 +26985,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Ankylosaurus Skull",
       "Description": {
         "Paragraphs": []
@@ -26432,6 +27000,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Plesiosaurus Tooth",
       "Description": {
         "Paragraphs": []
@@ -26446,6 +27015,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Pteranodon Wing",
       "Description": {
         "Paragraphs": []
@@ -26460,6 +27030,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Pteranodon Beak",
       "Description": {
         "Paragraphs": []
@@ -26474,6 +27045,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Triceratops Skull",
       "Description": {
         "Paragraphs": []
@@ -26488,6 +27060,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Tyrannosaurus Rex Claw",
       "Description": {
         "Paragraphs": []
@@ -26502,6 +27075,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Tyrannosaurus Rex Jawbone",
       "Description": {
         "Paragraphs": []
@@ -26516,6 +27090,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Displacer Beast Tentacle",
       "Description": {
         "Paragraphs": []
@@ -26530,6 +27105,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Displacer Beast Blood",
       "Description": {
         "Paragraphs": []
@@ -26544,6 +27120,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Displacer Beast Hide",
       "Description": {
         "Paragraphs": []
@@ -26558,6 +27135,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Doppelganger Blood",
       "Description": {
         "Paragraphs": []
@@ -26572,6 +27150,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Doppelganger Face",
       "Description": {
         "Paragraphs": []
@@ -26586,6 +27165,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Doppelganger Brain",
       "Description": {
         "Paragraphs": []
@@ -26600,6 +27180,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Dracolich Bone",
       "Description": {
         "Paragraphs": []
@@ -26616,6 +27197,7 @@
       "RequiredToolNames": [
         "Enchanted vial"
       ],
+      "CraftingUsage": null,
       "Name": "Shadowflame Ember",
       "Description": {
         "Paragraphs": []
@@ -26630,6 +27212,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Shadow Dragon Scale",
       "Description": {
         "Paragraphs": [
@@ -26646,6 +27229,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Shadowdragon Wing",
       "Description": {
         "Paragraphs": [
@@ -26662,6 +27246,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Ancient Dragon Flesh",
       "Description": {
         "Paragraphs": [
@@ -26678,6 +27263,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Ancient [Type] Dragon Blood",
       "Description": {
         "Paragraphs": [
@@ -26694,6 +27280,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Ancient [Type] Dragon Tooth",
       "Description": {
         "Paragraphs": [
@@ -26710,6 +27297,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Ancient [Type] Dragon Bone",
       "Description": {
         "Paragraphs": [
@@ -26726,6 +27314,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Ancient [Type] Dragon Horn/Spine",
       "Description": {
         "Paragraphs": [
@@ -26742,6 +27331,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Ancient [Type] Dragon Scales",
       "Description": {
         "Paragraphs": [
@@ -26760,6 +27350,7 @@
         ]
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Ancient [Type] Dragon Breath Pouch",
       "Description": {
         "Paragraphs": [
@@ -26778,6 +27369,7 @@
         ]
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Ancient [Type] Secondary Dragon Breath Pouch",
       "Description": {
         "Paragraphs": [
@@ -26794,6 +27386,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Ancient Dragon Wing",
       "Description": {
         "Paragraphs": [
@@ -26810,6 +27403,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Ancient Dragon Heart",
       "Description": {
         "Paragraphs": [
@@ -26826,6 +27420,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Adult Dragon Flesh",
       "Description": {
         "Paragraphs": [
@@ -26842,6 +27437,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Adult [Type] Dragon Blood",
       "Description": {
         "Paragraphs": [
@@ -26858,6 +27454,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Adult [Type] Dragon Tooth",
       "Description": {
         "Paragraphs": [
@@ -26874,6 +27471,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Adult [Type] Dragon Bone",
       "Description": {
         "Paragraphs": [
@@ -26890,6 +27488,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Adult [Type] Dragon Horn/Spine",
       "Description": {
         "Paragraphs": [
@@ -26906,6 +27505,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Adult [Type] Dragon Scales",
       "Description": {
         "Paragraphs": [
@@ -26924,6 +27524,7 @@
         ]
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Adult [Type] Dragon Breath Pouch",
       "Description": {
         "Paragraphs": [
@@ -26942,6 +27543,7 @@
         ]
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Adult [Type] Secondary Dragon Breath Pouch",
       "Description": {
         "Paragraphs": [
@@ -26958,6 +27560,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Adult Dragon Wing",
       "Description": {
         "Paragraphs": [
@@ -26974,6 +27577,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Young Dragon Flesh",
       "Description": {
         "Paragraphs": [
@@ -26990,6 +27594,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Young [Type] Dragon Blood",
       "Description": {
         "Paragraphs": [
@@ -27006,6 +27611,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Young [Type] Dragon Tooth",
       "Description": {
         "Paragraphs": [
@@ -27022,6 +27628,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Young [Type] Dragon Bone",
       "Description": {
         "Paragraphs": [
@@ -27038,6 +27645,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Young [Type] Dragon Horn/Spine",
       "Description": {
         "Paragraphs": [
@@ -27054,6 +27662,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Young [Type] Dragon Scales",
       "Description": {
         "Paragraphs": [
@@ -27072,6 +27681,7 @@
         ]
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Young [Type] Dragon Breath Pouch",
       "Description": {
         "Paragraphs": [
@@ -27090,6 +27700,7 @@
         ]
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Young [Type] Secondary Dragon Breath Pouch",
       "Description": {
         "Paragraphs": [
@@ -27106,6 +27717,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Young Dragon Wing",
       "Description": {
         "Paragraphs": [
@@ -27122,6 +27734,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "Wyrmling Dragon Flesh",
       "Description": {
         "Paragraphs": [
@@ -27138,6 +27751,7 @@
         "Paragraphs": []
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "[Type] Wyrmling Dragon Blood",
       "Description": {
         "Paragraphs": [
@@ -27156,6 +27770,7 @@
         ]
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "[Type] Wyrmling Dragon Breath Pouch",
       "Description": {
         "Paragraphs": [
@@ -27174,6 +27789,7 @@
         ]
       },
       "RequiredToolNames": [],
+      "CraftingUsage": null,
       "Name": "[Type] Wyrmling Secondary Dragon Breath Pouch",
       "Description": {
         "Paragraphs": [
@@ -27183,6 +27799,584 @@
       "IsConsumable": false,
       "ValueGP": "- gp",
       "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "x2",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Yeti Eye",
+      "Description": {
+        "Paragraphs": []
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Yeti Lungs",
+      "Description": {
+        "Paragraphs": []
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Abominable Yeti Hide",
+      "Description": {
+        "Paragraphs": []
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Yeti Tongue",
+      "Description": {
+        "Paragraphs": []
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "x2",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Abominable Yeti Claw",
+      "Description": {
+        "Paragraphs": [
+          "The remains of a yeti\u0027s victims are simple to identify, for it is easy to see the way the edges of their wounds have frozen solid at the touch of the yeti."
+        ]
+      },
+      "IsConsumable": false,
+      "ValueGP": "100 gp",
+      "WeightLB": "14 lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Mote of Air",
+      "Description": {
+        "Paragraphs": [
+          "When an air elemental\u0027s summoned form is dispersed, it leaves behind small clumps of dust that continue to carry trace amounts of elemental energy. These need to be collected quickly in specialised containers to prevent further degradation. If collected properly, they can then be used to craft an elemental gem."
+        ]
+      },
+      "IsConsumable": false,
+      "ValueGP": "100 gp",
+      "WeightLB": "1 lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Mote of Water",
+      "Description": {
+        "Paragraphs": []
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Mote of Fire",
+      "Description": {
+        "Paragraphs": []
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Mote of Earth",
+      "Description": {
+        "Paragraphs": []
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Dragon Turtle Shell Shard",
+      "Description": {
+        "Paragraphs": []
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Steam Ventral",
+      "Description": {
+        "Paragraphs": []
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Dragon Turtle Plastron (3 large pouches of shards)",
+      "Description": {
+        "Paragraphs": []
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Dragon Turtle Blood (1000 gallons)",
+      "Description": {
+        "Paragraphs": []
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Mark of Lolth",
+      "Description": {
+        "Paragraphs": []
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Drider Poison (vial)",
+      "Description": {
+        "Paragraphs": []
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Drider Oil (4 vials)",
+      "Description": {
+        "Paragraphs": []
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Dryad Eye (x2)",
+      "Description": {
+        "Paragraphs": []
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Dryad Sap (vial)",
+      "Description": {
+        "Paragraphs": []
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Dryad Hair",
+      "Description": {
+        "Paragraphs": []
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Duergar Brainstem",
+      "Description": {
+        "Paragraphs": [
+          "Due to their years of slavery to the illithid race, duergar have developed a range of psionic powers. Some of these powers are inherent in any member of their race regardless of training. If one dissects the brain of a duergar, they will find that their brainstem is particularly large and often pulsates even after death. This brainstem may be used as an ingredient in various potions that temporarily grant the drinker the same powers as an average duergar."
+        ]
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "3 vials",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Drow Blood",
+      "Description": {
+        "Paragraphs": [
+          "Any adventurer that has delved into the Underdark and met the drow has probably also encountered their signature poison. For centuries, surface alchemists tried and failed to replicate the formula, citing a single missing ingredient that they could not identify. It was only recently discovered why only drow could create the poison: it was manufactured from their own blood. For whatever reason, whether it be their diet, their cursed state, or just the whims of Lolth, drow blood possesses some unique property that when rebrewed with other fungi and mosses in the Underdark, create a noxious poison that renders the victim helpless in the face of their drow pursuers."
+        ]
+      },
+      "IsConsumable": false,
+      "ValueGP": "1 gp",
+      "WeightLB": "1 lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Drow Heart",
+      "Description": {
+        "Paragraphs": []
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Empyrean Heart",
+      "Description": {
+        "Paragraphs": []
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Marble Skin",
+      "Description": {
+        "Paragraphs": []
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Empyrean Blood (7 vials)",
+      "Description": {
+        "Paragraphs": []
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Lock of Empyrean Hair (x10)",
+      "Description": {
+        "Paragraphs": []
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Web Gland",
+      "Description": {
+        "Paragraphs": []
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Ettercap Poison (vial)",
+      "Description": {
+        "Paragraphs": []
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Ettin Fingernail",
+      "Description": {
+        "Paragraphs": []
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Ettin Head (x2)",
+      "Description": {
+        "Paragraphs": []
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Faerie Dragon Blood (vial)",
+      "Description": {
+        "Paragraphs": [
+          "The blood of a faerie dragon is the same bright hue as its scales and also changes as the dragon ages. The blood\u0027s inherent magical properties makes it an excellent ink when transcribing spells.",
+          "Use: If you attempt to transcribe a spell into your spellbook or spell scroll that was known to the faerie dragon you harvested this blood from, you may use this vial of blood instead of the regular ink. Doing so halves the regular time it would take to make that transcription, and the cost of the vial of blood is deducted from the total cost of the transcription."
+        ]
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Faerie Dragon Lungs",
+      "Description": {
+        "Paragraphs": [
+          "Faerie dragons are not altogether harmful, although they boast a number of traits that make them a nuisance to encounter. One such feature is their euphoria breath: a gas that temporarily incapacitates a creature that breathes it in. Special bronchials in the faerie dragon\u0027s lungs are responsible for the production of this gas, and still contain traces of it, even after the faerie dragon\u0027s death.",
+          "Use: This ability may only be used if the faerie dragon had access to its euphoria breath ability at the time of its death. As an action, you may squeeze the faerie dragon\u0027s lungs at one creature within 5 feet. The target must succeed on a DC 11 Wisdom saving throw, or for 1 minute, the target can\u0027t take reactions and must roll a d6 at the start of each of its turns to determine its behaviour during the turn. Refer to the euphoria breath ability in the faerie dragon\u0027s statblock for potential results."
+        ]
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Faerie Dragon Wing (x2)",
+      "Description": {
+        "Paragraphs": [
+          "The wings of a faerie dragon resemble that of a butterfly in more ways than one. Besides their diaphonous texture, they also possess a light coating of dust that enhances their invisibility magic and aids them in their flight. If harvested undamaged, these wings may be crushed, powdered, and mixed with powdered catalyst gems to enchant objects with flight and invisibility."
+        ]
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Flameskull Ashes (small pouch)",
+      "Description": {
+        "Paragraphs": [
+          "After a flameskull is destroyed, the magical flames that surrounded it leave behind an ashy residue around the skull. These ashes contain \u0022memories\u0022 of the magic that the flameskull knew in life, and may be used as a special pigment for wizards trying to expand their spellbook.",
+          "Use: A character may add any spell available to the flameskull to their own spellbook as if they had found the spell in a spellscroll or similar. Doing so follows the same rules as the copying a spell into the book rules on page 114 of the Player\u0027s Handbook, using the flameskull ashes instead of ink. The character may deduct the cost of the flameskull ashes from the overall cost of copying the spell."
+        ]
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Flameskull",
+      "Description": {
+        "Paragraphs": [
+          "A flameskull is a cursed creature, an echo of the brilliance it had in its mortal life. Even after the skull has been defeated and its essence cleansed, the physical skull still contains traces of the magic it once had. If you are willing to further disgrace the wizard that the skull came from, a few choice runes and inlays on the skull can bring out this magic to your own advantage."
+        ]
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Yeti Hide",
+      "Description": {
+        "Paragraphs": []
+      },
+      "IsConsumable": false,
+      "ValueGP": "- gp",
+      "WeightLB": "- lb"
+    },
+    {
+      "Quantity": "x2",
+      "UseText": {
+        "Paragraphs": []
+      },
+      "RequiredToolNames": [],
+      "CraftingUsage": null,
+      "Name": "Yeti Claw",
+      "Description": {
+        "Paragraphs": [
+          "The remains of a yeti\u0027s victims are simple to identify, for it is easy to see the way the edges of their wounds have frozen solid at the touch of the yeti."
+        ]
+      },
+      "IsConsumable": false,
+      "ValueGP": "60 gp",
+      "WeightLB": "10 lb"
     }
   ],
   "TrinketTables": [

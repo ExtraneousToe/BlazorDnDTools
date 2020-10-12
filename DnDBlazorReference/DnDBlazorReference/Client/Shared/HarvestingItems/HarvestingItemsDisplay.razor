@@ -5,92 +5,107 @@
 
 @if (HarvestedItem != null)
 {
-    <table class="table-bordered">
-        <tr>
-            <td>
-                <strong>Name (and qty):</strong>
-            </td>
-            <td>
-                @if (EditAndStyle.IsEditting)
-                {
-                    <input type="text" @bind="HarvestedItem.Name" /> <input type = "text" @bind = "HarvestedItem.Quantity" />
-                }
-                else
-                {
-                    @HarvestedItem.NameWithQuantity
-                }
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <strong>Description:</strong>
-            </td>
-            <td>
-                <DescriptionDisplay Description="HarvestedItem.Description" />
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <strong>Use Text:</strong>
-            </td>
-            <td>
-                <DescriptionDisplay Description="HarvestedItem.UseText" />
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <strong>Required Tools:</strong>
-            </td>
-            <td>
-                @(string.Join(", ", HarvestedItem.RequiredToolNames))
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <strong>Is Consumable:</strong>
-            </td>
-            <td>
-                @if (EditAndStyle.IsEditting)
-                {
-                    <input type="checkbox" @bind="HarvestedItem.IsConsumable" />
-                }
-                else
-                {
-                    @HarvestedItem.IsConsumable
-                }
-                </td>
-        </tr>
-        <tr>
-            <td>
-                <strong>Value (GP): </strong>
-            </td>
-            <td>
-                @if (EditAndStyle.IsEditting)
-                {
-                    <input type="text" @bind="HarvestedItem.ValueGP" />
-                }
-                else
-                {
-                    @HarvestedItem.ValueGP
-                }
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <strong>Weight (LB): </strong>
-            </td>
-            <td>
-                @if (EditAndStyle.IsEditting)
-                {
-                    <input type="text" @bind="HarvestedItem.WeightLB" />
-                }
-                else
-                {
-                    @HarvestedItem.WeightLB
-                }
-            </td>
-        </tr>
-    </table>
+<table class="table-bordered">
+    <tr>
+        <td>
+            <strong>Name (and qty):</strong>
+        </td>
+        <td>
+            @if (EditAndStyle.IsEditting)
+            {
+                <input type="text" @bind="HarvestedItem.Name" /> <input type="text" @bind="HarvestedItem.Quantity" />
+            }
+            else
+            {
+                @HarvestedItem.NameWithQuantity
+            }
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <strong>Description:</strong>
+        </td>
+        <td>
+            <DescriptionDisplay Description="HarvestedItem.Description" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <strong>Use Text:</strong>
+        </td>
+        <td>
+            <DescriptionDisplay Description="HarvestedItem.UseText" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <strong>Required Tools:</strong>
+        </td>
+        <td>
+            @(string.Join(", ", HarvestedItem.RequiredToolNames))
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <strong>Is Consumable:</strong>
+        </td>
+        <td>
+            @if (EditAndStyle.IsEditting)
+            {
+                <input type="checkbox" @bind="HarvestedItem.IsConsumable" />
+            }
+            else
+            {
+                @HarvestedItem.IsConsumable
+            }
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <strong>Value (GP): </strong>
+        </td>
+        <td>
+            @if (EditAndStyle.IsEditting)
+            {
+                <input type="text" @bind="HarvestedItem.ValueGP" />
+            }
+            else
+            {
+                @HarvestedItem.ValueGP
+            }
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <strong>Weight (LB): </strong>
+        </td>
+        <td>
+            @if (EditAndStyle.IsEditting)
+            {
+                <input type="text" @bind="HarvestedItem.WeightLB" />
+            }
+            else
+            {
+                @HarvestedItem.WeightLB
+            }
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <strong>Crafting: </strong>
+        </td>
+        <td>
+            @if (EditAndStyle.IsEditting)
+            {
+                <input type="text" @bind="HarvestedItem.CraftingUsage" />
+            }
+            else
+            {
+                @HarvestedItem.CraftingUsage
+            }
+        </td>
+    </tr>
+</table>
 }
 
 @code {

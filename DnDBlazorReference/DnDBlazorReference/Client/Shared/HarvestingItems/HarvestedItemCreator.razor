@@ -68,6 +68,14 @@
                 <input type="checkbox" @bind="FormIsConsumable" />
             </td>
         </tr>
+        <tr>
+            <td>
+                <strong>Crafting:</strong>
+            </td>
+            <td>
+                <input type="text" @bind="FormCrafting" />
+            </td>
+        </tr>
     </table>
 
     <button type="submit">Create Item</button>
@@ -87,6 +95,7 @@
     public string FormQuantity { get; set; }
     public string FormUseText { get; set; }
     public string FormRequiredToolNames { get; set; }
+    public string FormCrafting { get; set; }
 
     private string _initialFocusId = "createName";
 
@@ -101,7 +110,8 @@
             WeightLB = FormWeightLB,
             Quantity = FormQuantity,
             UseText = new Description(),
-            RequiredToolNames = new List<string>()
+            RequiredToolNames = new List<string>(),
+            CraftingUsage = FormCrafting
         };
 
         if (!string.IsNullOrEmpty(FormDescription))
@@ -137,5 +147,6 @@
         FormQuantity = string.Empty;
         FormUseText = string.Empty;
         FormRequiredToolNames = string.Empty;
+        FormCrafting = string.Empty;
     }
 }

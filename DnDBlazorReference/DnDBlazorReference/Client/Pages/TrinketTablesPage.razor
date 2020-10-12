@@ -17,6 +17,8 @@
 @inject DataStorage DataStore
 @inject EditAndStyleController EditAndStyle
 
+@inherits ServiceRedrawReactiveComponent
+
 <div>
     <h1>Trinket Tables</h1>
     <div>
@@ -28,7 +30,7 @@
         }
         <LayoutColumns>
             <div id="left-column">
-                <TrinketTablesList OnItemSelected="SelectTrinketTable" SelectedTrinketTable="SelectedTrinketTable"/>
+                <TrinketTablesList OnItemSelected="SelectTrinketTable" SelectedTrinketTable="SelectedTrinketTable" />
             </div>
             <div id="right-column">
                 <TrinketTableDisplay TrinketTable="SelectedTrinketTable" />

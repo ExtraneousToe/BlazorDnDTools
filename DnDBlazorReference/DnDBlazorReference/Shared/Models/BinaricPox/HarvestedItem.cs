@@ -10,6 +10,7 @@ namespace DnDBlazorReference.Shared.Models.BinaricPox
         public string Quantity { get; set; }
         public Description UseText { get; set; }
         public List<string> RequiredToolNames { get; set; }
+        public string CraftingUsage { get; set; }
 
         [JsonIgnore]
         public string NameWithQuantity
